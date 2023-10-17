@@ -19,11 +19,18 @@ body {
 
 h1, h2, h3 {
     font-family: 'BioRhyme', serif;
+    color: inherit;
 }
 
 /* Header */
 header {
     background-color: orange;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    text-align: left;
 }
 
 /* Main Content */
@@ -36,4 +43,11 @@ main {
 /* Footer */
 footer {
     background-color: violet;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    #logo {
+        text-align: center;
+    }
 }
