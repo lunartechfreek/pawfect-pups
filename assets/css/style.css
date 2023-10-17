@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #001524;
+    /* Add font family here */ 
+}
+
 /* Header */
 header {
     background-color: orange;
@@ -13,6 +23,8 @@ header {
 /* Main Content */
 main {
     background-color: aqua;
+    /* Use flex grow to take up surplus space and push footer down */
+    flex: 1 0 auto;
 }
 
 /* Footer */
