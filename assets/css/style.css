@@ -31,6 +31,9 @@ h1, h2, h3 {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #001524;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 #logo {
@@ -39,7 +42,6 @@ h1, h2, h3 {
     background: #34623F;
     width: max-content;
     padding: 0 5px;
-    margin-bottom: 0.5em;
 }
 
 header a {
@@ -63,6 +65,32 @@ header a {
 
 .active {
     border-bottom: 1px solid #001524;
+}
+
+/* Navbar dropdown menu */
+#mobile-nav-bar {
+    position: absolute;
+    background-color: #63B42D;
+    width: 100%;
+    left: 0;
+    padding: 0 0.5rem;
+    box-shadow: 0 2px 2px #001524;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
 /* Main Content */
 main {
@@ -80,6 +108,10 @@ footer {
 @media screen and (max-width: 330px) {
     #logo h1 {
         font-size: 1.6em;
+    }
+
+    .nav-toggle-label {
+        font-size: 1.6rem;
     }
 }
 
