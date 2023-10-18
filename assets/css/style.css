@@ -33,6 +33,10 @@ header a {
     color: inherit;
 }
 
+#logo h1 {
+    font-size: 2em;
+}
+
 #logo {
     text-align: left;
     color: #ff9301;
@@ -51,6 +55,13 @@ main {
 /* Footer */
 footer {
     background-color: violet;
+}
+
+/* Media query: narrow screen size (330px and under) */
+@media screen and (max-width: 330px) {
+    #logo h1 {
+        font-size: 1.6em;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
