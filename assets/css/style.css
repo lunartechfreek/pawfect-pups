@@ -20,12 +20,17 @@ body {
 h1, h2, h3 {
     font-family: 'BioRhyme', serif;
     color: inherit;
+    letter-spacing: 1px;
 }
 
 /* Header */
 #main-head-box {
     background-color: #63B42D;
-    padding: 8px 5px;
+    padding: .5rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #001524;
 }
 
 header a {
