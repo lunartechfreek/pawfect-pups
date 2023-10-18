@@ -33,6 +33,15 @@ h1, h2, h3 {
     box-shadow: 0 2px 2px #001524;
 }
 
+#logo {
+    text-align: left;
+    color: #ff9301;
+    background: #34623F;
+    width: max-content;
+    padding: 0 5px;
+    margin-bottom: 0.5em;
+}
+
 header a {
     text-decoration: none;
     color: inherit;
@@ -42,13 +51,18 @@ header a {
     font-size: 2em;
 }
 
-#logo {
-    text-align: left;
-    color: #ff9301;
-    background: #34623F;
-    width: max-content;
-    padding: 0 5px;
+#mobile-nav-items {
+    font-size: 120%;
+    letter-spacing: 2px;
+    list-style-type: none;
 }
+
+#mobile-nav-items li {
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 1px solid #001524;
 
 /* Main Content */
 main {
