@@ -23,19 +23,27 @@ h1, h2, h3 {
 }
 
 /* Header */
-header {
-    background-color: orange;
+#main-head-box {
+    background-color: #63B42D;
+    padding: 8px 5px;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+#logo {
     text-align: left;
+    color: #ff9301;
+    background: #34623F;
+    width: max-content;
+    padding: 0 5px;
 }
 
 /* Main Content */
 main {
-    background-color: aqua;
+    background-color: #f7f7f7;
     /* Use flex grow to take up surplus space and push footer down */
     flex: 1 0 auto;
 }
