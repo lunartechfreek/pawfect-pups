@@ -92,6 +92,19 @@ header a {
     font-size: 2rem;
 }
 
+/* Desktop Nav Bar */
+
+#desktop-nav-bar {
+    display: none;
+    align-self: center;
+    font-size: 1.7em;
+    margin: 7px 0 4px 0;
+}
+
+.desktop-nav-link {
+    margin-right: 1rem;
+}
+
 /* Main Content */
 main {
     background-color: #f7f7f7;
@@ -121,6 +134,10 @@ footer {
         align-self: center;
         }
 
+    #logo h1 {
+        font-size: 3em;
+    }
+
     .nav-toggle-label {
         display: none;
     }
@@ -131,7 +148,7 @@ footer {
     }
 
     #desktop-nav-bar {
-        align-self: center;
+        display: block;
     }
 
 }
