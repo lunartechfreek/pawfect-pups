@@ -76,7 +76,7 @@ header a {
     padding: 0 0.5rem;
     box-shadow: 0 2px 2px #001524;
     display: none;
-    top: 100%;
+    top: 99%;
 }
 
 /* Nav toggle */
@@ -118,6 +118,20 @@ footer {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     #logo {
-        text-align: center;
+        align-self: center;
+        }
+
+    .nav-toggle-label {
+        display: none;
     }
+
+    #main-head-box {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #desktop-nav-bar {
+        align-self: center;
+    }
+
 }
