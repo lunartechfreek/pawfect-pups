@@ -118,6 +118,19 @@ main {
 /* Footer */
 footer {
     background-color: #ff9301;
+    
+}
+
+#footer-icons {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+#footer-icons i {
+    font-size: 200%;
+    color: #001524;
 }
 
 /* Media query: narrow screen size (340px and under) */
