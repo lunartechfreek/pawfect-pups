@@ -113,6 +113,7 @@ main {
     background-color: #f7f7f7;
     /* Use flex grow to take up surplus space and push footer down */
     flex: 1 0 auto;
+    margin-top: 66px;
 }
 
 /* Footer */
@@ -175,5 +176,10 @@ footer {
         color: #ff9301;
         padding: 2px 5px;
         border-radius: 10px;
+    }
+
+    /* Main */
+    main {
+        margin-top: 140px;
     }
 }
