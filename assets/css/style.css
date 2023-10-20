@@ -30,7 +30,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #001524;
+    box-shadow: 0 1px 10px #34623F;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -136,6 +136,8 @@ footer {
     /* Desktop nav bar */
     header {
         padding: 0.5rem 0 0 0;
+        justify-content: center;
+        flex-direction: column;
     }
 
     #logo {
@@ -148,11 +150,6 @@ footer {
 
     .nav-toggle-label {
         display: none;
-    }
-
-    header {
-        justify-content: center;
-        flex-direction: column;
     }
 
     #desktop-nav-bar {
