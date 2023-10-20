@@ -52,6 +52,7 @@ header a {
     font-size: 2em;
 }
 
+/* Mobile nav bar */
 #mobile-nav-items {
     font-size: 120%;
     letter-spacing: 2px;
@@ -96,7 +97,7 @@ header a {
 #desktop-nav-bar {
     display: none;
     align-self: center;
-    font-size: 1.7em;
+    font-size: 1.7rem;
     margin: 0.5rem 0 0 0;
     background-color: #ff9301;
     width: 100%;
@@ -176,6 +177,14 @@ footer {
         color: #ff9301;
         padding: 2px 5px;
         border-radius: 10px;
+    }
+
+    #desktop-nav-bar a:hover {
+        color: #f7f7f7;
+        background-color: #34623F;
+        padding: 0 2px;
+        border-radius: 10px;
+
     }
 
     /* Main */
