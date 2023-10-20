@@ -37,10 +37,8 @@ header {
 }
 
 #logo {
-    text-align: left;
     color: #ff9301;
     background: #34623F;
-    width: max-content;
     padding: 0 5px;
 }
 
@@ -120,8 +118,8 @@ footer {
     background-color: violet;
 }
 
-/* Media query: narrow screen size (330px and under) */
-@media screen and (max-width: 330px) {
+/* Media query: narrow screen size (340px and under) */
+@media screen and (max-width: 340px) {
     #logo h1 {
         font-size: 1.6em;
     }
@@ -159,5 +157,7 @@ footer {
     #desktop-nav-bar {
         display: block;
     }
+
+    
 
 }
