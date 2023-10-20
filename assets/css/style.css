@@ -117,11 +117,12 @@ main {
 
 /* Footer */
 footer {
-    background-color: violet;
+    background-color: #ff9301;
 }
 
 /* Media query: narrow screen size (340px and under) */
 @media screen and (max-width: 340px) {
+    /* Logo size stying */
     #logo h1 {
         font-size: 1.6em;
     }
@@ -133,7 +134,7 @@ footer {
 
 /* Media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
-    /* Desktop nav bar */
+    /* Desktop nav bar styling */
     header {
         padding: 0.5rem 0 0 0;
         justify-content: center;
