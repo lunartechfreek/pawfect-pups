@@ -40,6 +40,7 @@ header {
     color: #ff9301;
     background: #34623F;
     padding: 0 5px;
+    border-radius: 15px;
 }
 
 header a {
@@ -100,10 +101,11 @@ header a {
     background-color: #ff9301;
     width: 100%;
     text-align: center;
+    padding: 0.5rem;
 }
 
 .desktop-nav-link {
-    margin-right: 1rem;
+    margin-right: 1.5rem;
 }
 
 /* Main Content */
@@ -132,7 +134,6 @@ footer {
 /* Media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
     /* Desktop nav bar */
-
     header {
         padding: 0.5rem 0 0 0;
     }
@@ -158,6 +159,10 @@ footer {
         display: block;
     }
 
-    
-
+    .active {
+        background-color: #34623F;
+        color: #ff9301;
+        padding: 2px 5px;
+        border-radius: 10px;
+    }
 }
