@@ -111,10 +111,15 @@ header a {
 
 /* Main Content */
 main {
-    background-color: #f7f7f7;
     /* Use flex grow to take up surplus space and push footer down */
     flex: 1 0 auto;
     margin-top: 66px;
+}
+
+#home-hero {
+    height: 450px;
+    width: 100%;
+    background: url("../images/home-hero-pawfect-pups.webp") no-repeat 37% 80%/150%;
 }
 
 /* Footer */
