@@ -116,10 +116,12 @@ main {
     margin-top: 66px;
 }
 
+/* Hero image */
+
 #home-hero {
-    height: 450px;
+    height: 62vh;
     width: 100%;
-    background: url("../images/home-hero-pawfect-pups.webp") no-repeat 37% 80%/150%;
+    background: url("../images/home-hero-pawfect-pups.webp") no-repeat 37% 80%/135%;
 }
 
 /* Footer */
@@ -149,6 +151,19 @@ footer {
 
     .nav-toggle-label {
         font-size: 1.6rem;
+    }
+
+    /* Main */
+    main {
+        margin-top: 56px;
+    }
+
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    #home-hero {
+        background: url("../images/home-hero-pawfect-pups.webp") no-repeat 26% 80%/115%;
     }
 }
 
@@ -195,5 +210,10 @@ footer {
     /* Main */
     main {
         margin-top: 140px;
+    }
+
+    /* Home hero image */
+    #home-hero {
+        background: url("../images/home-hero-pawfect-pups.webp") no-repeat 26% 58%/100%;
     }
 }
