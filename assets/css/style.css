@@ -170,6 +170,27 @@ main {
     margin-top: 30px;
 }
 
+#about-box-image {
+    background: url("../images/head-over-to-dog1.webp") no-repeat center 10%/cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.47);
+    color: white;
+}
+
+#classes-box-image {
+    background: url("../images/head-over-to-dog2.webp") no-repeat center center/cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.47);
+    color: white;
+}
+
+#booking-box-image {
+    background: url("../images/head-over-to-dog3.webp") no-repeat center 25%/cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.47);
+    color: white;
+}
+
 .home-links {
     width: 200px;
     height: 200px;
@@ -180,7 +201,7 @@ main {
 }
 
 .home-links p {
-    font-size: 1rem;
+    font-size: 1.05rem;
     font-family: 'biorhyme';
 }
 
