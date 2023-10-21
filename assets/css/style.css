@@ -17,7 +17,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'BioRhyme', serif;
     color: inherit;
     letter-spacing: 1px;
@@ -162,10 +162,36 @@ main {
     margin-top: 5px;
 }
 
+/* Head over to section */
+#head-over-to {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.home-links {
+    width: 60vw;
+    height: 200px;
+    background-color: rgba(255, 147, 1, 0.8);
+    margin-bottom: 15px;
+    padding: 25px;
+    text-align: center;
+}
+
+.home-links p {
+    font-size: 1rem;
+    font-family: 'biorhyme';
+}
+
+.link-button {
+    margin-top: 18px;
+}
+
 /* Footer */
 footer {
     background-color: #ff9301;
-    margin-top: 20px;
+    margin-top: 40px;
     
 }
 
@@ -233,7 +259,7 @@ footer {
 
     .active {
         background-color: #34623F;
-        color: #ff9301;
+        color: #f7f7f7;
         padding: 2px 5px;
         border-radius: 10px;
     }
