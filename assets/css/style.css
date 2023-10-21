@@ -133,7 +133,7 @@ main {
 
 .generic-div {
     width: 80vw;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .generic-div p {
@@ -154,7 +154,7 @@ main {
     padding: 10px 15px;
     border-radius: 15px;
     width: 65vw;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #welcome-quote > p {
@@ -167,11 +167,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .home-links {
-    width: 60vw;
+    width: 200px;
     height: 200px;
     background-color: rgba(255, 147, 1, 0.8);
     margin-bottom: 15px;
@@ -185,7 +185,7 @@ main {
 }
 
 .link-button {
-    margin-top: 18px;
+    margin-top: 12px;
 }
 
 /* Footer */
@@ -227,8 +227,15 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    /* Main */
     #home-hero {
         background: url("../images/home-hero-pawfect-pups.webp") no-repeat 26% 80%/115%;
+    }
+
+    #head-over-to {
+        flex-direction: row;
+        justify-content: center;
+        gap: 25px;
     }
 }
 
@@ -280,5 +287,9 @@ footer {
     /* Home hero image */
     #home-hero {
         background: url("../images/home-hero-pawfect-pups.webp") no-repeat 26% 58%/100%;
+    }
+
+    #head-over-to {
+        gap: 60px;
     }
 }
