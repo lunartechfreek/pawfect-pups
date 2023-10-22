@@ -350,6 +350,10 @@ footer {
     #home-hero {
         background: url("../images/home-hero-pawfect-pups.webp") no-repeat 40% 54%/115%;
     }
+
+    #about-hero {
+        background: url("../images/about-hero.webp") no-repeat 40% 52%/100%;
+    }
 }
 
 /* Media query: tablets and larger (992px and up) */
