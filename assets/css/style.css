@@ -134,6 +134,7 @@ main {
     text-align: center;
     border-radius: 15px;
     box-shadow: 3px 4px 2px #34623F;
+    padding: 0 8px;
 }
 
 /* Home Page */
