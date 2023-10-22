@@ -288,6 +288,19 @@ footer {
 
 }
 
+/* Media query: Phone horizontal and larger (500px and up) */
+@media screen and (min-width: 500px) {
+    /* Main */
+    #home-hero {
+    background: url("../images/home-hero-pawfect-pups.webp") no-repeat 45% 55%/135%;
+    }
+
+    #about-hero {
+    background: url("../images/about-hero.webp") no-repeat 40% 53%/110%;
+    }
+
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Main */
