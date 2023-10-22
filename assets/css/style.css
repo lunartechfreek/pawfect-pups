@@ -259,14 +259,13 @@ main {
     height: 250px;
     width: 200px;
     margin: 20px;
-    background-color: aqua;
 }
 
 .trainers-box img {
     width: 200px;
     height: 250px;
     object-fit: cover;
-    
+    border-radius: 15px;    
 }
 
 #trainer-mark {
@@ -348,6 +347,10 @@ footer {
         background: url("../images/home-hero-pawfect-pups.webp") no-repeat 26% 80%/115%;
     }
 
+    #about-hero {
+    background: url("../images/about-hero.webp") no-repeat 40% 53%/230%;
+    }
+
     #head-over-to {
         flex-direction: row;
         justify-content: center;
@@ -400,9 +403,12 @@ footer {
         margin-top: 140px;
     }
 
-    /* Home hero image */
     #home-hero {
         background: url("../images/home-hero-pawfect-pups.webp") no-repeat 26% 58%/100%;
+    }
+
+    #about-hero {
+    background: url("../images/about-hero.webp") no-repeat 20% 53%/110%;
     }
 
     #head-over-to {
