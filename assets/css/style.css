@@ -110,17 +110,22 @@ header a {
 }
 
 /* Main Content */
+
+/* Home Page */
 main {
     /* Use flex grow to take up surplus space and push footer down */
     flex: 1 0 auto;
     margin-top: 66px;
 }
 
-/* Hero image */
+/* Home Hero Image */
 
-#home-hero {
+.hero-image {
     height: 62vh;
     width: 100%;
+}
+
+#home-hero {
     background: url("../images/home-hero-pawfect-pups.webp") no-repeat 37% 80%/135%;
 }
 
@@ -213,6 +218,14 @@ main {
     font-size: 1rem;
 }
 
+/* About Page */
+
+/* About Hero */
+
+#about-hero {
+    background: url("../images/about-hero.webp") no-repeat 40% 50%/300%;
+}
+
 /* Footer */
 footer {
     background-color: #ff9301;
@@ -246,6 +259,12 @@ footer {
     /* Main */
     main {
         margin-top: 56px;
+    }
+
+    /* About */
+
+    #about-hero {
+        background: url("../images/about-hero.webp") no-repeat 40% 100%/300%;
     }
 
 }
