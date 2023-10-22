@@ -137,6 +137,12 @@ main {
     padding: 0 8px;
 }
 
+.page-heading {
+    text-align: center;
+    margin: 20px;
+    font-size: 180%;
+}
+
 /* Home Page */
 
 /* Home Hero Image */
