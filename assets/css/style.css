@@ -262,6 +262,25 @@ main {
     background-color: aqua;
 }
 
+.trainers-box img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    
+}
+
+#trainer-mark {
+    object-position: 0 75%;
+}
+
+#trainer-beth {
+    object-position: 0 100%;
+}
+
+#trainer-joe {
+    object-position: 0 100%;
+}
+
 /* Footer */
 footer {
     background-color: #ff9301;
