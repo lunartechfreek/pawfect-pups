@@ -132,15 +132,22 @@ main {
     color: #001524;
     font-size: 230%;
     text-align: center;
-    border-radius: 15px;
-    box-shadow: 3px 4px 2px #34623F;
     padding: 0 8px;
 }
 
 .page-heading {
     text-align: center;
-    margin: 30px;
+    margin: 30px auto;
     font-size: 180%;
+    background-color: rgba(99, 180, 45, 0.8);
+    width: 80vw;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.border-shadow {
+    border-radius: 15px;
+    box-shadow: 3px 4px 2px #34623F;
 }
 
 /* Home Page */
