@@ -262,15 +262,15 @@ main {
     margin-top: 30px;
 }
 
-.trainers-box {
-    height: 250px;
-    width: 200px;
+.trainers-image-box {
+    height: 300px;
+    width: 250px;
     margin: 20px;
 }
 
-.trainers-box img {
-    width: 200px;
-    height: 250px;
+.trainers-image-box img {
+    width: 250px;
+    height: 300px;
     object-fit: cover;
     border-radius: 15px;    
 }
@@ -285,6 +285,15 @@ main {
 
 #trainer-joe {
     object-position: 0 100%;
+}
+
+.trainer-bio {
+    background-color: rgba(255, 147, 1, 0.9);
+    width: 85vw;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 120%;
+    padding: 5px 15px 15px 15px;
 }
 
 /* Footer */
