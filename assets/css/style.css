@@ -296,6 +296,10 @@ main {
     padding: 5px 15px 15px 15px;
 }
 
+.trainer-bio h3 {
+    margin: 8px;
+}
+
 /* Footer */
 footer {
     background-color: #ff9301;
