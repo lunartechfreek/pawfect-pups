@@ -287,6 +287,12 @@ main {
     object-position: 0 100%;
 }
 
+.trainer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .trainer-bio {
     background-color: rgba(255, 147, 1, 0.9);
     width: 85vw;
@@ -431,5 +437,16 @@ footer {
 
     #head-over-to {
         gap: 60px;
+    }
+
+    #trainers {
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-evenly;
+    }
+
+    .trainer-bio {
+        width: 25vw;
+        height: 320px;
     }
 }
