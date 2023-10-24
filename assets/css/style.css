@@ -543,9 +543,19 @@ footer {
         justify-content: space-evenly;
     }
 
+    .trainers-image-box {
+        height: 350px;
+        width: 300px;
+    }
+
+    .trainers-image-box img {
+        width: 300px;
+        height: 350px;
+    }
+
     .trainer-bio {
-        width: 25vw;
-        height: 320px;
+        width: 300px;
+        height: 330px;
     }
 
     .benefits-image-box {
