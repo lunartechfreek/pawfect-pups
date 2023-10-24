@@ -248,6 +248,12 @@ main {
     font-size: 1rem;
 }
 
+.link-button:hover {
+    background-color: #ff9301;
+    color: #001524;
+    cursor: pointer;
+}
+
 /* About Page */
 
 /* About Hero */
@@ -501,8 +507,8 @@ footer {
     }
 
     #desktop-nav-bar a:hover {
-        color: #f7f7f7;
-        background-color: #34623F;
+        color: #001524;
+        background-color: #63B42D;
         padding: 0 2px;
         border-radius: 10px;
 
