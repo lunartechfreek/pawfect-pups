@@ -332,6 +332,10 @@ main {
     padding: 5px 15px 15px 15px;
 }
 
+.benefits-text h3 {
+    margin: 8px;
+}
+
 .benefits-image-box {
     height: 300px;
     width: 300px;
@@ -415,14 +419,32 @@ footer {
         background: url("../images/home-hero-pawfect-pups.webp") no-repeat 26% 80%/115%;
     }
 
-    #about-hero {
-    background: url("../images/about-hero.webp") no-repeat 40% 53%/230%;
-    }
-
     #head-over-to {
         flex-direction: row;
         justify-content: center;
         gap: 25px;
+    }
+
+    /* About */
+
+    #about-hero {
+    background: url("../images/about-hero.webp") no-repeat 40% 53%/230%;
+    }
+
+    .benefits-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+    .benefits-image-box {
+        margin-left: 0;
+    }
+
+    .benefits-text {
+        width: 400px;
+        margin-bottom: 0;
+        height: 300px;
     }
 }
 
