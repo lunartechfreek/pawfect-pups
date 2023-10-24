@@ -367,7 +367,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #ff9301;
+    background-color: #63B42D;
     margin-top: 40px;
     
 }
@@ -504,10 +504,12 @@ footer {
         margin-top: 140px;
     }
 
+    /* Home */
     #home-hero {
         background: url("../images/home-hero-pawfect-pups.webp") no-repeat 26% 58%/100%;
     }
 
+    /* About */
     #about-hero {
     background: url("../images/about-hero.webp") no-repeat 20% 53%/110%;
     }
@@ -525,5 +527,27 @@ footer {
     .trainer-bio {
         width: 25vw;
         height: 320px;
+    }
+
+    .benefits-image-box {
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    }
+
+    .benefits-image-box img {
+    width: 400px;
+    height: 400px;
+    }
+
+    .benefits-text {
+        width: 500px;
+        height: 400px;
+        font-size: 140%;
+    }
+
+    .benefits-text h3 {
+        font-size: 130%;
+        margin: 20px 0;
     }
 }
