@@ -579,4 +579,8 @@ footer {
         font-size: 130%;
         margin: 20px 0;
     }
+
+    #footer-icons i:hover {
+        color: #ff9301;
+    }
 }
