@@ -141,7 +141,6 @@ main {
     font-size: 180%;
     background-color: rgba(99, 180, 45, 0.8);
     width: 80vw;
-    max-width: 400px;
     border-radius: 15px;
 }
 
@@ -181,6 +180,8 @@ main {
     text-align: center;
     border-radius: 15px;
     box-shadow: 3px 4px 2px #34623F;
+    width: 80vw;
+    margin-top: 30px;
 }
 
 #welcome-quote {
@@ -419,6 +420,10 @@ footer {
         background: url("../images/home-hero-pawfect-pups.webp") no-repeat 26% 80%/115%;
     }
 
+    #welcome h1 {
+        font-size: 250%;
+    }
+
     #head-over-to {
         flex-direction: row;
         justify-content: center;
@@ -429,6 +434,10 @@ footer {
 
     #about-hero {
     background: url("../images/about-hero.webp") no-repeat 40% 53%/230%;
+    }
+
+    .page-heading {
+        font-size: 250%;
     }
 
     .benefits-box {
@@ -509,9 +518,19 @@ footer {
         background: url("../images/home-hero-pawfect-pups.webp") no-repeat 26% 58%/100%;
     }
 
+    #welcome h1 {
+        width: 50vw;
+        font-size: 270%;
+    }
+
     /* About */
     #about-hero {
     background: url("../images/about-hero.webp") no-repeat 20% 53%/110%;
+    }
+
+    .page-heading {
+        width: 50vw;
+        font-size: 270%;
     }
 
     #head-over-to {
