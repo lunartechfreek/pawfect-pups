@@ -372,6 +372,10 @@ main {
     object-position: 0 75%;
 }
 
+#classes-hero {
+    background: url("../images/classes-hero.webp") no-repeat 42% center/cover;
+}
+
 /* Footer */
 footer {
     background-color: #63B42D;
