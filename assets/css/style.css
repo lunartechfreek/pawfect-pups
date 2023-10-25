@@ -119,6 +119,12 @@ main {
     margin-top: 66px;
 }
 
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hero-image {
     height: 62vh;
     width: 100%;
@@ -265,9 +271,6 @@ main {
 /* Trainers Section */
 
 #trainers {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 30px;
 }
 
@@ -318,9 +321,6 @@ main {
 /* Benefits Section */
 
 #benefits {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 30px;
 }
 
@@ -574,14 +574,14 @@ footer {
     }
 
     .benefits-image-box {
-    height: 400px;
-    width: 400px;
-    margin: 20px;
+        height: 400px;
+        width: 400px;
+        margin: 20px;
     }
 
     .benefits-image-box img {
-    width: 400px;
-    height: 400px;
+        width: 400px;
+        height: 400px;
     }
 
     .benefits-text {
@@ -594,6 +594,8 @@ footer {
         font-size: 130%;
         margin: 20px 0;
     }
+
+/* Footer */
 
     #footer-icons i:hover {
         color: #ff9301;
