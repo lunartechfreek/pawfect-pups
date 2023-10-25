@@ -372,9 +372,14 @@ main {
     object-position: 0 75%;
 }
 
+/* Classes */
+
+/* Classes Hero */
 #classes-hero {
-    background: url("../images/classes-hero.webp") no-repeat 42% center/cover;
+    background: url("../images/classes-hero.webp") no-repeat 42% 0%/cover;
 }
+
+
 
 /* Footer */
 footer {
