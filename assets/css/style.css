@@ -385,6 +385,15 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(255, 147, 1, 0.9);
+    width: 80vw;
+    border-radius: 15px;
+    margin-bottom: 60px;
+}
+
+.classes-box h3 {
+    margin-top: 15px;
+    font-size: 180%;
 }
 
 .classes-image-box {
@@ -414,6 +423,15 @@ main {
 
 #classes-show-dog {
     object-position: 40% 100%;
+}
+
+.classes-text {
+    background-color: rgba(99, 180, 45, 0.8);
+    width: 75vw;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 120%;
+    padding: 5px 15px 15px 15px;
 }
 
 /* Footer */
@@ -504,6 +522,34 @@ footer {
         width: 400px;
         margin-bottom: 0;
         height: 300px;
+    }
+
+    /* Classes */
+
+    #classes {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .classes-box {
+        width: 330px;
+        height: 750px;
+    }
+
+    .classes-image-box {
+        height: 350px;
+        width: 300px;
+    }
+
+     .classes-image-box img {
+        height: 350px;
+        width: 300px;
+    }
+
+    .classes-text {
+        width: 300px;
+        height: inherit;
     }
 }
 
