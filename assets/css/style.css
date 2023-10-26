@@ -532,12 +532,12 @@ footer {
     .trainers-image-box {
     height: 400px;
     width: 350px;
-}
+    }
 
 .trainers-image-box img {
     width: 350px;
     height: 400px; 
-}
+    }
 
     .benefits-box {
     display: flex;
@@ -581,6 +581,11 @@ footer {
     .classes-text {
         width: 300px;
         height: inherit;
+    }
+
+    /* Contact */
+    #contact-hero {
+        background: url("../images/contact-hero.webp") no-repeat 40% 80%/160%;
     }
 }
 
@@ -734,6 +739,11 @@ footer {
     .classes-text {
         width: 350px;
         height: inherit;
+    }
+
+    /* Contact */
+    #contact-hero {
+        background: url("../images/contact-hero.webp") no-repeat 40% 60%/150%;
     }
 
 /* Footer */
