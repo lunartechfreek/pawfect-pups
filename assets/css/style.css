@@ -543,6 +543,20 @@ footer {
 
 }
 
+/* Media query: (450px and up) */
+@media screen and (min-width: 450px) {
+    #contact-hero {
+        background: url("../images/contact-hero.webp") no-repeat 40% 100%/170%;
+    }
+}
+
+/* Media query: (640px and up) */
+@media screen and (min-width: 640px) {
+    #contact-hero {
+        background: url("../images/contact-hero.webp") no-repeat 40% 100%/145%;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Main */
@@ -626,7 +640,30 @@ footer {
 
     /* Contact */
     #contact-hero {
-        background: url("../images/contact-hero.webp") no-repeat 40% 80%/160%;
+        background: url("../images/contact-hero.webp") no-repeat 40% 80%/135%;
+    }
+
+    #info {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .contact-box {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .contact-box h2 {
+        font-size: 4vw;
+    }
+
+    ul {
+        font-size: 2.5vw;
+    }
+
+    table {
+        font-size: 2.5vw;
     }
 }
 
@@ -784,7 +821,7 @@ footer {
 
     /* Contact */
     #contact-hero {
-        background: url("../images/contact-hero.webp") no-repeat 40% 60%/150%;
+        background: url("../images/contact-hero.webp") no-repeat 40% 60%/100vw;
     }
 
 /* Footer */
