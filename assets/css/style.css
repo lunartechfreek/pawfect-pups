@@ -676,6 +676,27 @@ footer {
         margin: 20px 0;
     }
 
+    /* Classes */
+    .classes-box {
+        width: 450px;
+        height: 750px;
+    }
+
+    .classes-image-box {
+        height: 400px;
+        width: 350px;
+    }
+
+     .classes-image-box img {
+        height: 400px;
+        width: 350px;
+    }
+
+    .classes-text {
+        width: 350px;
+        height: inherit;
+    }
+
 /* Footer */
 
     #footer-icons i:hover {
