@@ -444,6 +444,30 @@ main {
     background: url("../images/contact-hero.webp") no-repeat 40% 100%/250%;
 }
 
+.contact-box {
+    text-align: center;
+    background-color: rgba(255, 147, 1, 0.9);
+    width: 80vw;
+    height: 320px;
+    margin-top: 40px;
+}
+
+.contact-box h2 {
+    font-size: 190%;
+    margin: 15px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 120%;
+}
+
+table {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 130%;
+}
+
 /* Footer */
 footer {
     background-color: #63B42D;
@@ -499,6 +523,23 @@ footer {
         width: 200px;
     }
 
+    /* Contact */
+    .contact-box {
+        height: 250px;
+    }
+
+    .contact-box h2 {
+        font-size: 140%;
+        margin: 10px;
+    }
+
+    ul {
+        font-size: 93%;
+    }
+
+    table {
+        font-size: 100%;
+    }
 
 }
 
