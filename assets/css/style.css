@@ -487,6 +487,21 @@ footer {
     color: #001524;
 }
 
+/* Media query: (360px and under) */
+@media screen and (max-width: 360px) {
+    .page-title {
+        font-size: 170%;
+    }
+
+    .contact-box h2 {
+        font-size: 170%;
+    }
+
+    ul {
+        font-size: 110%;
+    }
+}
+
 /* Media query: narrow screen size (340px and under) */
 @media screen and (max-width: 340px) {
     /* Logo size stying */
