@@ -474,10 +474,21 @@ footer {
     }
 
     /* About */
-
     #about-hero {
         background: url("../images/about-hero.webp") no-repeat 40% 100%/300%;
     }
+
+    /* Classes */
+    .classes-image-box {
+        height: 250px;
+        width: 200px;
+    }
+
+     .classes-image-box img {
+        height: 250px;
+        width: 200px;
+    }
+
 
 }
 
@@ -507,6 +518,16 @@ footer {
     .page-heading {
         font-size: 250%;
     }
+
+    .trainers-image-box {
+    height: 400px;
+    width: 350px;
+}
+
+.trainers-image-box img {
+    width: 350px;
+    height: 400px; 
+}
 
     .benefits-box {
     display: flex;
@@ -562,9 +583,13 @@ footer {
     #about-hero {
         background: url("../images/about-hero.webp") no-repeat 40% 52%/100%;
     }
+
+    #classes-hero {
+        background: url("../images/classes-hero.webp") no-repeat 100% 0%/120%;
+    }
 }
 
-/* Media query: tablets and larger (992px and up) */
+/* Media query: Laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
     /* Desktop nav bar styling */
     header {
@@ -682,6 +707,10 @@ footer {
         height: 750px;
     }
 
+    .classes-box h3 {
+        font-size: 240%;
+    }
+
     .classes-image-box {
         height: 400px;
         width: 350px;
@@ -702,4 +731,29 @@ footer {
     #footer-icons i:hover {
         color: #ff9301;
     }
+}
+
+/* Media query: Desktops and larger (1340px and up) */
+@media screen and (min-width: 1340px) {
+    .classes-box {
+        width: 550px;
+        height: 900px;
+    }
+
+    .classes-image-box {
+        height: 500px;
+        width: 450px;
+    }
+
+     .classes-image-box img {
+        height: 500px;
+        width: 450px;
+    }
+
+    .classes-text {
+        width: 450px;
+        height: inherit;
+        font-size: 160%;
+    }
+
 }
