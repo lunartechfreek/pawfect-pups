@@ -434,6 +434,16 @@ main {
     padding: 5px 15px 15px 15px;
 }
 
+/* Booking */
+
+/* Completed booking form */
+
+/* Contact */
+
+#contact-hero {
+    background: url("../images/contact-hero.webp") no-repeat 40% 100%/250%;
+}
+
 /* Footer */
 footer {
     background-color: #63B42D;
