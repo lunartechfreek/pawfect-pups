@@ -731,6 +731,10 @@ footer {
     #classes-hero {
         background: url("../images/classes-hero.webp") no-repeat 100% 0%/120%;
     }
+
+    #contact-hero {
+        background: url("../images/contact-hero.webp") no-repeat 40% 60%/100%;
+    }
 }
 
 /* Media query: Laptops and larger (992px and up) */
