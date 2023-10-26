@@ -477,6 +477,9 @@ table {
 
 #map h2 {
     font-size: 190%;
+    margin: 20px;
+    background-color: rgba(99, 180, 45, 0.8);
+    padding: 5px 15px;
 }
 
 iframe {
@@ -515,6 +518,10 @@ footer {
 
     ul {
         font-size: 110%;
+    }
+
+     #map h2 {
+        font-size: 170%;
     }
 }
 
@@ -570,6 +577,10 @@ footer {
 
     table {
         font-size: 100%;
+    }
+
+    #map h2 {
+        font-size: 140%;
     }
 
 }
@@ -695,6 +706,15 @@ footer {
 
     table {
         font-size: 2.5vw;
+    }
+
+    #map h2 {
+        font-size: 4vw;
+    }
+
+    iframe {
+        height: 45vw;
+        max-height: 450px;
     }
 }
 
