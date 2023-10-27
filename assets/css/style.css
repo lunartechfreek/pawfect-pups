@@ -398,9 +398,10 @@ main {
     flex-direction: column;
     align-items: center;
     background-color: rgba(255, 147, 1, 0.9);
-    width: 80vw;
+    width: 85vw;
     border-radius: 15px;
     margin-bottom: 60px;
+    padding-bottom: 40px;
 }
 
 .classes-box h3 {
@@ -440,7 +441,6 @@ main {
 .classes-text {
     background-color: rgba(99, 180, 45, 0.8);
     width: 75vw;
-    margin-bottom: 30px;
     text-align: center;
     font-size: 120%;
     padding: 5px 15px 15px 15px;
@@ -602,6 +602,14 @@ footer {
     #contact-hero {
         background: url("../images/contact-hero.webp") no-repeat 40% 100%/170%;
     }
+
+    .classes-box {
+        width: 390px;
+    }
+
+    .classes-text {
+        width: 340px;
+    }
 }
 
 /* Media query: (640px and up) */
@@ -675,7 +683,7 @@ footer {
     }
 
     .classes-box {
-        width: 330px;
+        width: 345px;
         height: 750px;
     }
 
@@ -708,20 +716,20 @@ footer {
     .contact-box {
         width: 40vw;
         height: 40vw;
-        max-width: 550px;
-        max-height: 550px;
+        max-width: 400px;
+        max-height: 400px;
     }
 
     .contact-box h2 {
-        font-size: 3.5vw;
+        font-size: 1.8rem;
     }
 
     #details ul {
-        font-size: 2.2vw;
+        font-size: 1.15rem;
     }
 
     table {
-        font-size: 2.3vw;
+        font-size: 1.2rem;
     }
 
     #map h2 {
@@ -898,7 +906,7 @@ footer {
     /* Classes */
     .classes-box {
         width: 450px;
-        height: 750px;
+        height: 800px;
     }
 
     .classes-box h3 {
@@ -917,12 +925,29 @@ footer {
 
     .classes-text {
         width: 350px;
-        height: inherit;
+        height: 210px;
     }
 
     /* Contact */
     #contact-hero {
         background: url("../images/contact-hero.webp") no-repeat 40% 60%/100vw;
+    }
+
+    .contact-box {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .contact-box h2 {
+        font-size: 2rem;
+    }
+
+    #details ul {
+        font-size: 1.5rem;
+    }
+
+    table {
+        font-size: 1.6rem;
     }
 
 /* Footer */
@@ -954,7 +979,7 @@ footer {
     /* Classes */
     .classes-box {
         width: 550px;
-        height: 900px;
+        height: 950px;
     }
 
     .classes-image-box {
@@ -992,7 +1017,7 @@ footer {
     }
 
     #map h2 {
-        font-size: 340%;
+        font-size: 280%;
     }
 
 }
