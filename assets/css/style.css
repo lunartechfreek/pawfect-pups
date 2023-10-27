@@ -194,7 +194,7 @@ main {
     background-color: rgba(99, 180, 45, 0.4);
     padding: 10px 15px;
     border-radius: 15px;
-    width: 65vw;
+    width: 55vw;
     margin-top: 30px;
 }
 
@@ -658,6 +658,8 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        max-width: 1400px;
+        margin: 0 auto;
     }
 
     .classes-box {
@@ -790,9 +792,27 @@ footer {
         background: url("../images/home-hero-pawfect-pups.webp") no-repeat 26% 58%/100%;
     }
 
+    #welcome {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
     #welcome h1 {
         width: 50vw;
         font-size: 270%;
+    }
+
+    #welcome-quote {
+        font-size: 130%;
+        max-width: 1400px;
+    }
+
+    .generic-div p {
+        font-size: 130%;
+    }
+
+    #head-over-to {
+        margin-top: 60px;
     }
 
     /* About */
@@ -813,6 +833,8 @@ footer {
         flex-direction: row;
         align-items: baseline;
         justify-content: space-evenly;
+        max-width: 1400px;
+        margin: 0 auto;
     }
 
     .trainers-image-box {
@@ -891,6 +913,11 @@ footer {
 
 /* Media query: Desktops and larger (1340px and up) */
 @media screen and (min-width: 1340px) {
+    /* About */
+    #about-hero {
+    background: url("../images/about-hero.webp") no-repeat 20% 37%/110%;
+    }
+    
     /* Classes */
     .classes-box {
         width: 550px;
