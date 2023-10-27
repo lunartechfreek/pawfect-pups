@@ -484,7 +484,7 @@ table {
 
 iframe {
     width: 80vw;
-    height: 60vw;
+    height: 60vw;  
 }
 
 /* Footer */
@@ -694,10 +694,12 @@ footer {
     .contact-box {
         width: 40vw;
         height: 40vw;
+        max-width: 550px;
+        max-height: 550px;
     }
 
     .contact-box h2 {
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
 
     #details ul {
@@ -715,6 +717,7 @@ footer {
     iframe {
         height: 45vw;
         max-height: 450px;
+        max-width: 1120px;
     }
 }
 
@@ -888,6 +891,7 @@ footer {
 
 /* Media query: Desktops and larger (1340px and up) */
 @media screen and (min-width: 1340px) {
+    /* Classes */
     .classes-box {
         width: 550px;
         height: 900px;
@@ -907,6 +911,28 @@ footer {
         width: 450px;
         height: inherit;
         font-size: 160%;
+    }
+
+    /* Contact */
+    #info {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .contact-box h2 {
+        font-size: 320%;
+    }
+
+    #details ul {
+        font-size: 220%;
+    }
+
+    table {
+        font-size: 230%;
+    }
+
+    #map h2 {
+        font-size: 340%;
     }
 
 }
