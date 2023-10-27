@@ -502,7 +502,7 @@ footer {
 }
 
 #footer-icons i {
-    font-size: 200%;
+    font-size: 300%;
     color: #001524;
 }
 
@@ -700,7 +700,7 @@ footer {
         font-size: 4vw;
     }
 
-    ul {
+    #details ul {
         font-size: 2.5vw;
     }
 
