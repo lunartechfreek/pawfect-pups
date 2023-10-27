@@ -236,12 +236,13 @@ main {
     width: 200px;
     height: 200px;
     margin-bottom: 15px;
-    padding: 17px 20px;
+    padding: 29px 20px;
     text-align: center;
+    border-radius: 15px;
 }
 
 .home-links p {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     font-family: 'biorhyme';
 }
 
@@ -266,6 +267,8 @@ main {
 
 #head-over-to div:hover {
     color: #ff9301;
+    background-color: #34623F;
+    background-blend-mode: multiply;
 }
 
 
@@ -820,6 +823,15 @@ footer {
         font-size: 130%;
     }
 
+    .home-links {
+        width: 250px;
+        height: 250px;
+    }
+
+    .home-links p {
+        font-size: 1.48rem;
+    }
+
     #head-over-to {
         margin-top: 60px;
     }
@@ -922,6 +934,18 @@ footer {
 
 /* Media query: Desktops and larger (1340px and up) */
 @media screen and (min-width: 1340px) {
+    /* Home */
+
+    .home-links {
+        width: 300px;
+        height: 300px;
+        padding: 40px 20px;
+    }
+
+    .home-links p {
+        font-size: 1.7rem;
+    }
+
     /* About */
     #about-hero {
     background: url("../images/about-hero.webp") no-repeat 20% 37%/110%;
