@@ -260,6 +260,15 @@ main {
     cursor: pointer;
 }
 
+#head-over-to a {
+    text-decoration: none;
+}
+
+#head-over-to div:hover {
+    color: #ff9301;
+}
+
+
 /* About Page */
 
 /* About Hero */
