@@ -587,6 +587,11 @@ footer {
         width: 200px;
     }
 
+    /* Completed Form */
+    #completed-text {
+        font-size: 100%;
+    }
+
     /* Contact */
     .contact-box {
         height: 250px;
@@ -972,6 +977,13 @@ footer {
         font-size: 1.6rem;
     }
 
+    /* Completed form */
+    #completed-text {
+        font-size: 150%;
+        max-width: 1080px;
+        margin: 40px auto;
+    }
+
 /* Footer */
 
     #footer-icons i:hover {
@@ -1040,6 +1052,11 @@ footer {
 
     #map h2 {
         font-size: 280%;
+    }
+
+    /* Completed form */
+    #completed-text {
+        max-width: 1200px;
     }
 
 }
