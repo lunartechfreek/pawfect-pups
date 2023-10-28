@@ -450,6 +450,10 @@ main {
 
 /* Completed booking form */
 
+#form-hero {
+    background: url("../images/form-hero.webp") no-repeat center 35%/cover;
+}
+
 /* Contact */
 
 #contact-hero {
@@ -926,6 +930,14 @@ footer {
     .classes-text {
         width: 350px;
         height: 210px;
+    }
+
+    /* Booking */
+
+    /* Completed form */
+
+    #form-hero {
+    background: url("../images/form-hero.webp") no-repeat center 29%/cover;
     }
 
     /* Contact */
