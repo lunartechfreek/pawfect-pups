@@ -441,7 +441,23 @@ main {
     display: block;
 }
 
+input[type="checkbox"] {
+    display: none;
+}
 
+.checkbox-label {
+    margin-top: 30px;
+    background-color: #34623F;
+    color: #f7f7f7;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+input[type="checkbox"]:checked+label {
+    background-color: #ff9301;
+    color: #001524;
+}
 
 /* Completed booking form */
 
