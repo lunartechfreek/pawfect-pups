@@ -437,6 +437,10 @@ main {
     background: url("../images/booking-hero.webp") no-repeat 45% 70%/250%;
 }
 
+.block {
+    display: block;
+}
+
 /* Completed booking form */
 
 #completed-hero {
