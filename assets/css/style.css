@@ -451,6 +451,7 @@ form {
 form h2 {
     font-size: 1.3em;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .form-label {
@@ -477,15 +478,21 @@ fieldset {
 }
 
 legend {
-    margin: 0 auto 10px;
+    font-size: 1.1em;
+    margin-left: 10px;
 }
 
-fieldset div {
+/*#checkbox-box {
+    display: flex;
+    flex-direction: column;
+}*/
+
+#checkbox-box div {
     display: flex;
     justify-content: start;
     gap: 20px;
     flex-wrap: wrap;
-    width: 200px;
+    width: 220px;
     margin: 0 auto;
 }
 
@@ -499,7 +506,7 @@ input[type="checkbox"] {
     color: #f7f7f7;
     padding: 4px 8px;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 input[type="checkbox"]:checked+label {
@@ -518,7 +525,7 @@ input[type="checkbox"]:checked+label {
     color: #f7f7f7;
     padding: 4px 8px;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .reset {
@@ -527,7 +534,7 @@ input[type="checkbox"]:checked+label {
     color: #34623F;
     padding: 4px 8px;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 /* Completed booking form */
@@ -678,6 +685,15 @@ footer {
         width: 200px;
     }
 
+    /* Booking */
+    form {
+        width: 80vw;
+    }
+
+    #submit-box {
+        flex-direction: column;
+    }
+
     /* Completed Form */
     #completed-text {
         font-size: 100%;
@@ -728,6 +744,16 @@ footer {
     /* Booking */
     #booking-hero {
         background: url("../images/booking-hero.webp") no-repeat 45% 50%/220%;
+    }
+
+    /* Booking */
+    #submit-box {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    legend {
+        margin: 0 auto 10px;
     }
 }
 
@@ -829,6 +855,18 @@ footer {
     /*Booking */
     #booking-hero {
     background: url("../images/booking-hero.webp") no-repeat 45% 50%/150%;
+    }
+
+    form {
+        max-width: 600px;
+    }
+
+    legend {
+        margin-left: 10px;
+    }
+
+    #checkbox-box div {
+        margin-left: 50px;
     }
 
     /* Contact */
