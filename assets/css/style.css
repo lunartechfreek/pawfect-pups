@@ -459,6 +459,24 @@ input[type="checkbox"]:checked+label {
     color: #001524;
 }
 
+.submit {
+    margin-top: 30px;
+    background-color: #34623F;
+    color: #f7f7f7;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.reset {
+    margin-top: 30px;
+    background-color: #f7f7f7;
+    color: #34623F;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
 /* Completed booking form */
 
 #completed-hero {
@@ -482,12 +500,6 @@ input[type="checkbox"]:checked+label {
     padding: 4px 8px;
     border-radius: 10px;
     font-size: 1.5rem;
-}
-
-.link-button:hover {
-    background-color: #ff9301;
-    color: #001524;
-    cursor: pointer;
 }
 
 /* Contact */
@@ -1001,6 +1013,12 @@ footer {
     background: url("../images/booking-hero.webp") no-repeat 45% 50%/100%;
     }
 
+    .checkbox-label:hover {
+    background-color: #ff9301;
+    color: #001524;
+    cursor: pointer;
+}
+
     /* Completed form */
 
     #completed-hero {
@@ -1016,6 +1034,12 @@ footer {
     .link-button {
         font-size: 1.7rem;
     }
+
+    .link-button:hover {
+    background-color: #ff9301;
+    color: #001524;
+    cursor: pointer;
+}
 
     /* Contact */
     #contact-hero {
