@@ -441,12 +441,60 @@ main {
     display: block;
 }
 
+form {
+    background-color: rgba(255, 147, 1, 0.9);
+    width: 90vw;
+    margin: 30px auto;
+    padding: 10px 10px 25px;
+}
+
+form h2 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.form-label {
+    font-size: 1.1em;
+    margin-left: 10px;
+}
+
+.form-input {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 80%;
+}
+
+select {
+    font-size: 1.1em;
+    margin-left: 10px;
+    width: 80%;
+}
+
+fieldset {
+    border: none;
+    margin: 20px 0;
+}
+
+legend {
+    margin: 0 auto 10px;
+}
+
+fieldset div {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 0 auto;
+}
+
 input[type="checkbox"] {
     display: none;
 }
 
 .checkbox-label {
-    margin-top: 30px;
+    margin-top: 10px;
     background-color: #34623F;
     color: #f7f7f7;
     padding: 4px 8px;
@@ -459,8 +507,13 @@ input[type="checkbox"]:checked+label {
     color: #001524;
 }
 
+#submit-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .submit {
-    margin-top: 30px;
+    margin-top: 20px;
     background-color: #34623F;
     color: #f7f7f7;
     padding: 4px 8px;
@@ -469,7 +522,7 @@ input[type="checkbox"]:checked+label {
 }
 
 .reset {
-    margin-top: 30px;
+    margin-top: 20px;
     background-color: #f7f7f7;
     color: #34623F;
     padding: 4px 8px;
