@@ -246,21 +246,6 @@ main {
     font-family: 'biorhyme';
 }
 
-.link-button {
-    margin-top: 7px;
-    background-color: #34623F;
-    color: #f7f7f7;
-    padding: 4px 8px;
-    border-radius: 10px;
-    font-size: 1rem;
-}
-
-.link-button:hover {
-    background-color: #ff9301;
-    color: #001524;
-    cursor: pointer;
-}
-
 #head-over-to a {
     text-decoration: none;
 }
@@ -464,6 +449,21 @@ main {
     margin: 20px 0;
 }
 
+.link-button {
+    margin-top: 30px;
+    background-color: #34623F;
+    color: #f7f7f7;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.link-button:hover {
+    background-color: #ff9301;
+    color: #001524;
+    cursor: pointer;
+}
+
 /* Contact */
 
 #contact-hero {
@@ -590,6 +590,10 @@ footer {
     /* Completed Form */
     #completed-text {
         font-size: 100%;
+    }
+
+    .link-button {
+        font-size: 1.2rem;
     }
 
     /* Contact */
@@ -955,6 +959,16 @@ footer {
     background: url("../images/form-hero.webp") no-repeat center 29%/cover;
     }
 
+    #completed-text {
+        font-size: 150%;
+        max-width: 1080px;
+        margin: 40px auto;
+    }
+
+    .link-button {
+        font-size: 1.7rem;
+    }
+
     /* Contact */
     #contact-hero {
         background: url("../images/contact-hero.webp") no-repeat 40% 60%/100vw;
@@ -975,13 +989,6 @@ footer {
 
     table {
         font-size: 1.6rem;
-    }
-
-    /* Completed form */
-    #completed-text {
-        font-size: 150%;
-        max-width: 1080px;
-        margin: 40px auto;
     }
 
 /* Footer */
