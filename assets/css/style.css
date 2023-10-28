@@ -433,6 +433,10 @@ main {
 
 /* Booking */
 
+#booking-hero {
+    background: url("../images/booking-hero.webp") no-repeat 45% 70%/250%;
+}
+
 /* Completed booking form */
 
 #completed-hero {
@@ -633,12 +637,22 @@ footer {
     .classes-text {
         width: 340px;
     }
+
+    /* Booking */
+    #booking-hero {
+        background: url("../images/booking-hero.webp") no-repeat 45% 50%/220%;
+    }
 }
 
 /* Media query: (640px and up) */
 @media screen and (min-width: 640px) {
     #contact-hero {
         background: url("../images/contact-hero.webp") no-repeat 40% 100%/145%;
+    }
+
+    /* Booking */
+    #booking-hero {
+    background: url("../images/booking-hero.webp") no-repeat 45% 50%/160%;
     }
 }
 
@@ -725,6 +739,11 @@ footer {
         height: inherit;
     }
 
+    /*Booking */
+    #booking-hero {
+    background: url("../images/booking-hero.webp") no-repeat 45% 50%/150%;
+    }
+
     /* Contact */
     #contact-hero {
         background: url("../images/contact-hero.webp") no-repeat 40% 80%/135%;
@@ -778,6 +797,10 @@ footer {
 
     #classes-hero {
         background: url("../images/classes-hero.webp") no-repeat 100% 0%/120%;
+    }
+
+    #booking-hero {
+        background: url("../images/booking-hero.webp") no-repeat 45% 40%/150%;
     }
 
     #contact-hero {
@@ -952,6 +975,9 @@ footer {
     }
 
     /* Booking */
+    #booking-hero {
+    background: url("../images/booking-hero.webp") no-repeat 45% 50%/100%;
+    }
 
     /* Completed form */
 
@@ -1039,6 +1065,16 @@ footer {
         font-size: 160%;
     }
 
+    /* Booking */
+     #booking-hero {
+    background: url("../images/booking-hero.webp") no-repeat 45% 40%/100%;
+    }
+
+    /* Completed form */
+    #completed-text {
+        max-width: 1200px;
+    }
+
     /* Contact */
     #info {
         max-width: 1400px;
@@ -1059,11 +1095,6 @@ footer {
 
     #map h2 {
         font-size: 280%;
-    }
-
-    /* Completed form */
-    #completed-text {
-        max-width: 1200px;
     }
 
 }
