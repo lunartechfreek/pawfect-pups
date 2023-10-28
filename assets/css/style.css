@@ -450,8 +450,18 @@ main {
 
 /* Completed booking form */
 
-#form-hero {
+#completed-hero {
     background: url("../images/form-hero.webp") no-repeat center 35%/cover;
+}
+
+#completed-text {
+    text-align: center;
+    margin: 30px 20px;
+    font-size: 130%;
+}
+
+#completed-text h2 {
+    margin: 20px 0;
 }
 
 /* Contact */
@@ -936,7 +946,7 @@ footer {
 
     /* Completed form */
 
-    #form-hero {
+    #completed-hero {
     background: url("../images/form-hero.webp") no-repeat center 29%/cover;
     }
 
