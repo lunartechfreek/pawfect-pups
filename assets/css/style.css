@@ -468,7 +468,7 @@ form h2 {
 }
 
 select {
-    font-size: 1.1em;
+    font-size: 1em;
     margin-left: 10px;
     width: 80%;
 }
@@ -536,20 +536,19 @@ input[type="checkbox"]:checked+label {
 aside {
     background-color: rgba(99, 180, 45, 0.9);
     width: 80vw;
-    margin: 0 auto;
+    margin: 30px auto;
     padding: 20px 0 30px;
     text-align: center;
     max-width: 600px;
 }
 
 aside > h2 {
-    font-size: 220%;
+    font-size: 1.7em;   
 }
 
 aside > div {
-    width: 70vw;
+    width: 80%;
     margin: 0 auto;
-    max-width: 500px;
 }
 
 .how-to-box i {
@@ -796,6 +795,14 @@ footer {
     /* Booking */
     #booking-hero {
     background: url("../images/booking-hero.webp") no-repeat 45% 50%/160%;
+    }
+
+    form h2 {
+        font-size: 180%;
+    }
+
+    aside > h2 {
+        font-size: 180%;
     }
 }
 
@@ -1128,6 +1135,70 @@ footer {
     /* Booking */
     #booking-hero {
     background: url("../images/booking-hero.webp") no-repeat 45% 50%/100%;
+    }
+
+    #main-booking-box {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    form {
+        max-width: 500px;
+        height: 850px;
+    }
+
+    form h2 {
+    font-size: 190%;
+    margin: 15px 0;
+    }
+
+    .form-label {
+    font-size: 1.4em;
+    margin: 5px 10px;
+    }
+
+    .form-input {
+        font-size: 1.2em;
+    }
+
+    fieldset {
+        margin: 30px 0;
+    }
+
+    legend {
+    font-size: 1.4em;
+    margin: 5px 10px;
+    }
+
+    #checkbox-box {
+        margin-top: 10px;
+    }
+
+    #checkbox-box div {
+        width: 230px;
+    }
+
+    .checkbox-label {
+        font-size: 1.2rem;
+    }
+
+    .submit {
+        font-size: 1.3rem;
+    }
+
+    aside {
+        max-width: 360px;
+        margin: 30px 0;
+        height: 850px;
+    }
+
+    aside > div {
+        width: 90%;
+    }
+
+    .how-to-box i {
+    margin: 20px auto;
+    font-size: 450%;
     }
 
     .checkbox-label:hover {

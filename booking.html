@@ -62,73 +62,75 @@
                 <h1>Booking</h1>
             </div>
         </section>
-        <section id="form-section">
-            <form action="completed-form.html" method="get">
-                <h2>Please Complete our Form</h2>
-                <label for="first-name" class="block form-label">First Name</label>
-                <input type="text" id="first-name" name="first_name" class="form-input" placeholder="First Name" required>
-                <label for="last-name" class="block form-label">Last Name</label>
-                <input type="text" id="last-name" name="last_name" class="form-input" placeholder="Last Name" required>
-                <label for="email" class="block form-label">Email Address</label>
-                <input type="email" id="email" name="email_address" class="form-input" placeholder="Email Address" required>
-                <label for="phone-number" class="block form-label">Phone Number</label>
-                <input type="number" id="phone-number" name="phone_number" class="form-input" placeholder="Phone Number" required>
-                <label for="dog-breed" class="block form-label">Breed of Dog</label>
-                <input type="text" id="dog-breed" name="dog_breed" class="form-input" placeholder="Breed of Dog" required>
-                <label for="dog-age" class="block form-label">Age of Dog</label>
-                <select id="dog-age" name="dog_age">
-                    <option value="0-3-months">0-3 Months</option>
-                    <option value="3-6-months">3-6 Months</option>
-                    <option value="6-months-1-year">6 Months - 1 Year </option>
-                    <option value="1-2-years">1-2 Years</option>
-                    <option value="2-5-years">2-5 Years</option>
-                    <option value="5+-years">5+ Years</option>
-                </select>
-                <fieldset>
-                    <legend>Which classes you are interested in?</legend>
-                    <div id="checkbox-box">
-                        <div>
-                            <input type="checkbox" id="group" name="interested_class" value="group">
-                            <label for="group" class="checkbox-label">Group</label>
-                            <input type="checkbox" id="one-on-one" name="interested_class" value="one_on_one">
-                            <label for="one-on-one" class="checkbox-label">One on One</label>
+        <div id="main-booking-box">
+            <section id="form-section">
+                <form action="completed-form.html" method="get">
+                    <h2>Please Complete our Form</h2>
+                    <label for="first-name" class="block form-label">First Name</label>
+                    <input type="text" id="first-name" name="first_name" class="form-input" placeholder="First Name" required>
+                    <label for="last-name" class="block form-label">Last Name</label>
+                    <input type="text" id="last-name" name="last_name" class="form-input" placeholder="Last Name" required>
+                    <label for="email" class="block form-label">Email Address</label>
+                    <input type="email" id="email" name="email_address" class="form-input" placeholder="Email Address" required>
+                    <label for="phone-number" class="block form-label">Phone Number</label>
+                    <input type="number" id="phone-number" name="phone_number" class="form-input" placeholder="Phone Number" required>
+                    <label for="dog-breed" class="block form-label">Breed of Dog</label>
+                    <input type="text" id="dog-breed" name="dog_breed" class="form-input" placeholder="Breed of Dog" required>
+                    <label for="dog-age" class="block form-label">Age of Dog</label>
+                    <select id="dog-age" name="dog_age">
+                        <option value="0-3-months">0-3 Months</option>
+                        <option value="3-6-months">3-6 Months</option>
+                        <option value="6-months-1-year">6 Months - 1 Year </option>
+                        <option value="1-2-years">1-2 Years</option>
+                        <option value="2-5-years">2-5 Years</option>
+                        <option value="5+-years">5+ Years</option>
+                    </select>
+                    <fieldset>
+                        <legend>Which classes you are interested in?</legend>
+                        <div id="checkbox-box">
+                            <div>
+                                <input type="checkbox" id="group" name="interested_class" value="group">
+                                <label for="group" class="checkbox-label">Group</label>
+                                <input type="checkbox" id="one-on-one" name="interested_class" value="one_on_one">
+                                <label for="one-on-one" class="checkbox-label">One on One</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="online" name="interested_class" value="online">
+                                <label for="online" class="checkbox-label">Online</label>
+                                <input type="checkbox" id="agility" name="interested_class" value="agility">
+                                <label for="agility" class="checkbox-label">Agility</label>
+                            </div>
                         </div>
-                        <div>
-                            <input type="checkbox" id="online" name="interested_class" value="online">
-                            <label for="online" class="checkbox-label">Online</label>
-                            <input type="checkbox" id="agility" name="interested_class" value="agility">
-                            <label for="agility" class="checkbox-label">Agility</label>
-                        </div>
+                    </fieldset>
+                    <div id="submit-box">
+                    <input type="submit" class="block submit" value="Submit Form">
+                    <input type="reset" class="reset" value="Reset Form">
                     </div>
-                </fieldset>
-                <div id="submit-box">
-                <input type="submit" class="block submit" value="Submit Form">
-                <input type="reset" class="reset" value="Reset Form">
+                </form>
+            </section>
+            <aside>
+                <h2>How to guide</h2>
+                <div>
+                    <div class="how-to-box">
+                        <i class="fa-solid fa-comment-dots"></i>
+                        <h3>Fill in our form</h3>
+                        <p>The first step is to fill in our enquiry form providing us with the basic information about yourself and your pup!</p>
+                    </div>
+                    <div class="how-to-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <h3>Let's have a chat</h3>
+                        <p>One of our experts will give you a call to discuss the best form of training to suit you and your dog plus further
+                        little details we might need to know!</p>
+                    </div>
+                    <div class="how-to-box">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <h3>Let's get you booked in</h3>
+                        <p>Your all ready to go ahead and book your first session! With our wide range of classes throughout the week we'll find a
+                        time slot that suits you!</p>
+                    </div>
                 </div>
-            </form>
-        </section>
-        <aside>
-            <h2>How to guide</h2>
-            <div>
-                <div class="how-to-box">
-                    <i class="fa-solid fa-comment-dots"></i>
-                    <h3>Fill in our form</h3>
-                    <p>The first step is to fill in our enquiry form providing us with the basic information about yourself and your pup!</p>
-                </div>
-                <div class="how-to-box">
-                    <i class="fa-solid fa-phone"></i>
-                    <h3>Let's have a chat</h3>
-                    <p>One of our experts will give you a call to discuss the best form of training to suit you and your dog plus further
-                    little details we might need to know!</p>
-                </div>
-                <div class="how-to-box">
-                    <i class="fa-solid fa-calendar-check"></i>
-                    <h3>Let's get you booked in</h3>
-                    <p>Your all ready to go ahead and book your first session! With our wide range of classes throughout the week we'll find a
-                    time slot that suits you!</p>
-                </div>
-            </div>
-        </aside>
+            </aside>
+        </div>
         <a href="completed-form.html">form</a>
     </main>
 
