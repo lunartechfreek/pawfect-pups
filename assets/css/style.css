@@ -427,11 +427,14 @@ main {
 }
 
 .classes-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: rgba(99, 180, 45, 0.8);
     width: 75vw;
     text-align: center;
     font-size: 120%;
-    padding: 5px 15px 15px 15px;
+    padding: 10px 15px;
 }
 
 /* Booking */
@@ -1131,7 +1134,6 @@ footer {
 
     .classes-text {
         width: 350px;
-        height: 210px;
     }
 
     /* Booking */
