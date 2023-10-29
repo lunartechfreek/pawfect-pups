@@ -933,7 +933,7 @@ footer {
     }
 
     #map h2 {
-        font-size: 4vw;
+        font-size: 300%;
     }
 
     iframe {
@@ -1139,7 +1139,7 @@ footer {
 
     #main-booking-box {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-evenly; 
         max-width: 1100px;
     }
 
@@ -1330,22 +1330,6 @@ footer {
     #info {
         max-width: 1400px;
         margin: 0 auto;
-    }
-
-    .contact-box h2 {
-        font-size: 320%;
-    }
-
-    #details ul {
-        font-size: 200%;
-    }
-
-    table {
-        font-size: 210%;
-    }
-
-    #map h2 {
-        font-size: 280%;
     }
 
 }
