@@ -506,7 +506,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked+label {
-    background-color: #ff9301;
+    background-color: #63B42D;
     color: #001524;
 }
 
@@ -1140,6 +1140,7 @@ footer {
     #main-booking-box {
         display: flex;
         justify-content: space-evenly;
+        max-width: 1100px;
     }
 
     form {
@@ -1183,7 +1184,11 @@ footer {
     }
 
     .submit {
-        font-size: 1.3rem;
+        font-size: 1.35rem;
+    }
+
+    .reset {
+        font-size: 1.35rem;
     }
 
     aside {
@@ -1202,10 +1207,22 @@ footer {
     }
 
     .checkbox-label:hover {
-    background-color: #ff9301;
+    background-color: #63B42D;
     color: #001524;
     cursor: pointer;
-}
+    }
+
+    .submit:hover {
+    background-color: #63B42D;
+    color: #001524;
+    cursor: pointer;
+    }
+
+    .reset:hover {
+    background-color: #63B42D;
+    color: #001524;
+    cursor: pointer;
+    }
 
     /* Completed form */
 
