@@ -212,21 +212,21 @@ main {
 }
 
 #about-box-image {
-    background: url("../images/head-over-to-dog1.webp") no-repeat center 10%/cover;
+    background: url("../images/head-over-to-dog-1.webp") no-repeat center 10%/cover;
     background-blend-mode: color;
     background-color: rgba(0, 0, 0, 0.47);
     color: white;
 }
 
 #classes-box-image {
-    background: url("../images/head-over-to-dog2.webp") no-repeat center center/cover;
+    background: url("../images/head-over-to-dog-2.webp") no-repeat center center/cover;
     background-blend-mode: color;
     background-color: rgba(0, 0, 0, 0.47);
     color: white;
 }
 
 #booking-box-image {
-    background: url("../images/head-over-to-dog3.webp") no-repeat center 25%/cover;
+    background: url("../images/head-over-to-dog-3.webp") no-repeat center 25%/cover;
     background-blend-mode: color;
     background-color: rgba(0, 0, 0, 0.47);
     color: white;
