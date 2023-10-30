@@ -311,7 +311,7 @@ main {
     padding: 5px 15px 15px 15px;
 }
 
-.trainer-bio h3 {
+.trainer-bio h4 {
     margin: 8px;
 }
 
@@ -339,7 +339,7 @@ main {
     padding: 5px 15px 15px 15px;
 }
 
-.benefits-text h3 {
+.benefits-text h4 {
     margin: 8px;
 }
 
@@ -1108,7 +1108,7 @@ footer {
         font-size: 140%;
     }
 
-    .benefits-text h3 {
+    .benefits-text h4 {
         font-size: 120%;
     }
 
