@@ -819,7 +819,7 @@ footer {
         background: url("../images/home-hero-pawfect-pups.webp") no-repeat 26% 80%/115%;
     }
 
-    #welcome h1 {
+    #welcome h2 {
         font-size: 250%;
     }
 
@@ -1027,7 +1027,7 @@ footer {
         margin: 0 auto;
     }
 
-    #welcome h1 {
+    #welcome h2 {
         width: 50vw;
         font-size: 270%;
     }
