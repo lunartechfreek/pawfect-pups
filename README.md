@@ -113,4 +113,42 @@ While developing the skeleton plane i created wireframes using [Balsamiq](https:
 
 I created the wireframes with a mobile first approach and designed wireframes for mobile, tablet, and desktop to ensure that the site will be fully responsive upon completion.
 
-#### Development 
+#### Design
+
+##### Colour Palette
+
+I decided on my colour palette using [Coolers](https://coolors.co/). I started off by finding a nice vibrant orange and then used the palette generator to find the other colours that complemented the orange. 
+
+I chose for my colour scheme to be the main orange and to have greens as my secondary colour. I chose the vibrant orange because it conveys a friendly and positive emotion.
+
+I wanted to choose greens as my other colours because I feel it relates very well to the theme of the website and dog training. This Is because people automatically have an image of dogs training in a field and I wanted to portray the idea of the green grass into the webpage.
+
+I chose a vibrant green to further convey a friendly and positive emotion. I opted for a darker green also to break up the bright colours when using this to cover other elements on the page.
+
+I also chose a sea-salt white for the base colour of the page and a rich black for the font colour.
+
+I used [WebAIM](https://webaim.org/resources/contrastchecker/) to check the contrast of all my font colours against the background for accesability.
+
+<details>
+<summary>Colour Palette</summary>
+
+![Colour Palette](assets/readme-files/colour-palette.png)
+
+</details>
+
+##### Fonts 
+
+The fonts used throughout the website are BioRhyme and Montserrat. I imported these fonts by using [Google Fonts](https://fonts.google.com/). BioRhyme is used for all heading elements throughout the page. I chose this font because I felt like it portrayed a fun and playful emotion which suits the image the company is trying to perceive.
+
+I found the font pairing of Montserrat through an article on [Designerly](https://designerly.com/best-font-pairings/#:~:text=BioRhyme%20works%20best%20for%20headings,Montserrat%2C%20Crimson%20Text%20and%20Eczar.). I used a backup font of Sans-Serif incase there was a problem loading the other fonts.
+
+##### Imagery
+
+The imagery used was all sourced from [Pexels](https://www.pexels.com/). I used Pexels because I found they had a good range of dog training photos and also a lot of photos using the same trainers. This helped me to use different pictures of the same people and help to create a realistic feel to the website even though the company is of course fictional.
+
+The images were then resized using [BeFunky](https://www.befunky.com/) which is an online image editor. I then compressed the images further using [TinyPNG](https://tinypng.com/).
+
+### Features 
+
+#### Design Features 
+
