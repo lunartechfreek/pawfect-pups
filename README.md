@@ -156,7 +156,7 @@ The images were then resized using [BeFunky](https://www.befunky.com/) which is 
 
 Each page on the site has some general features that remain consistant throughout. These are:
 
-* The header is located at the top of every page. I made this the full width of the page and I also made it static. This is so the user always has the logo at the top of page. The user also always has either the the navigation bar or hamburger menu always available for easy navigation. The logo also acts as a link back to the home page when clicked on and the cursor changes to a pointer when hovered over to portray this.
+* The header is located at the top of every page. I made this the full width of the page and I also made it static. This is so the user always has the logo at the top of page. The user also always has either the the navigation bar or hamburger menu always available for easy navigation. The logo also acts as a link back to the home page when clicked on and the cursor changes to a pointer when hovered over to portray this. I have added a slight border shadow underneath the header to make it slightly pop out from the main content and to emphasise that is is a static element. 
 
 * The navigation bar is also static and fully responsive. On screen sizes above 992px the browser will display a navigation bar with all the different pages of the side on the screen for easy navigation. The current page the user is on has an active class on it to change to dark green so the user knows where on the site they currently are. The navigation links have a pseudo class rule applied to them and the background and font change colours when hovered over but are different colours than the active class so as to avoid confusion for the user.
 
@@ -164,8 +164,18 @@ Each page on the site has some general features that remain consistant throughou
 
 * The footer is located at the bottom of each page and contains links to our social media pages. Because this is a fiction website each icon just takes you to the home page of the site and this opens in a new window. The footer is the full width of the screen to match the width of the header and maintain a similar feel throughout the site. It is not static because with the header already being static i didnt want too much of the screen to be taken up by having two static elements. The footer icons have a pseudo class rule applied to them and change colours when hovered over.
 
+* I created a border-shadow class that is used throughout many elements across the website. This is because I wanted to make a consistent style that will create a sense of familiarity throughout the many elements across the site. The border-shadow class consists of two rules, one being border-radius and the other box-shadow.
+
 ##### Home
 
 The home page features a large hero image covering the full width of the screen at the top underneath the header. The top section of the page features a page title, a quotation box and a paragraph explaining a bit about our company.
 
 At the bottom of the page we have three images of dogs that are clickable links to different pages on the site. I used an overlay on the images to further increase accessibility with the contrast of the font. Each of these has a hover pseudo class applied so when you hover over the text it turns orange and the cursor turns into a pointer. Being a responsive website I have displayed these in a column on smaller screen sizes and in a row on larger screens.
+
+##### About 
+
+The about page features a large hero image covering the full width of the screen underneath the header. I have placed the title of this page in the centre of the hero image with an orange background on the heading to increase contrast and accessibility. I have applied my border-shadow class to the heading box to make it pop out a bit and emphasise that it is on top of the image and not a part of it.
+
+The first section of this page is the trainers section. This consists of a heading styled with a green box and border shadow, and introductions for each of our three trainers. I have presented this with an image of the trainer placed above a text box for each of them. I have styled the text box orange with my border-shadow class added to it.
+
+The second section of the page is the benefits section. This consists of a heading styled with a green background and border shadow, and also four sections detailing the benefits of training your dog with Pawfect Pups. Each of the four sections consists of an image of a dog to the left and a text box styled orange with my border-shadow class added to it. With these sections being horizontally orientated I displayed in a column on all screen sizes so as to not appear cluttered on larger screen sizes.
