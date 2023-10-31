@@ -152,7 +152,9 @@ The images were then resized using [BeFunky](https://www.befunky.com/) which is 
 
 #### Design Features 
 
-Each page on the site has some features that remain consistant throughout. These are:
+##### General
+
+Each page on the site has some general features that remain consistant throughout. These are:
 
 * The header is located at the top of every page. I made this the full width of the page and I also made it static. This is so the user always has the logo at the top of page. The user also always has either the the navigation bar or hamburger menu always available for easy navigation. The logo also acts as a link back to the home page when clicked on and the cursor changes to a pointer when hovered over to portray this.
 
@@ -160,4 +162,10 @@ Each page on the site has some features that remain consistant throughout. These
 
 * The hamburger menu is also responsive and is only displayed on screen sizes less that 992px. This is because there are a lot of links in the navigation bar so this is broken down into a clickable menu that will display the navigation links when it is pressed. This is to avoid having the screen feel too cluttered on smaller screens. The current page the user is on has an active class on it to change to underline the text so the user knows where on the site they currently are.
 
-* The footer is located at the bottom of each page and contains links to our social media pages. Because this is a fiction website each icon just takes you to the home page of the site and this opens in a new window. The footer is the full width of the screen to match the width of the header and maintain a similar feel throughout the site. The footer icons have a pseudo class rule applied to them and change colours when hovered over.
+* The footer is located at the bottom of each page and contains links to our social media pages. Because this is a fiction website each icon just takes you to the home page of the site and this opens in a new window. The footer is the full width of the screen to match the width of the header and maintain a similar feel throughout the site. It is not static because with the header already being static i didnt want too much of the screen to be taken up by having two static elements. The footer icons have a pseudo class rule applied to them and change colours when hovered over.
+
+##### Home
+
+The home page features a large hero image covering the full width of the screen at the top underneath the header. The top section of the page features a page title, a quotation box and a paragraph explaining a bit about our company.
+
+At the bottom of the page we have three images of dogs that are clickable links to different pages on the site. I used an overlay on the images to further increase accessibility with the contrast of the font. Each of these has a hover pseudo class applied so when you hover over the text it turns orange and the cursor turns into a pointer. Being a responsive website I have displayed these in a column on smaller screen sizes and in a row on larger screens.
