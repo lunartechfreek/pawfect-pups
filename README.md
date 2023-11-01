@@ -209,3 +209,12 @@ The page consists of two sections, an information section and a map section. The
 The map section consists of a heading that has a green background and a fully interactive google map underneath it. The google map is added using an iframe element and an embedded code. 
 
 This page is fully responsive and displays the information box in a column on smaller screens and in a row on larger screens through the use of media queries and flex direction. Each of these boxes use a responsive unit of measurement until they reach a maximum size. The map is also responsive and uses responsive units of measurements until that also reaches a maximum size.
+
+##### Features To Be Added in The Future
+
+If this were a real company, the features I would add to the website in the future would be:
+
+* A review page where users can leave reviews and also read other users review.
+* A gallery page to display pictures.
+* A 404 page for wrong addresses typed into the address bar.
+
