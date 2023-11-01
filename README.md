@@ -224,6 +224,14 @@ At the bottom of the page we have three images of dogs that are clickable links 
 ![Mobile Home Section Two](assets/readme-files/mobile-home2.png)
 
 </details>
+<details>
+<summary>Desktop Home Page</summary>
+
+![Desktop Home Section One](assets/readme-files/desktop-home1.png)
+
+![Desktop Home Section Two](assets/readme-files/desktop-home2.png)
+
+</details>
 
 ##### About
 
@@ -243,6 +251,14 @@ With this page being fully responsive the trainers section is aligned as a colum
 ![Mobile About Section Three](assets/readme-files/mobile-about3.png)
 
 </details>
+<details>
+<summary>Desktop About Page</summary>
+
+![Desktop About Section One](assets/readme-files/desktop-about1.png)
+
+![Desktop About Section Two](assets/readme-files/desktop-about2.png)
+
+</details>
 
 ##### Classes
 
@@ -256,6 +272,13 @@ The page is fully responsive and the boxes are displayed in a column on smaller 
 ![Mobile Classes Page](assets/readme-files/mobile-classes.png)
 
 </details>
+<details>
+<summary>Desktop Classes Page</summary>
+
+![Desktop Classes Page](assets/readme-files/desktop-classes.png)
+
+</details>
+
 
 ##### Booking 
 
@@ -273,6 +296,12 @@ This page is fully responsive and contains the aside element underneath the form
 ![Mobile Booking Page Two](assets/readme-files/mobile-booking2.png)
 
 </details>
+<details>
+<summary>Desktop Booking Page</summary>
+
+![Desktop Booking Section One](assets/readme-files/desktop-booking.png)
+
+</details>
 
 ##### Completed Form 
 
@@ -284,6 +313,12 @@ This page is fully responsive through the use of media queries to increase the f
 <summary>Mobile Completed Form Page</summary>
 
 ![Mobile Completed Form Page](assets/readme-files/mobile-completed.png)
+
+</details>
+<details>
+<summary>Desktop Completed Form Page</summary>
+
+![Desktop Completed Form Page](assets/readme-files/desktop-completed.png)
 
 </details>
 
@@ -301,6 +336,14 @@ This page is fully responsive and displays the information box in a column on sm
 ![Mobile Contact Page One](assets/readme-files/mobile-contact1.png)
 
 ![Mobile Contact Page Two](assets/readme-files/mobile-contact2.png)
+
+</details>
+<details>
+<summary>Desktop Contact Page</summary>
+
+![Desktop Contact Section One](assets/readme-files/desktop-contact1.png)
+
+![Desktop Contact Section Two](assets/readme-files/desktop-contact2.png)
 
 </details>
 
