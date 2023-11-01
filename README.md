@@ -113,6 +113,55 @@ While developing the skeleton plane i created wireframes using [Balsamiq](https:
 
 I created the wireframes with a mobile first approach and designed wireframes for mobile, tablet, and desktop to ensure that the site will be fully responsive upon completion.
 
+<details>
+<summary>Mobile Wireframes</summary>
+
+[Mobile Home Wireframe](assets/readme-files/mobile-home-wire.png)
+
+[Mobile About Wireframe](assets/readme-files/mobile-about-wire.png)
+
+[Mobile Classes Wireframe](assets/readme-files/mobile-classes-wire.png)
+
+[Mobile Booking Wireframe](assets/readme-files/mobile-booking-wire.png)
+
+[Mobile Completed Booking Form Wireframe](assets/readme-files/mobile-completed-wire.png)
+
+[Mobile Contact Wireframe](assets/readme-files/mobile-contact-wire.png)
+
+</details>
+<details>
+<summary>Tablet Wireframes</summary>
+
+[Tablet Home Wireframe](assets/readme-files/tablet-home-wire.png)
+
+[Tablet About Wireframe](assets/readme-files/tablet-about-wire.png)
+
+[Tablet Classes Wireframe](assets/readme-files/tablet-classes-wire.png)
+
+[Tablet Booking Wireframe](assets/readme-files/tablet-booking-wire.png)
+
+[Tablet Completed Booking Form Wireframe](assets/readme-files/tablet-completed-wire.png)
+
+[Tablet Contact Wireframe](assets/readme-files/tablet-contact-wire.png)
+
+</details>
+<details>
+<summary>Desktop Wireframes</summary>
+
+[Desktop Home Wireframe](assets/readme-files/desktop-home-wire.png)
+
+[Desktop About Wireframe](assets/readme-files/desktop-about-wire.png)
+
+[Desktop Classes Wireframe](assets/readme-files/desktop-classes-wire.png)
+
+[Desktop Booking Wireframe](assets/readme-files/desktop-booking-wire.png)
+
+[Desktop Completed Booking Form Wireframe](assets/readme-files/desktop-completed-wire.png)
+
+[Desktop Contact Wireframe](assets/readme-files/desktop-contact-wire.png)
+
+</details>
+
 #### Design
 
 ##### Colour Palette
@@ -363,7 +412,7 @@ If this were a real company, the features I would add to the website in the futu
 
 * I encountered issues with screen sizes between 340px-360px on my map section heading and elements on my contact page. On the map section heading the text flowed onto two lines making the green background box have a lot of spare space and unappealing to the user. And my heading, list and table elements in the two information boxes were not displaying correctly with the font size set. This was fixed by creating a media queries and targeting the elements between this size.
 
-* Another issue encountered was accidentally targeting my footer icons. When I was creating my contact page I set the font size of the icons in the how to guide fairly large. This then targeted my footer icons also. This is because when I was targeting the footer icons previously, I just targeted all 'i' elements. I then did the same when targeting my 'i' elements in my how to guide. I fixed this by changing the DOM selector in the how to guide to only 'i' elements that were children of the div containing the how to guide.
+* Another issue encountered was accidentally targeting my footer icons. When I was creating my contact page I set the font size of the icons in the how to guide fairly large. This then targeted my footer icons also. This is because when I was targeting the footer icons previously, I just targeted all `i` elements. I then did the same when targeting my `i` elements in my how to guide. I fixed this by changing the DOM selector in the how to guide to only `i` elements that were children of the div containing the how to guide.
 
 ### Technologies
 
