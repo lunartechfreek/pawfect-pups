@@ -355,3 +355,12 @@ If this were a real company, the features I would add to the website in the futu
 * A gallery page to display pictures.
 * A 404 page for wrong addresses typed into the address bar.
 
+### Bugs and Issues
+
+* I encountered an issue mainly with my hero images and their positioning when testing on mobile screens that are horizontal. This is because the media query I had entered for tablets (above 768px) was now taking effect on them but with the screen height being so small they did not look correct. I fixed this by adding a new media query setting a maximum height to be targeted and hence only effecting mobile screens when turned to the side.
+
+* When creating the about page I encountered a bug where the text was an appropriate size but was overflowing from the box in was supposed to be contained in. I fixed this issue by changing the height from inherit to a pixel unit instead.
+
+* I encountered issues with screen sizes between 340px-360px on my map section heading and elements on my contact page. On the map section heading the text flowed onto two lines making the green background box have a lot of spare space and unappealing to the user. And my heading, list and table elements in the two information boxes were not displaying correctly with the font size set. This was fixed by creating a media queries and targeting the elements between this size.
+
+* Another issue encountered was accidentally targeting my footer icons. When I was creating my contact page I set the font size of the icons in the how to guide fairly large. This then targeted my footer icons also. This is because when I was targeting the footer icons previously, I just targeted all 'i' elements. I then did the same when targeting my 'i' elements in my how to guide. I fixed this by changing the DOM selector in the how to guide to only 'i' elements that were children of the div containing the how to guide.
