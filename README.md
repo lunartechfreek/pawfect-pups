@@ -182,4 +182,15 @@ The first section of this page is the trainers section. This consists of a headi
 
 The second section of the page is the benefits section. This consists of a heading styled with a green background and border shadow, and also four sections detailing the benefits of training your dog with Pawfect Pups. Each of the four sections consists of an image of a dog to the left and a text box styled orange with my border-shadow class added to it.
 
-With this page being fully responsive the trainers section is aligned as a column on small screens, and aligned in a row on larger screens. This was done by changing the flex direction with a media query. With the benefits sections being horizontally orientated I displayed in a column on all screen sizes so as to not appear cluttered on larger screen sizes. I did make sure to increase the box size and font size as the the screen size increases through media queries and responsive units of measurement.
+With this page being fully responsive the trainers section is aligned as a column on small screens, and aligned in a row on larger screens. This was done by changing the flex direction with a media query. With the benefits sections being horizontally orientated I displayed in a column on all screen sizes so as to not appear cluttered on larger screen sizes. I did make sure to increase the box size and font size as the the screen size increases through media queries or responsive units of measurement.
+
+##### Classes
+
+The about page features a large hero image covering the full width of the screen underneath the header. I have placed the title of this page in the centre of the hero image with an orange background on the heading to increase contrast and accessibility. I have applied my border-shadow class to the heading box to make it pop out a bit and emphasise that it is on top of the image and not a part of it.
+
+This page consists of four boxes with each of these boxes representing a different class the company offers. Each box is styled with an orange background with border radius applied to the edges. Each box contains an image of a dog and a green text box styled with my box-shadow class. These elements are arranged in the box through flex-box. 
+
+The page is fully responsive and the boxes are displayed in a column on smaller screen sizes and are displayed in two rows of two on larger screen sizes. I did this through the use of a flex box. All of the elements are responsive through the use of media queries or responsive units of measurement.
+
+##### Booking 
+
