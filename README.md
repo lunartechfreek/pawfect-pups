@@ -161,52 +161,52 @@ Each page on the site has some general features that remain consistant throughou
 <details>
 <summary>Header</summary>
 
-![Header](assets/readme-files/)
+![Header](assets/readme-files/header.png)
 
 </details>
 
 * The navigation bar is also static and fully responsive. On screen sizes above 992px the browser will display a navigation bar with all the different pages of the side on the screen for easy navigation. The current page the user is on has an active class on it to change to dark green so the user knows where on the site they currently are. The navigation links have a pseudo class rule applied to them and the background changes to light green and the font changes to black when hovered over. I made them different colours than the active class so as to avoid confusion for the user.
 
 <details>
-<summary>Header</summary>
+<summary>Navigation Bar</summary>
 
-![Header](assets/readme-files/)
+![Navigation Bar](assets/readme-files/nav-bar.png)
 
 </details>
 
 * The hamburger menu is also responsive and is only displayed on screen sizes less that 992px. This is because there are a lot of links in the navigation bar so this is broken down into a clickable menu that will display the navigation links when it is pressed. This is to avoid having the screen feel too cluttered on smaller screens. The current page the user is on has an active class on it to change to underline the text so the user knows where on the site they currently are.
 
 <details>
-<summary>Header</summary>
+<summary>Hamburger Menu</summary>
 
-![Header](assets/readme-files/)
+![Hamburger Menu](assets/readme-files/hamburger.png)
 
 </details>
 
 * The footer is located at the bottom of each page and contains links to our social media pages. Because this is a fiction website each icon just takes you to the home page of the site and this opens in a new window. The footer is the full width of the screen to match the width of the header and maintain a similar feel throughout the site. It is not static because with the header already being static i didnt want too much of the screen to be taken up by having two static elements. The footer icons have a pseudo class rule applied to them and change colours when hovered over.
 
 <details>
-<summary>Header</summary>
+<summary>Footer</summary>
 
-![Header](assets/readme-files/)
+![Footer](assets/readme-files/footer.png)
 
 </details>
 
 * I created a border-shadow class that is used throughout many elements across the website. This is because I wanted to make a consistent style that will create a sense of familiarity throughout the many elements across the site. The border-shadow class consists of two rules, one being border-radius and the other box-shadow.
 
 <details>
-<summary>Header</summary>
+<summary>Border Shadow Class</summary>
 
-![Header](assets/readme-files/)
+![Border Shadow Class](assets/readme-files/border-shadow.png)
 
 </details>
 
 * All pages feature a large hero image covering the full width of the screen underneath the header. This hero image is fully responsive and uses a responsive unit of measurement to size it and also repositioning of the image through media queries as the box size increases. On all pages except the home page I have placed the title of this page in the centre of the hero image with an orange background on the heading to increase contrast and accessibility. I have applied my border-shadow class to the heading box to make it pop out a bit and emphasise that it is on top of the image and not a part of it.
 
 <details>
-<summary>Header</summary>
+<summary>Hero Image</summary>
 
-![Header](assets/readme-files/)
+![Hero Image](assets/readme-files/hero-screenshot.png)
 
 </details>
 
@@ -217,9 +217,11 @@ The top section of the page features a page title, a slogan, a quotation box and
 At the bottom of the page we have three images of dogs that are clickable links to different pages on the site. I used an overlay on the images to further increase accessibility with the contrast of the font. Each of these has a hover pseudo class applied so when you hover over the text it turns orange and the cursor turns into a pointer. Being a responsive website I have displayed these in a column on smaller screen sizes and in a row on larger screens. I did this by using a flex-box and changing the direction through a media query.
 
 <details>
-<summary>Header</summary>
+<summary>Mobile Home Page</summary>
 
-![Header](assets/readme-files/)
+![Mobile Home Section One](assets/readme-files/mobile-home1.png)
+
+![Mobile Home Section Two](assets/readme-files/mobile-home2.png)
 
 </details>
 
@@ -232,9 +234,13 @@ The second section of the page is the benefits section. This consists of a headi
 With this page being fully responsive the trainers section is aligned as a column on small screens, and aligned in a row on larger screens. This was done by changing the flex direction with a media query. With the benefits sections being horizontally orientated I displayed in a column on all screen sizes so as to not appear cluttered on larger screen sizes. I did make sure to increase the box size and font size as the the screen size increases through media queries or responsive units of measurement.
 
 <details>
-<summary>Header</summary>
+<summary>Mobile About Page</summary>
 
-![Header](assets/readme-files/)
+![Mobile About Section One](assets/readme-files/mobile-about1.png)
+
+![Mobile About Section Two](assets/readme-files/mobile-about2.png)
+
+![Mobile About Section Three](assets/readme-files/mobile-about3.png)
 
 </details>
 
@@ -245,9 +251,9 @@ This page consists of four boxes with each of these boxes representing a differe
 The page is fully responsive and the boxes are displayed in a column on smaller screen sizes and are displayed in two rows of two on larger screen sizes. I did this through the use of a flex box. All of the elements are responsive through the use of media queries or responsive units of measurement.
 
 <details>
-<summary>Header</summary>
+<summary>Mobile Classes Page</summary>
 
-![Header](assets/readme-files/)
+![Mobile Classes Page](assets/readme-files/mobile-classes.png)
 
 </details>
 
@@ -260,9 +266,11 @@ The aside element contains a heading followed by the three steps of the booking 
 This page is fully responsive and contains the aside element underneath the form on smaller screens and displays it at the side of the form on larger screens through use of media queries and flex. All of the elements are responsive through use of media queries or responsive units of measurement.
 
 <details>
-<summary>Header</summary>
+<summary>Mobile Booking Page</summary>
 
-![Header](assets/readme-files/)
+![Mobile Booking Page One](assets/readme-files/mobile-booking1.png)
+
+![Mobile Booking Page Two](assets/readme-files/mobile-booking2.png)
 
 </details>
 
@@ -273,9 +281,9 @@ This page is the page you are directed to after completed the form. It is very s
 This page is fully responsive through the use of media queries to increase the font size and adjust the margin.
 
 <details>
-<summary>Header</summary>
+<summary>Mobile Completed Form Page</summary>
 
-![Header](assets/readme-files/)
+![Mobile Completed Form Page](assets/readme-files/mobile-completed.png)
 
 </details>
 
@@ -288,9 +296,11 @@ The map section consists of a heading that has a green background and a fully in
 This page is fully responsive and displays the information box in a column on smaller screens and in a row on larger screens through the use of media queries and flex direction. Each of these boxes use a responsive unit of measurement until they reach a maximum size. The map is also responsive and uses responsive units of measurements until that also reaches a maximum size.
 
 <details>
-<summary>Header</summary>
+<summary>Mobile Contact Page</summary>
 
-![Header](assets/readme-files/)
+![Mobile Contact Page One](assets/readme-files/mobile-contact1.png)
+
+![Mobile Contact Page Two](assets/readme-files/mobile-contact2.png)
 
 </details>
 
