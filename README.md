@@ -166,17 +166,15 @@ Each page on the site has some general features that remain consistant throughou
 
 * I created a border-shadow class that is used throughout many elements across the website. This is because I wanted to make a consistent style that will create a sense of familiarity throughout the many elements across the site. The border-shadow class consists of two rules, one being border-radius and the other box-shadow.
 
-##### Home
+* All pages feature a large hero image covering the full width of the screen underneath the header. This hero image is fully responsive and uses a responsive unit of measurement to size it and also repositioning of the image through media queries as the box size increases. On all pages except the home page I have placed the title of this page in the centre of the hero image with an orange background on the heading to increase contrast and accessibility. I have applied my border-shadow class to the heading box to make it pop out a bit and emphasise that it is on top of the image and not a part of it.
 
-The home page features a large hero image covering the full width of the screen at the top underneath the header. This hero image is fully responsive and uses a responsive unit of measurement to size it and also repositioning of the image through media queries as the box size increases.
+##### Home
 
 The top section of the page features a page title, a quotation box and a paragraph explaining a bit about our company. All of these use a responsive unit of measurement to increase in size as the screen does and font sizes are adjusted through media queries where necessary.
 
 At the bottom of the page we have three images of dogs that are clickable links to different pages on the site. I used an overlay on the images to further increase accessibility with the contrast of the font. Each of these has a hover pseudo class applied so when you hover over the text it turns orange and the cursor turns into a pointer. Being a responsive website I have displayed these in a column on smaller screen sizes and in a row on larger screens. I did this by using a flex-box and changing the direction through a media query.
 
 ##### About 
-
-The about page features a large hero image covering the full width of the screen underneath the header. I have placed the title of this page in the centre of the hero image with an orange background on the heading to increase contrast and accessibility. I have applied my border-shadow class to the heading box to make it pop out a bit and emphasise that it is on top of the image and not a part of it. This hero image is fully responsive and uses a responsive unit of measurement to size it and also repositioning of the image through media queries as the box size increases.
 
 The first section of this page is the trainers section. This consists of a heading styled with a green box and border shadow, and introductions for each of our three trainers. I have presented this with an image of the trainer placed above a text box for each of them. I have styled the text box orange with my border-shadow class added to it.
 
@@ -186,11 +184,14 @@ With this page being fully responsive the trainers section is aligned as a colum
 
 ##### Classes
 
-The about page features a large hero image covering the full width of the screen underneath the header. I have placed the title of this page in the centre of the hero image with an orange background on the heading to increase contrast and accessibility. I have applied my border-shadow class to the heading box to make it pop out a bit and emphasise that it is on top of the image and not a part of it.
-
 This page consists of four boxes with each of these boxes representing a different class the company offers. Each box is styled with an orange background with border radius applied to the edges. Each box contains an image of a dog and a green text box styled with my box-shadow class. These elements are arranged in the box through flex-box. 
 
 The page is fully responsive and the boxes are displayed in a column on smaller screen sizes and are displayed in two rows of two on larger screen sizes. I did this through the use of a flex box. All of the elements are responsive through the use of media queries or responsive units of measurement.
 
 ##### Booking 
 
+This page consists of a form and an aside element containing a guide to how the booking process works. The form contains a variety of inputs and has four checkboxes styled in css. The are styled dark green to contrast the orange background of the form. The each have a hover pseudo class applied to them to change colour as you hover over them and the cursor will change to a pointer. They also change colour when they have been checked. At the bottom of the form there is a submit and reset button. 
+
+The aside element contains a heading followed by the three steps of the booking process. Each of these steps contains a large icon displayed above a description. The steps is displayed in a column through use of a flex box. 
+
+This page is fully responsive and contains the aside element underneath the form on smaller screens and displays it at the side of the form on larger screens through use of media queries and flex. All of the elements are responsive through use of media queries or responsive units of measurement.
