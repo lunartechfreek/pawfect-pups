@@ -367,4 +367,37 @@ If this were a real company, the features I would add to the website in the futu
 
 ### Technologies
 
-####
+#### Main Languages Used
+
+The main languages I have used for this project are:
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5#:~:text=HTML5%20Hypertext%20Markup%20Language%205,as%20the%20HTML%20Living%20Standard.)
+
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+#### Programmes, Tools and Libraries Used 
+
+- [Codeanywhere](https://app.codeanywhere.com/)
+    - Codeanwhere is the IDE that i used to write my code with. 
+
+- [Github](https://github.com/)
+    - Github is what i used to store my code repository on. 
+
+- [Github Pages](https://pages.github.com/)
+    - Github pages was used to deploy my project as a live website from the code stored in the repository. 
+
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    - I used Chrome DevTools alot throughout my project. Mainly to constantly check the responsive design of my page was seamless. But also to see how things looked before writing the code into the IDE. I also used Chrome DevTools to run my lighthouse report. 
+
+- [Balsamiq](https://balsamiq.com/)
+    - Balsamiq was the software i used to create my wireframes. 
+
+- [Google Fonts](https://fonts.google.com/)
+    - I used Google Fonts to import my chosen fonts into my webpage. 
+
+-  [Font Awesome](https://fontawesome.com/)
+    - I used Font Awesome to import the icons i have used into the webpage
+
+- [Am I Responsive?](https://ui.dev/amiresponsive)
+    - Am I Responsive? was used to generate imagery of the responsive design used throughout the website. 
+
