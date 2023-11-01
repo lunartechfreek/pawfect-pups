@@ -195,3 +195,17 @@ This page consists of a form and an aside element containing a guide to how the 
 The aside element contains a heading followed by the three steps of the booking process. Each of these steps contains a large icon displayed above a description. The steps is displayed in a column through use of a flex box. 
 
 This page is fully responsive and contains the aside element underneath the form on smaller screens and displays it at the side of the form on larger screens through use of media queries and flex. All of the elements are responsive through use of media queries or responsive units of measurement.
+
+##### Completed Form 
+
+This page is the page you are directed to after completed the form. It is very simplistic and features a section explaining what happens next that consists of a heading and a paragraph. Underneath that is a link that has been styled in a similar way to the other links using CSS that takes you back to the home page. Although the navigation bar is always there I added this feature in to further increase navigation for the user. I have added a hover class to this link so it changes colour when hovered over and also the cursor will change to a pointer. 
+
+This page is fully responsive through the use of media queries to increase the font size and adjust the margin.
+
+##### Contact 
+
+The page consists of two sections, an information section and a map section. The Information section consists of two boxes. One containing the contact information and the other containing the business opening times. Both these boxes are styled orange and have my border-shadow class applied to them. 
+
+The map section consists of a heading that has a green background and a fully interactive google map underneath it. The google map is added using an iframe element and an embedded code. 
+
+This page is fully responsive and displays the information box in a column on smaller screens and in a row on larger screens through the use of media queries and flex direction. Each of these boxes use a responsive unit of measurement until they reach a maximum size. The map is also responsive and uses responsive units of measurements until that also reaches a maximum size.
