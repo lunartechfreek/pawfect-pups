@@ -53,7 +53,7 @@ The ideal users for this website will be:
 
 Whilst planning the website the site owner will use the five development planes as a staple to accommodate to the user goals that are written above. These planes will be used to meet user demands and expectancies.
 
-#### Strategy 
+#### Strategy
 
 The website will be targeted at the following audience:
 
@@ -103,7 +103,7 @@ The required functions of the website will need to include the following:
 * A page for after the form is completed with a 'back to home' button for easy navigation.
 * An iframe of google maps.
 
-#### Structure 
+#### Structure
 
 While developing the structure plane i decided that the best way to present this information would be in a hierarchical tree structure. This is because i feel it is a easy to navigate structure that is commonly found and the user will be used to using throughout other websites.
 
@@ -117,7 +117,7 @@ I created the wireframes with a mobile first approach and designed wireframes fo
 
 ##### Colour Palette
 
-I decided on my colour palette using [Coolers](https://coolors.co/). I started off by finding a nice vibrant orange and then used the palette generator to find the other colours that complemented the orange. 
+I decided on my colour palette using [Coolers](https://coolors.co/). I started off by finding a nice vibrant orange and then used the palette generator to find the other colours that complemented the orange.
 
 I chose for my colour scheme to be the main orange and to have greens as my secondary colour. I chose the vibrant orange because it conveys a friendly and positive emotion.
 
@@ -136,7 +136,7 @@ I used [WebAIM](https://webaim.org/resources/contrastchecker/) to check the cont
 
 </details>
 
-##### Fonts 
+##### Fonts
 
 The fonts used throughout the website are BioRhyme and Montserrat. I imported these fonts by using [Google Fonts](https://fonts.google.com/). BioRhyme is used for all heading elements throughout the page. I chose this font because I felt like it portrayed a fun and playful emotion which suits the image the company is trying to perceive.
 
@@ -148,25 +148,67 @@ The imagery used was all sourced from [Pexels](https://www.pexels.com/). I used 
 
 The images were then resized using [BeFunky](https://www.befunky.com/) which is an online image editor. I then compressed the images further using [TinyPNG](https://tinypng.com/).
 
-### Features 
+### Features
 
-#### Design Features 
+#### Design Features
 
 ##### General
 
 Each page on the site has some general features that remain consistant throughout. These are:
 
-* The header is located at the top of every page. I made this the full width of the page and I also made it static. This is so the user always has the logo at the top of page. The user also always has either the the navigation bar or hamburger menu always available for easy navigation. The logo also acts as a link back to the home page when clicked on and the cursor changes to a pointer when hovered over to portray this. I have added a slight border shadow underneath the header to make it slightly pop out from the main content and to emphasise that is is a static element. 
+* The header is located at the top of every page. I made this the full width of the page and I also made it static. This is so the user always has the logo at the top of page. The user also always has either the the navigation bar or hamburger menu always available for easy navigation. The logo also acts as a link back to the home page when clicked on and the cursor changes to a pointer when hovered over to portray this. I have added a slight border shadow underneath the header to make it slightly pop out from the main content and to emphasise that is is a static element.
 
-* The navigation bar is also static and fully responsive. On screen sizes above 992px the browser will display a navigation bar with all the different pages of the side on the screen for easy navigation. The current page the user is on has an active class on it to change to dark green so the user knows where on the site they currently are. The navigation links have a pseudo class rule applied to them and the background and font change colours when hovered over but are different colours than the active class so as to avoid confusion for the user.
+<details>
+<summary>Header</summary>
+
+![Header](assets/readme-files/)
+
+</details>
+
+* The navigation bar is also static and fully responsive. On screen sizes above 992px the browser will display a navigation bar with all the different pages of the side on the screen for easy navigation. The current page the user is on has an active class on it to change to dark green so the user knows where on the site they currently are. The navigation links have a pseudo class rule applied to them and the background changes to light green and the font changes to black when hovered over. I made them different colours than the active class so as to avoid confusion for the user.
+
+<details>
+<summary>Header</summary>
+
+![Header](assets/readme-files/)
+
+</details>
 
 * The hamburger menu is also responsive and is only displayed on screen sizes less that 992px. This is because there are a lot of links in the navigation bar so this is broken down into a clickable menu that will display the navigation links when it is pressed. This is to avoid having the screen feel too cluttered on smaller screens. The current page the user is on has an active class on it to change to underline the text so the user knows where on the site they currently are.
 
+<details>
+<summary>Header</summary>
+
+![Header](assets/readme-files/)
+
+</details>
+
 * The footer is located at the bottom of each page and contains links to our social media pages. Because this is a fiction website each icon just takes you to the home page of the site and this opens in a new window. The footer is the full width of the screen to match the width of the header and maintain a similar feel throughout the site. It is not static because with the header already being static i didnt want too much of the screen to be taken up by having two static elements. The footer icons have a pseudo class rule applied to them and change colours when hovered over.
+
+<details>
+<summary>Header</summary>
+
+![Header](assets/readme-files/)
+
+</details>
 
 * I created a border-shadow class that is used throughout many elements across the website. This is because I wanted to make a consistent style that will create a sense of familiarity throughout the many elements across the site. The border-shadow class consists of two rules, one being border-radius and the other box-shadow.
 
+<details>
+<summary>Header</summary>
+
+![Header](assets/readme-files/)
+
+</details>
+
 * All pages feature a large hero image covering the full width of the screen underneath the header. This hero image is fully responsive and uses a responsive unit of measurement to size it and also repositioning of the image through media queries as the box size increases. On all pages except the home page I have placed the title of this page in the centre of the hero image with an orange background on the heading to increase contrast and accessibility. I have applied my border-shadow class to the heading box to make it pop out a bit and emphasise that it is on top of the image and not a part of it.
+
+<details>
+<summary>Header</summary>
+
+![Header](assets/readme-files/)
+
+</details>
 
 ##### Home
 
@@ -174,7 +216,14 @@ The top section of the page features a page title, a quotation box and a paragra
 
 At the bottom of the page we have three images of dogs that are clickable links to different pages on the site. I used an overlay on the images to further increase accessibility with the contrast of the font. Each of these has a hover pseudo class applied so when you hover over the text it turns orange and the cursor turns into a pointer. Being a responsive website I have displayed these in a column on smaller screen sizes and in a row on larger screens. I did this by using a flex-box and changing the direction through a media query.
 
-##### About 
+<details>
+<summary>Header</summary>
+
+![Header](assets/readme-files/)
+
+</details>
+
+##### About
 
 The first section of this page is the trainers section. This consists of a heading styled with a green box and border shadow, and introductions for each of our three trainers. I have presented this with an image of the trainer placed above a text box for each of them. I have styled the text box orange with my border-shadow class added to it.
 
@@ -182,11 +231,25 @@ The second section of the page is the benefits section. This consists of a headi
 
 With this page being fully responsive the trainers section is aligned as a column on small screens, and aligned in a row on larger screens. This was done by changing the flex direction with a media query. With the benefits sections being horizontally orientated I displayed in a column on all screen sizes so as to not appear cluttered on larger screen sizes. I did make sure to increase the box size and font size as the the screen size increases through media queries or responsive units of measurement.
 
+<details>
+<summary>Header</summary>
+
+![Header](assets/readme-files/)
+
+</details>
+
 ##### Classes
 
 This page consists of four boxes with each of these boxes representing a different class the company offers. Each box is styled with an orange background with border radius applied to the edges. Each box contains an image of a dog and a green text box styled with my box-shadow class. These elements are arranged in the box through flex-box. 
 
 The page is fully responsive and the boxes are displayed in a column on smaller screen sizes and are displayed in two rows of two on larger screen sizes. I did this through the use of a flex box. All of the elements are responsive through the use of media queries or responsive units of measurement.
+
+<details>
+<summary>Header</summary>
+
+![Header](assets/readme-files/)
+
+</details>
 
 ##### Booking 
 
@@ -196,11 +259,25 @@ The aside element contains a heading followed by the three steps of the booking 
 
 This page is fully responsive and contains the aside element underneath the form on smaller screens and displays it at the side of the form on larger screens through use of media queries and flex. All of the elements are responsive through use of media queries or responsive units of measurement.
 
+<details>
+<summary>Header</summary>
+
+![Header](assets/readme-files/)
+
+</details>
+
 ##### Completed Form 
 
 This page is the page you are directed to after completed the form. It is very simplistic and features a section explaining what happens next that consists of a heading and a paragraph. Underneath that is a link that has been styled in a similar way to the other links using CSS that takes you back to the home page. Although the navigation bar is always there I added this feature in to further increase navigation for the user. I have added a hover class to this link so it changes colour when hovered over and also the cursor will change to a pointer. 
 
 This page is fully responsive through the use of media queries to increase the font size and adjust the margin.
+
+<details>
+<summary>Header</summary>
+
+![Header](assets/readme-files/)
+
+</details>
 
 ##### Contact 
 
@@ -209,6 +286,13 @@ The page consists of two sections, an information section and a map section. The
 The map section consists of a heading that has a green background and a fully interactive google map underneath it. The google map is added using an iframe element and an embedded code. 
 
 This page is fully responsive and displays the information box in a column on smaller screens and in a row on larger screens through the use of media queries and flex direction. Each of these boxes use a responsive unit of measurement until they reach a maximum size. The map is also responsive and uses responsive units of measurements until that also reaches a maximum size.
+
+<details>
+<summary>Header</summary>
+
+![Header](assets/readme-files/)
+
+</details>
 
 ##### Features To Be Added in The Future
 

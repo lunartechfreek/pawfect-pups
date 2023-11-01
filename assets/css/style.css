@@ -190,6 +190,11 @@ main {
     margin-top: 30px;
 }
 
+#slogan h3 {
+    text-align: center;
+    margin: 10px 20px;
+}
+
 #welcome-quote {
     background-color: rgba(99, 180, 45, 0.4);
     padding: 10px 15px;
@@ -823,13 +828,17 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Main */
+    /* Home */
     #home-hero {
         background: url("../images/home-hero-pawfect-pups.webp") no-repeat 26% 80%/115%;
     }
 
     #welcome h2 {
         font-size: 250%;
+    }
+
+    #slogan h3 {
+        font-size: 130%;
     }
 
     #head-over-to {
