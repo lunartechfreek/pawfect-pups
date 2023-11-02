@@ -534,6 +534,8 @@ Since deploying the website through github pages and through the help of family 
 * iPad Pro
 * iPad Air
 
+#### Device Testing
+
 As well as testing on real world devices i wanted to test on other devices that i could not access. For this i used [BrowserStack](https://www.browserstack.com/). I tested the the website on various mobile and tablet devices, and also various mobile browsers on these devices. See some examples below:
 
 <details>
@@ -560,6 +562,8 @@ As well as testing on real world devices i wanted to test on other devices that 
 ![Motorola Screenshot](assets/readme-files/moto-g71.png)
 
 </details>
+
+#### Browser Testing
 
 I had already tested the site on Chrome and Safari with no issues, but i also used BrowserStack to test my website on other browsers such as Microsoft Edge, Firefox and Opera. Screenshots of these are included below:
 
@@ -593,3 +597,44 @@ I had already tested the site on Chrome and Safari with no issues, but i also us
 ![Opera Screenshot](assets/readme-files/browser-opera.png)
 
 </details>
+
+#### Element Testing
+
+I performed manual tests on all the interactive elements that appear on every page. The results were as follows:
+
+##### Header
+
+* Responsive design changing the header navigation between a navigation bar and hamburger menu through use of media queries and hiding the one not in use.
+
+* Hamburger icon opens menu and re-clicking closes it.
+
+* Active class on mobile of underline works on the page the urer is currently on.
+
+* Active class on desktop navigation bar turns the link of the current page dark green so the user knows what page they are currently on.
+
+* Hover psuedo class on desktop navigation links turn them light green when hovered over and cursor changes to pointer.
+
+##### Footer
+
+* Footer links have hover psuedo class applied to them to change colour when hovered over.
+
+* Footer links open link in new tab.
+
+##### Home Page
+
+* Hover psuedo class applied on the large links on the head over to section change the overlay colour to dark green and the font to orange when hovered over.
+
+##### Booking
+
+* Form inputs have required applied to them where neccessary.
+
+* Form checkboxes, submit and reset inputs all have a hover psuedo class applied to them to make them change colour when hovered over. The cursor also changes to a pointer.
+
+* Form checkboxes also have a checked style applied to them so that they change colour when they have been checked.
+
+* When the form has been completed and the submit button pressed it will take you to a new page.
+
+##### Contact
+
+* The map is embedded correctly and is fully interactive.
+
