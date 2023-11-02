@@ -606,17 +606,31 @@ I performed manual tests on all the interactive elements that appear on every pa
 
 * Responsive design changing the header navigation between a navigation bar and hamburger menu through use of media queries and hiding the one not in use.
 
+![Mobile Header](assets/readme-files/element-mobile-header.png)
+
+![Desktop Header](assets/readme-files/element-desktop-header.png)
+
 * Hamburger icon opens menu and re-clicking closes it.
+
+![Hamburger Menu](assets/readme-files/element-menu.png)
 
 * Active class on mobile of underline works on the page the urer is currently on.
 
+![Mobile Active Class](assets/readme-files/element-mobile-active.png)
+
 * Active class on desktop navigation bar turns the link of the current page dark green so the user knows what page they are currently on.
 
+![Desktop Active Class](assets/readme-files/element-nav-active.png)
+
 * Hover psuedo class on desktop navigation links turn them light green when hovered over and cursor changes to pointer.
+
+![Navigation Bar Hover](assets/readme-files/element-nav-hover.png)
 
 ##### Footer
 
 * Footer links have hover psuedo class applied to them to change colour when hovered over.
+
+![Footer Hover](assets/readme-files/element-footer-hover.png)
 
 * Footer links open link in new tab.
 
@@ -624,13 +638,21 @@ I performed manual tests on all the interactive elements that appear on every pa
 
 * Hover psuedo class applied on the large links on the head over to section change the overlay colour to dark green and the font to orange when hovered over.
 
+![Head Over To Section Hover](assets/readme-files/element-head-over-hover.png)
+
 ##### Booking
 
 * Form inputs have required applied to them where neccessary.
 
+![Form Required Input](assets/readme-files/element-form-required.png)
+
 * Form checkboxes, submit and reset inputs all have a hover psuedo class applied to them to make them change colour when hovered over. The cursor also changes to a pointer.
 
+![Form Hover](assets/readme-files/element-form-hover.png)
+
 * Form checkboxes also have a checked style applied to them so that they change colour when they have been checked.
+
+![Form Checkbox Checked](assets/readme-files/element-form-checked.png)
 
 * When the form has been completed and the submit button pressed it will take you to a new page.
 
@@ -638,3 +660,4 @@ I performed manual tests on all the interactive elements that appear on every pa
 
 * The map is embedded correctly and is fully interactive.
 
+![Interactive Google Map](assets/readme-files/element-map.png)
