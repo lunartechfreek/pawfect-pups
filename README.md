@@ -661,8 +661,7 @@ I performed manual tests on all the interactive elements that appear on every pa
 * The map is embedded correctly and is fully interactive.
 
 ![Interactive Google Map](assets/readme-files/element-map.png)
-
-#### Automated Testing
+#### Automated Testing 
 
 To validate my HTML code i used the [W3C Markup Validation Service](https://validator.w3.org/). I ran each page through the validator one at a time. It is worth noting i encountered a repeat error message throughout the pages. This was because i used two `h1` elements because i didn't realise at the time that i had used a `h1` element in my header so this failed validation. I fixed this issue by changing all of my other headings on the main body of the page by +1. The results of each page before and after fixing plus details of how i fixed the issues were as follows:
 
@@ -672,6 +671,8 @@ To validate my HTML code i used the [W3C Markup Validation Service](https://vali
 The only issues on the home page were the common issue i found due to incorrectly numbering heading elements and were fixed using the above explanation.
 
 ![Home Page Validation](assets/readme-files/w3c-index.png)
+
+<hr>
 
 ![Home Page Fixed Validation](assets/readme-files/w3c-index-fixed.png)
 
@@ -684,6 +685,8 @@ The only issues on the about page were the common issue i found due to incorrect
 
 ![About Page Validation](assets/readme-files/w3c-about.png)
 
+<hr>
+
 ![About Page Fixed Validation](assets/readme-files/w3c-about-fixed.png)
 
 </details>
@@ -694,6 +697,8 @@ The only issues on the about page were the common issue i found due to incorrect
 The only issues on the classes page were the common issue i found due to incorrectly numbering heading elements and were fixed using the above explanation.
 
 ![Classes Page Validation](assets/readme-files/w3c-classes.png)
+
+<hr>
 
 ![Classes Page Fixed Validation](assets/readme-files/w3c-classes-fixed.png)
 
@@ -706,6 +711,8 @@ The only issues on the booking page were the common issue i found due to incorre
 
 ![Booking Page Validation](assets/readme-files/w3c-booking.png)
 
+<hr>
+
 ![Booking Page Fixed Validation](assets/readme-files/w3c-booking-fixed.png)
 
 </details>
@@ -716,6 +723,8 @@ The only issues on the booking page were the common issue i found due to incorre
 On the completed booking form page i found my common heading issue but also an issue regarding the button i had used. I had used a button and wrapped a anchor element around it to make it a link back to my home page. I did not realise this was invalid code. I first tried to instead wrap the anchor element inside of the button but this also did not pass validation. I chose to remove the button element completely and instead stlye the anchor element to look like a button. 
 
 ![Completed Booking Form Page Validation](assets/readme-files/w3c-completed-form.png)
+
+<hr>
 
 ![Completed Booking Form Page Fixed Validation](assets/readme-files/w3c-completed-form-fixed.png)
 
@@ -729,6 +738,8 @@ On the contact page i found my common heading issue but also found two new ones.
 The second issue i encountered was in my table containing the opening times. I had only used one row on the bottom of the table to state that we are closed on sundays so therefore didn't need an opening and closing time. To fix this i added a blank row which fixed the issue. 
 
 ![Classes Page Validation](assets/readme-files/w3c-contact.png)
+
+<hr>
 
 ![Classes Page Fixed Validation](assets/readme-files/w3c-contact-fixed.png)
 
