@@ -402,7 +402,7 @@ If this were a real company, the features I would add to the website in the futu
 
 * A review page where users can leave reviews and also read other users review.
 * A gallery page to display pictures.
-* A 404 page for wrong addresses typed into the address bar.
+* A custom 404 page for wrong addresses typed into the address bar.
 
 ### Bugs and Issues
 
@@ -438,6 +438,9 @@ The main languages I have used for this project are:
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
     - I used Chrome DevTools alot throughout my project. Mainly to constantly check the responsive design of my page was seamless. But also to see how things looked before writing the code into the IDE. I also used Chrome DevTools to run my lighthouse report. 
 
+- [BrowserStack](https://www.browserstack.com/)
+  - I used a free trial on BrowserStack to emmulate different devices and browsers to test my website on.
+
 - [Balsamiq](https://balsamiq.com/)
     - Balsamiq was the software i used to create my wireframes. 
 
@@ -450,3 +453,87 @@ The main languages I have used for this project are:
 - [Am I Responsive?](https://ui.dev/amiresponsive)
     - Am I Responsive? was used to generate imagery of the responsive design used throughout the website. 
 
+### Testing
+
+#### User Story Testing 
+
+This site has been designed with the aim to achieve all user goals. These are broken down as follows:
+
+##### External - New User Goals
+
+* As a new user i want to, find a good dog trainer.
+  * Slogan featured on home page stating that the company are the best local dog trainers.
+
+* As a new user i want to, find a suitable training class.
+  * The classes page showcases the broad selection of classes available.
+
+* As a new user i want to, navigate the site with ease.
+  * There is a fixed navigation bar or hamburger menu always available at the top of the screen for easy navigation.
+
+* As a new user i want to, use a well layed out and visually appealing website.
+  * Layed out in a hierarchical tree structure for a familiar feel and easy navigation. Vibrant colour palette chosen using [Coolers](https://coolors.co/) with the specific company in mind to create an image that compliments the company.
+
+
+* As a new user i want to, easily find relevant information.
+  * All links in the navigation bar are named in accordance to their content displayed on them to make for a easy navigation.
+
+* As a new user i want to, see pictures of the training they offer.
+  * Hero image on home page of one of our trainers with a dog so its the first thing the user will see upon the first visit of the page. Also a trainers section with pictures of trainers in action on the about page, and also the classes page.
+
+* As a new user i want to, be able to find where they are located with ease.
+  * Address is on contact page and to make for an easier user experience a embedded google map on the same page. 
+
+##### External - Current User Goals
+
+* As a current user i want to, navigate the site with ease.
+  * There is a fixed navigation bar or hamburger menu always available at the top of the screen for easy navigation.
+
+* As a current user i want to, see that the website is updated regularly with any changed to the trainers, classes or the contact details.
+  * If this were to be a real website details would be update on a regular basis as needed. 
+
+##### Site Owner Goals
+
+* As the site owner i want to, build my business online.
+  * Created a site meeting all user goals. 
+
+* As the site owner I want to, show the full range of the services we offer.
+  * Dedicated classes page to showcase services available. 
+
+* As the site owner I want to, show the user our dog trainers.
+  * Trainers section introducing the trainers on the about page.
+
+* As the site owner I want to, provide a visually friendly user experience.
+  * Vibrant colour palette created using [Coolers](https://coolors.co/) with the specific company in mind to create an image that compliments the company.
+
+* As the site owner i want to, provide an easy to navigate website.
+  * On larger screens there is a navigation bar with all links always visable and fixed to the top of the screen. On smaller screens these links have been reduced to a hamburger menu which is clearly visible and always fixed at the top of the screen for easy access. 
+
+* As the site owner I want to, show the user photos from our training sessions.
+  * Photos of dog trainers in action on the home page as the hero image, and also in the trainers section on the about page.
+
+* As the site owner I want to, provide clear contact details and where to find us. 
+  * Address is located on the contact page with an iframe of an embedded google map below it to make the customers experience of finding us as easy as possible. 
+
+#### Manual Testing
+
+I did the majority of my testing using Chrome DevTools as I was creating the website. I found it best to test that the website was fully responsive as I went along and would fix any issue I found before moving on to the next page. I also used chromes built in device viewports frequently. This came in particularly handy when designing the website with a mobile first approach.
+
+I would then test the page on tablet viewports such as iPad Air and Surface Pro 2 and make any changes or add any media queries. Next I would change the viewport size to desktop and eventually 4k resolution making the necessary changes. After that I would start to look at the viewports on their side such as mobile and tablet. And finally I would set the viewport to responsive and manually adjust the size of it as I went to ensure the website would be fully responsive. I found this exceptionally useful as I found bugs in between the sizes of certain viewports which I would never have found without manually adjusting the viewport size.
+
+I deployed my website very early on to github pages whilst only the header and footer were complete. I did this to make sure that it was displayed as expected and if necessary this would have gave me the opportunity to fix these issues early on. Luckily I did not encounter any issues upon deployment.
+
+Once i had done this i was able to deploy it on a real phone so i tested it on my iphone 13 pro max regualarly. When doing this i encountered my bug mentioned in the Issues section where the text on the about page. 
+
+Since deploying the website through github pages and through the help of family and friends I have been able to deploy my site on a variety of devices including:
+
+
+* Iphone 13 Pro Max
+* Iphone 14 Pro
+* Iphone 15 Pro Max
+* Galaxy S22 ultra
+* iPad Pro
+* iPad Air
+
+As well as testing on real world devices i wanted to test on other devices that i could not access. For this i used [BrowserStack](https://www.browserstack.com/). I tested the the website on various mobile and tablet devices, and also various mobile browsers on these devices. See some examples below:
+
+I had already tested the site on Chrome and Safari with no issues, but i also used BrowserStack to test my website on other browsers such as Microsoft Edge, Firefox and Opera. Screenshots of these are included below:
