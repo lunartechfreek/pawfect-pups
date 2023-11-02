@@ -537,3 +537,34 @@ Since deploying the website through github pages and through the help of family 
 As well as testing on real world devices i wanted to test on other devices that i could not access. For this i used [BrowserStack](https://www.browserstack.com/). I tested the the website on various mobile and tablet devices, and also various mobile browsers on these devices. See some examples below:
 
 I had already tested the site on Chrome and Safari with no issues, but i also used BrowserStack to test my website on other browsers such as Microsoft Edge, Firefox and Opera. Screenshots of these are included below:
+
+<details>
+<summary>Chrome Test</summary>
+
+![Chrome Screenshot](assets/readme-files/browser-chrome.png)
+
+</details>
+<details>
+<summary>Safari Test</summary>
+
+![Safari Screenshot](assets/readme-files/browser-safari.png)
+
+</details>
+<details>
+<summary>Microsoft Edge Test</summary>
+
+![Microsoft Edge Screenshot](assets/readme-files/browser-edge.png)
+
+</details>
+<details>
+<summary>Firefox Test</summary>
+
+![Firefox Screenshot](assets/readme-files/browser-firefox.png)
+
+</details>
+<details>
+<summary>Opera Test</summary>
+
+![Opera Screenshot](assets/readme-files/browser-opera.png)
+
+</details>
