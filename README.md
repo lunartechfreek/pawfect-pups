@@ -794,6 +794,7 @@ With this being a fictional website i wrote all of content throughout the pages 
 * Images were resized using [BeFunky](https://www.befunky.com/).
 * Images were compressed and converted using [TinyPNG](https://tinypng.com/).
 * Icons were sourced from [Font Awesome](https://fontawesome.com/).
+* Favicon was sourced from [FontIcon](https://gauger.io/fonticon/)
 
 ### Design and Development 
 
