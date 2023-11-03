@@ -677,7 +677,8 @@ table {
 
 iframe {
     width: 80vw;
-    height: 60vw;  
+    height: 60vw;
+    border: 0;  
 }
 
 /* Footer */
