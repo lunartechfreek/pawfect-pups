@@ -790,28 +790,36 @@ With this being a fictional website i wrote all of content throughout the pages 
 
 ### Media 
 
-* All images used are sourced from [Pexels](https://www.pexels.com/)
-* Images were resized using [BeFunky](https://www.befunky.com/)
-* Images were compressed and converted using [TinyPNG](https://tinypng.com/)
-* Icons were sourced from [Font Awesome](https://fontawesome.com/)
+* All images used are sourced from [Pexels](https://www.pexels.com/).
+* Images were resized using [BeFunky](https://www.befunky.com/).
+* Images were compressed and converted using [TinyPNG](https://tinypng.com/).
+* Icons were sourced from [Font Awesome](https://fontawesome.com/).
 
 ### Design and Development 
 
-* To create the wireframes i used [Balsamiq](https://balsamiq.com/)
-* To create my colour scheme i used [Coolers](https://coolors.co/)
-* To find out which colours had a good contrast for use in setting font and background colours i used [Contrast Grid Eight Shapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23ff9301%0D%0A%2363b42d%0D%0A%2334623f%0D%0A%23001524%0D%0A%23f7f7f7&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
+* To create the wireframes i used [Balsamiq](https://balsamiq.com/).
+* To create my colour scheme i used [Coolers](https://coolors.co/).
+* To find out which colours had a good contrast for use in setting font and background colours i used [Contrast Grid Eight Shapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23ff9301%0D%0A%2363b42d%0D%0A%2334623f%0D%0A%23001524%0D%0A%23f7f7f7&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp).
 * I used fonts from [Google Fonts](https://fonts.google.com/)
-* To create the screenshot preview i used [Am I Responsive?](https://ui.dev/amiresponsive)
+* To create the screenshot preview i used [Am I Responsive?](https://ui.dev/amiresponsive).
 * I found a good font to pair with my chosen font at [Designerly](https://designerly.com/best-font-pairings/#:~:text=BioRhyme%20works%20best%20for%20headings,Montserrat%2C%20Crimson%20Text%20and%20Eczar.
-)
-* For the embedded map i used [Google Maps](https://www.google.com/maps/@53.0953859,-2.4799912,14z?entry=ttu)
-* I tested my page on different browsers and devices using [BrowserStack](https://www.browserstack.com/)
+).
+* For the embedded map i used [Google Maps](https://www.google.com/maps/@53.0953859,-2.4799912,14z?entry=ttu).
+* I tested my page on different browsers and devices using [BrowserStack](https://www.browserstack.com/).
 
 ### Code
 
-* To validate my code i used the [W3C Validator](https://validator.w3.org/#validate_by_input)
-* To validate my CSS i used [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
-* I learned how to create an overlay effect with `background-blend-mode` on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode)
-* I learned how to use the `object-fit` property on my images on [W3 Schools](https://www.w3schools.com/css/css3_object-fit.asp#:~:text=object%2Dfit%20Property-,The%20CSS%20object%2Dfit%20property%20is%20used%20to%20specify%20how,as%20much%20space%20as%20possible%22.)
-* I learned how to use the `object-position` property on [W3 Schools](https://www.w3schools.com/css/css3_object-position.asp)
-* I learned many aspects of coding and properties by using trial and error and also suggested properties on [Chrome DevTools](https://developer.chrome.com/docs/devtools/#:~:text=Chrome%20DevTools%20is%20a%20set,Open%20Chrome%20DevTools)
+* To validate my code i used the [W3C Validator](https://validator.w3.org/#validate_by_input).
+* To validate my CSS i used [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/).
+* I learned how to create an overlay effect with `background-blend-mode` on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode).
+* I learned how to use the `object-fit` property on my images on [W3 Schools](https://www.w3schools.com/css/css3_object-fit.asp#:~:text=object%2Dfit%20Property-,The%20CSS%20object%2Dfit%20property%20is%20used%20to%20specify%20how,as%20much%20space%20as%20possible%22.).
+* I learned how to use the `object-position` property on [W3 Schools](https://www.w3schools.com/css/css3_object-position.asp).
+* I learned many aspects of coding and properties by using trial and error and also suggested properties on [Chrome DevTools](https://developer.chrome.com/docs/devtools/#:~:text=Chrome%20DevTools%20is%20a%20set,Open%20Chrome%20DevTools).
+
+### Other Mentions
+
+* I learned all of the skills used in my project through my Software Developer Course with the [Code Institute](https://codeinstitute.net).
+* I learned many features used during my Coders Coffeehouse and Love Running walkthrough projects.
+* I found inspiration for my website and also the format and content needed in my README file from [Julia Wagners Furry Friends Project](https://github.com/Julia-Wagner/furry-friends)
+* I found inspiration for my navigation bar and also for the structure and content needed for my README file from [Irishbecky91 Survival Guild Project](https://github.com/Irishbecky91/survival-guild/)
+
