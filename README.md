@@ -775,5 +775,43 @@ This project was developed using the [Codeanywhere](https://app.codeanywhere.com
 2. Locate the Github repository.
 3. Click the setting tab located at the top of the repository. 
 4. Scroll down and click pages on the left hand side.
-5. Underneath where it says source select main branch from the drop-down menu.
-6. After selecting this refresh the page and the link to the live website will appear. 
+5. Make sure to deploy from a branch and select main branch from the drop-down menu.
+6. Click save.
+7. Finally refresh the page and the link to the live website will appear. 
+
+## Credits
+
+### Content
+
+With this being a fictional website i wrote all of content throughout the pages myself. I did use other dog training websites for inspiration and adapted some of the content. The websites I used for inspiratin were:
+
+* [Dog Academy](https://dogacademy.org/in-person-dog-training/new-jersey/blackwells-mills?ux=8&utm_source=DACitiesGoogle&utm_medium=Search&utm_campaign=BlackwellsMillsNJT4&utm_term=dog%20training%20near%20me&utm_content=BlackwellsMillsGeneral&gclid=Cj0KCQjwsp6pBhCfARIsAD3GZuYVE6IjZmeqWGGliAyJD_8jwBulT9nGWlIQ9YJuuwyNoLwHKAd_I5gaArreEALw_wcB)
+* [Dig it Dogs](https://digitdogs.co.uk/)
+
+### Media 
+
+* All images used are sourced from [Pexels](https://www.pexels.com/)
+* Images were resized using [BeFunky](https://www.befunky.com/)
+* Images were compressed and converted using [TinyPNG](https://tinypng.com/)
+* Icons were sourced from [Font Awesome](https://fontawesome.com/)
+
+### Design and Development 
+
+* To create the wireframes i used [Balsamiq](https://balsamiq.com/)
+* To create my colour scheme i used [Coolers](https://coolors.co/)
+* To find out which colours had a good contrast for use in setting font and background colours i used [Contrast Grid Eight Shapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23ff9301%0D%0A%2363b42d%0D%0A%2334623f%0D%0A%23001524%0D%0A%23f7f7f7&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
+* I used fonts from [Google Fonts](https://fonts.google.com/)
+* To create the screenshot preview i used [Am I Responsive?](https://ui.dev/amiresponsive)
+* I found a good font to pair with my chosen font at [Designerly](https://designerly.com/best-font-pairings/#:~:text=BioRhyme%20works%20best%20for%20headings,Montserrat%2C%20Crimson%20Text%20and%20Eczar.
+)
+* For the embedded map i used [Google Maps](https://www.google.com/maps/@53.0953859,-2.4799912,14z?entry=ttu)
+* I tested my page on different browsers and devices using [BrowserStack](https://www.browserstack.com/)
+
+### Code
+
+* To validate my code i used the [W3C Validator](https://validator.w3.org/#validate_by_input)
+* To validate my CSS i used [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+* I learned how to create an overlay effect with `background-blend-mode` on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode)
+* I learned how to use the `object-fit` property on my images on [W3 Schools](https://www.w3schools.com/css/css3_object-fit.asp#:~:text=object%2Dfit%20Property-,The%20CSS%20object%2Dfit%20property%20is%20used%20to%20specify%20how,as%20much%20space%20as%20possible%22.)
+* I learned how to use the `object-position` property on [W3 Schools](https://www.w3schools.com/css/css3_object-position.asp)
+* I learned many aspects of coding and properties by using trial and error and also suggested properties on [Chrome DevTools](https://developer.chrome.com/docs/devtools/#:~:text=Chrome%20DevTools%20is%20a%20set,Open%20Chrome%20DevTools)
