@@ -463,6 +463,8 @@ The main languages I have used for this project are:
 
 ## Testing
 
+To view all testing, please visit the [TESTING.md](TESTING.md) file.
+
 ### User Story Testing
 
 This site has been designed with the aim to achieve all user goals. These are broken down as follows:
