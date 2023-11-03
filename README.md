@@ -834,3 +834,10 @@ With this being a fictional website i wrote all of content throughout the pages 
 * I found inspiration for my website and also the format and content needed in my README file from [Julia Wagners Furry Friends Project](https://github.com/Julia-Wagner/furry-friends)
 * I found inspiration for my navigation bar and also for the structure and content needed for my README file from [Irishbecky91 Survival Guild Project](https://github.com/Irishbecky91/survival-guild/)
 
+## Acknowledgements
+
+* I would like to thank my family and friends for their support and help testing my website.
+
+* I would like to thank my mentor Seun for her help and guidance throughout this project.
+
+* I would like to thank my fellow classmates on Slack for their help.
