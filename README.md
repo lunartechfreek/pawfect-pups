@@ -272,7 +272,7 @@ Each page on the site has some general features that remain consistant throughou
 
 The top section of the page features a page title, a slogan, a quotation box and a paragraph explaining a bit about our company. All of these use a responsive unit of measurement to increase in size as the screen does and font sizes are adjusted through media queries where necessary.
 
-At the bottom of the page we have three images of dogs that are clickable links to different pages on the site. I used an overlay on the images to further increase accessibility with the contrast of the font. Each of these has a hover pseudo class applied so when you hover over the text it turns orange and the cursor turns into a pointer. Being a responsive website I have displayed these in a column on smaller screen sizes and in a row on larger screens. I did this by using a flex-box and changing the direction through a media query.
+At the bottom of the page we have three images of dogs that are clickable links to different pages on the site. I used an `background-blend-mode` rule on the images to further increase accessibility with the contrast of the font. Each of these has a hover pseudo class applied so when you hover over the text it turns orange and the cursor turns into a pointer. Being a responsive website I have displayed these in a column on smaller screen sizes and in a row on larger screens. I did this by using a flex-box and changing the direction through a media query.
 
 <details>
 <summary>Mobile Home Page</summary>
