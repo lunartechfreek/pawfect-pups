@@ -1,6 +1,6 @@
 # Pawfect Pups
 
-![Pawfect Pups Preview Image](assets/readme-files/pawfect-pups-preview.png)
+![Pawfect Pups Preview Image](assets/readme-files/preview.png)
 
 [Click here to view the live project](https://lunartechfreek.github.io/pawfect-pups/contact.html)
 
