@@ -311,7 +311,7 @@ With this page being fully responsive the trainers section is aligned as a colum
 
 ##### Classes
 
-This page consists of four boxes with each of these boxes representing a different class the company offers. Each box is styled with an orange background with border radius applied to the edges. Each box contains an image of a dog and a green text box styled with my box-shadow class. These elements are arranged in the box through flex-box. 
+This page consists of four boxes with each of these boxes representing a different class the company offers. Each box is styled with an orange background with border radius applied to the edges. Each box contains an image of a dog and a green text box styled with my box-shadow class. These elements are arranged in the box through flex-box.
 
 The page is fully responsive and the boxes are displayed in a column on smaller screen sizes and are displayed in two rows of two on larger screen sizes. I did this through the use of a flex box. All of the elements are responsive through the use of media queries or responsive units of measurement.
 
@@ -328,12 +328,11 @@ The page is fully responsive and the boxes are displayed in a column on smaller 
 
 </details>
 
+##### Booking
 
-##### Booking 
+This page consists of a form and an aside element containing a guide to how the booking process works. The form contains a variety of inputs and has four checkboxes styled in css. The are styled dark green to contrast the orange background of the form. The each have a hover pseudo class applied to them to change colour as you hover over them and the cursor will change to a pointer. They also change colour when they have been checked. At the bottom of the form there is a submit and reset button.
 
-This page consists of a form and an aside element containing a guide to how the booking process works. The form contains a variety of inputs and has four checkboxes styled in css. The are styled dark green to contrast the orange background of the form. The each have a hover pseudo class applied to them to change colour as you hover over them and the cursor will change to a pointer. They also change colour when they have been checked. At the bottom of the form there is a submit and reset button. 
-
-The aside element contains a heading followed by the three steps of the booking process. Each of these steps contains a large icon displayed above a description. The steps is displayed in a column through use of a flex box. 
+The aside element contains a heading followed by the three steps of the booking process. Each of these steps contains a large icon displayed above a description. The steps is displayed in a column through use of a flex box.
 
 This page is fully responsive and contains the aside element underneath the form on smaller screens and displays it at the side of the form on larger screens through use of media queries and flex. All of the elements are responsive through use of media queries or responsive units of measurement.
 
@@ -352,9 +351,9 @@ This page is fully responsive and contains the aside element underneath the form
 
 </details>
 
-##### Completed Form 
+##### Completed Form
 
-This page is the page you are directed to after completed the form. It is very simplistic and features a section explaining what happens next that consists of a heading and a paragraph. Underneath that is a link that has been styled in a similar way to the other links using CSS that takes you back to the home page. Although the navigation bar is always there I added this feature in to further increase navigation for the user. I have added a hover class to this link so it changes colour when hovered over and also the cursor will change to a pointer. 
+This page is the page you are directed to after completed the form. It is very simplistic and features a section explaining what happens next that consists of a heading and a paragraph. Underneath that is a link that has been styled in a similar way to the other links using CSS that takes you back to the home page. Although the navigation bar is always there I added this feature in to further increase navigation for the user. I have added a hover class to this link so it changes colour when hovered over and also the cursor will change to a pointer.
 
 This page is fully responsive through the use of media queries to increase the font size and adjust the margin.
 
@@ -371,11 +370,11 @@ This page is fully responsive through the use of media queries to increase the f
 
 </details>
 
-##### Contact 
+##### Contact
 
-The page consists of two sections, an information section and a map section. The Information section consists of two boxes. One containing the contact information and the other containing the business opening times. Both these boxes are styled orange and have my border-shadow class applied to them. 
+The page consists of two sections, an information section and a map section. The Information section consists of two boxes. One containing the contact information and the other containing the business opening times. Both these boxes are styled orange and have my border-shadow class applied to them.
 
-The map section consists of a heading that has a green background and a fully interactive google map underneath it. The google map is added using an iframe element and an embedded code. 
+The map section consists of a heading that has a green background and a fully interactive google map underneath it. The google map is added using an iframe element and an embedded code.
 
 This page is fully responsive and displays the information box in a column on smaller screens and in a row on larger screens through the use of media queries and flex direction. Each of these boxes use a responsive unit of measurement until they reach a maximum size. The map is also responsive and uses responsive units of measurements until that also reaches a maximum size.
 
@@ -412,7 +411,7 @@ If this were a real company, the features I would add to the website in the futu
 
 * I encountered issues with screen sizes between 340px-360px on my map section heading and elements on my contact page. On the map section heading the text flowed onto two lines making the green background box have a lot of spare space and unappealing to the user. And my heading, list and table elements in the two information boxes were not displaying correctly with the font size set. This was fixed by creating a media queries and targeting the elements between this size.
 
-* Another issue encountered was accidentally targeting my footer icons. When I was creating my contact page I set the font size of the icons in the how to guide fairly large. This then targeted my footer icons also. This is because when I was targeting the footer icons previously, I just targeted all `i` elements. I then did the same when targeting my `i` elements in my how to guide. I fixed this by changing the DOM selector in the how to guide to only `i` elements that were children of the div containing the how to guide.
+* Another issue encountered was accidentally targeting my footer icons. When I was creating my contact page I set the font size of the icons in the how to guide fairly large. This then targeted my footer icons also. This is because when I was targeting the footer icons previously, I just targeted all `<i>` elements. I then did the same when targeting my `<i>` elements in my how to guide. I fixed this by changing the DOM selector in the how to guide to only `<i>` elements that were children of the div containing the how to guide.
 
 ### Technologies
 
@@ -424,19 +423,19 @@ The main languages I have used for this project are:
 
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-#### Programmes, Tools and Libraries Used 
+#### Programmes, Tools and Libraries Used
 
 - [Codeanywhere](https://app.codeanywhere.com/)
-    - Codeanwhere is the IDE that i used to write my code with. 
+    - Codeanwhere is the IDE that i used to write my code with.
 
 - [Github](https://github.com/)
-    - Github is what i used to store my code repository on. 
+    - Github is what i used to store my code repository on.
 
 - [Github Pages](https://pages.github.com/)
-    - Github pages was used to deploy my project as a live website from the code stored in the repository. 
+    - Github pages was used to deploy my project as a live website from the code stored in the repository.
 
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    - I used Chrome DevTools alot throughout my project. Mainly to constantly check the responsive design of my page was seamless. But also to see how things looked before writing the code into the IDE. I also used Chrome DevTools to run my lighthouse report. 
+    - I used Chrome DevTools alot throughout my project. Mainly to constantly check the responsive design of my page was seamless. But also to see how things looked before writing the code into the IDE. I also used Chrome DevTools to run my lighthouse report.
 
 - [BrowserStack](https://www.browserstack.com/)
   - I used a free trial on BrowserStack to emmulate different devices and browsers to test my website on.
@@ -451,11 +450,11 @@ The main languages I have used for this project are:
     - I used Font Awesome to import the icons i have used into the webpage
 
 - [Am I Responsive?](https://ui.dev/amiresponsive)
-    - Am I Responsive? was used to generate imagery of the responsive design used throughout the website. 
+    - Am I Responsive? was used to generate imagery of the responsive design used throughout the website.
 
 ### Testing
 
-#### User Story Testing 
+#### User Story Testing
 
 This site has been designed with the aim to achieve all user goals. These are broken down as follows:
 
@@ -481,7 +480,7 @@ This site has been designed with the aim to achieve all user goals. These are br
   * Hero image on home page of one of our trainers with a dog so its the first thing the user will see upon the first visit of the page. Also a trainers section with pictures of trainers in action on the about page, and also the classes page.
 
 * As a new user i want to, be able to find where they are located with ease.
-  * Address is on contact page and to make for an easier user experience a embedded google map on the same page. 
+  * Address is on contact page and to make for an easier user experience a embedded google map on the same page.
 
 ##### External - Current User Goals
 
@@ -489,15 +488,15 @@ This site has been designed with the aim to achieve all user goals. These are br
   * There is a fixed navigation bar or hamburger menu always available at the top of the screen for easy navigation.
 
 * As a current user i want to, see that the website is updated regularly with any changed to the trainers, classes or the contact details.
-  * If this were to be a real website details would be update on a regular basis as needed. 
+  * If this were to be a real website details would be update on a regular basis as needed.
 
 ##### Site Owner Goals
 
 * As the site owner i want to, build my business online.
-  * Created a site meeting all user goals. 
+  * Created a site meeting all user goals.
 
 * As the site owner I want to, show the full range of the services we offer.
-  * Dedicated classes page to showcase services available. 
+  * Dedicated classes page to showcase services available.
 
 * As the site owner I want to, show the user our dog trainers.
   * Trainers section introducing the trainers on the about page.
@@ -506,7 +505,7 @@ This site has been designed with the aim to achieve all user goals. These are br
   * Vibrant colour palette created using [Coolers](https://coolors.co/) with the specific company in mind to create an image that compliments the company.
 
 * As the site owner i want to, provide an easy to navigate website.
-  * On larger screens there is a navigation bar with all links always visable and fixed to the top of the screen. On smaller screens these links have been reduced to a hamburger menu which is clearly visible and always fixed at the top of the screen for easy access. 
+  * On larger screens there is a navigation bar with all links always visable and fixed to the top of the screen. On smaller screens these links have been reduced to a hamburger menu which is clearly visible and always fixed at the top of the screen for easy access.
 
 * As the site owner I want to, show the user photos from our training sessions.
   * Photos of dog trainers in action on the home page as the hero image, and also in the trainers section on the about page.
@@ -522,7 +521,7 @@ I would then test the page on tablet viewports such as iPad Air and Surface Pro 
 
 I deployed my website very early on to github pages whilst only the header and footer were complete. I did this to make sure that it was displayed as expected and if necessary this would have gave me the opportunity to fix these issues early on. Luckily I did not encounter any issues upon deployment.
 
-Once i had done this i was able to deploy it on a real phone so i tested it on my iphone 13 pro max regualarly. When doing this i encountered my bug mentioned in the Issues section where the text on the about page. 
+Once i had done this i was able to deploy it on a real phone so i tested it on my iphone 13 pro max regualarly. When doing this i encountered my bug mentioned in the Issues section where the text on the about page.
 
 Since deploying the website through github pages and through the help of family and friends I have been able to deploy my site on a variety of devices including:
 
@@ -661,7 +660,10 @@ I performed manual tests on all the interactive elements that appear on every pa
 * The map is embedded correctly and is fully interactive.
 
 ![Interactive Google Map](assets/readme-files/element-map.png)
-#### Automated Testing 
+
+#### Automated Testing
+
+##### HTMl Validation
 
 To validate my HTML code i used the [W3C Markup Validation Service](https://validator.w3.org/). I ran each page through the validator one at a time. It is worth noting i encountered a repeat error message throughout the pages. This was because i used two `h1` elements because i didn't realise at the time that i had used a `h1` element in my header so this failed validation. I fixed this issue by changing all of my other headings on the main body of the page by +1. The results of each page before and after fixing plus details of how i fixed the issues were as follows:
 
@@ -720,7 +722,7 @@ The only issues on the booking page were the common issue i found due to incorre
 <details>
 <summary>Completed Booking Form Page</summary>
 
-On the completed booking form page i found my common heading issue but also an issue regarding the button i had used. I had used a button and wrapped a anchor element around it to make it a link back to my home page. I did not realise this was invalid code. I first tried to instead wrap the anchor element inside of the button but this also did not pass validation. I chose to remove the button element completely and instead stlye the anchor element to look like a button. 
+On the completed booking form page i found my common heading issue but also an issue regarding the button i had used. I had used a button and wrapped a anchor element around it to make it a link back to my home page. I did not realise this was invalid code. I first tried to instead wrap the anchor element inside of the button but this also did not pass validation. I chose to remove the button element completely and instead stlye the anchor element to look like a button.
 
 ![Completed Booking Form Page Validation](assets/readme-files/w3c-completed-form.png)
 
@@ -733,7 +735,7 @@ On the completed booking form page i found my common heading issue but also an i
 <details>
 <summary>Contact Page</summary>
 
-On the contact page i found my common heading issue but also found two new ones. I had used a `br` element in my in the info box to separate the contact details and the address. This failed the validation. To fix this i removed the `br` element and instead made an id on the second list element and added a margin to the bottom to push the other list items down. 
+On the contact page i found my common heading issue but also found two new ones. I had used a `<br>` element in my in the info box to separate the contact details and the address. This failed the validation. To fix this i removed the `<br>` element and instead made an id on the second list element and added a margin to the bottom to push the other list items down. 
 
 The second issue i encountered was in my table containing the opening times. I had only used one row on the bottom of the table to state that we are closed on sundays so therefore didn't need an opening and closing time. To fix this i added a blank row which fixed the issue. 
 
@@ -744,3 +746,22 @@ The second issue i encountered was in my table containing the opening times. I h
 ![Classes Page Fixed Validation](assets/readme-files/w3c-contact-fixed.png)
 
 </details>
+
+##### CSS Validator
+
+To validate my CSS code I used the jigsaw. I copied all of my CSS code into the direct input section of the validator. This passed the validation test first time with no issues. It did have one warning due to the imported google fonts but this was to be expected as it cannot validate an externally imported stylesheet.
+
+<details>
+<summary>CSS Stylesheet</summary>
+
+![CSS Stylesheet Validation](assets/readme-files/css-jigsaw.png)
+
+<hr>
+
+![CSS Stylesheet Warning](assets/readme-files/css-warning.png)
+
+</details>
+
+#### User Testing
+
+For my user tests I gathered help from my partner, my family and my friends and got them all to test the site on various devices and browsers to which they found no issues and all gave me positive feedback in regards to navigation, accessibility, and content.
