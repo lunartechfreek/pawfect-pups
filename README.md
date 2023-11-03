@@ -113,52 +113,73 @@ While developing the skeleton plane i created wireframes using [Balsamiq](https:
 
 I created the wireframes with a mobile first approach and designed wireframes for mobile, tablet, and desktop to ensure that the site will be fully responsive upon completion.
 
+#### Mobile Wireframes
+
+|Home|About|Classes|Booking|Completed form|Contact|
+| --- | --- | --- | --- | --- | --- |
+| ![Mobile Home Wireframe](docs/readme-files/mobile-home-wire.png)|![Mobile About Wireframe](docs/readme-files/mobile-about-wire.png) | ![Mobile Classes Wireframe](docs/readme-files/mobile-classes-wire.png) | ![Mobile Booking Wireframe](docs/readme-files/mobile-booking-wire.png) | ![Mobile Completed Booking Form Wireframe](docs/readme-files/mobile-completed-wire.png) | ![Mobile Contact Wireframe](docs/readme-files/mobile-contact-wire.png)
+
+
 <details>
-<summary>Mobile Wireframes</summary>
+<summary>Mobile Wireframes Enlarged</summary>
 
-[Mobile Home Wireframe](docs/readme-files/mobile-home-wire.png)
+![Mobile Home Wireframe](docs/readme-files/mobile-home-wire.png)
 
-[Mobile About Wireframe](docs/readme-files/mobile-about-wire.png)
+![Mobile About Wireframe](docs/readme-files/mobile-about-wire.png)
 
-[Mobile Classes Wireframe](docs/readme-files/mobile-classes-wire.png)
+![Mobile Classes Wireframe](docs/readme-files/mobile-classes-wire.png)
 
-[Mobile Booking Wireframe](docs/readme-files/mobile-booking-wire.png)
+![Mobile Booking Wireframe](docs/readme-files/mobile-booking-wire.png)
 
-[Mobile Completed Booking Form Wireframe](docs/readme-files/mobile-completed-wire.png)
+![Mobile Completed Booking Form Wireframe](docs/readme-files/mobile-completed-wire.png)
 
-[Mobile Contact Wireframe](docs/readme-files/mobile-contact-wire.png)
+![Mobile Contact Wireframe](docs/readme-files/mobile-contact-wire.png)
 
 </details>
+
+#### Tablet Wireframes
+
+|Home|About|Classes|Booking|Completed form|Contact|
+| --- | --- | --- | --- | --- | --- |
+| ![Tablet Home Wireframe](docs/readme-files/tablet-home-wire.png) | ![Tablet About Wireframe](docs/readme-files/tablet-about-wire.png) | ![Tablet Classes Wireframe](docs/readme-files/tablet-classes-wire.png) | ![Tablet Booking Wireframe](docs/readme-files/tablet-booking-wire.png) | ![Tablet Completed Booking Form Wireframe](docs/readme-files/tablet-completed-wire.png) | ![Tablet Contact Wireframe](docs/readme-files/tablet-contact-wire.png) |
+
 <details>
-<summary>Tablet Wireframes</summary>
+<summary>Tablet Wireframes Enlarged</summary>
 
-[Tablet Home Wireframe](docs/readme-files/tablet-home-wire.png)
+![Tablet Home Wireframe](docs/readme-files/tablet-home-wire.png)
 
-[Tablet About Wireframe](docs/readme-files/tablet-about-wire.png)
+![Tablet About Wireframe](docs/readme-files/tablet-about-wire.png)
 
-[Tablet Classes Wireframe](docs/readme-files/tablet-classes-wire.png)
+![Tablet Classes Wireframe](docs/readme-files/tablet-classes-wire.png)
 
-[Tablet Booking Wireframe](docs/readme-files/tablet-booking-wire.png)
+![Tablet Booking Wireframe](docs/readme-files/tablet-booking-wire.png)
 
-[Tablet Completed Booking Form Wireframe](docs/readme-files/tablet-completed-wire.png)
+![Tablet Completed Booking Form Wireframe](docs/readme-files/tablet-completed-wire.png)
 
-[Tablet Contact Wireframe](docs/readme-files/tablet-contact-wire.png)
+![Tablet Contact Wireframe](docs/readme-files/tablet-contact-wire.png)
 
 </details>
+
+#### Desktop Wireframes
+
+|Home|About|Classes|Booking|Completed form|Contact|
+| --- | --- | --- | --- | --- | --- |
+| ![Desktop Home Wireframe](docs/readme-files/desktop-home-wire.png) | ![Desktop About Wireframe](docs/readme-files/desktop-about-wire.png) | ![Desktop Classes Wireframe](docs/readme-files/desktop-classes-wire.png) | ![Desktop Booking Wireframe](docs/readme-files/desktop-booking-wire.png) | ![Desktop Completed Booking Form Wireframe](docs/readme-files/desktop-completed-wire.png) | ![Desktop Contact Wireframe](docs/readme-files/desktop-contact-wire.png) |
+
 <details>
-<summary>Desktop Wireframes</summary>
+<summary>Desktop Wireframes Enlarged</summary>
 
-[Desktop Home Wireframe](docs/readme-files/desktop-home-wire.png)
+![Desktop Home Wireframe](docs/readme-files/desktop-home-wire.png)
 
-[Desktop About Wireframe](docs/readme-files/desktop-about-wire.png)
+![Desktop About Wireframe](docs/readme-files/desktop-about-wire.png)
 
-[Desktop Classes Wireframe](docs/readme-files/desktop-classes-wire.png)
+![Desktop Classes Wireframe](docs/readme-files/desktop-classes-wire.png)
 
-[Desktop Booking Wireframe](docs/readme-files/desktop-booking-wire.png)
+![Desktop Booking Wireframe](docs/readme-files/desktop-booking-wire.png)
 
-[Desktop Completed Booking Form Wireframe](docs/readme-files/desktop-completed-wire.png)
+![Desktop Completed Booking Form Wireframe](docs/readme-files/desktop-completed-wire.png)
 
-[Desktop Contact Wireframe](docs/readme-files/desktop-contact-wire.png)
+![Desktop Contact Wireframe](docs/readme-files/desktop-contact-wire.png)
 
 </details>
 
