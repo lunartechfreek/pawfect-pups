@@ -176,12 +176,19 @@ I chose a vibrant green to further convey a friendly and positive emotion. I opt
 
 I also chose a sea-salt white for the base colour of the page and a rich black for the font colour.
 
-I used [WebAIM](https://webaim.org/resources/contrastchecker/) to check the contrast of all my font colours against the background for accesability.
+I used [Contrast Grid Eight Shapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%2383a603%0D%0A%231b4001%0D%0A%23f0deb4%0D%0A%23f6f7eb%0D%0A%23001e1d&es-color-form__tile-size=regular&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) to check the contrast of all my font colours against the background for accesability.
 
 <details>
 <summary>Colour Palette</summary>
 
 ![Colour Palette](assets/readme-files/colour-palette.png)
+
+</details>
+
+<details>
+<summary>Contrast Grid</summary>
+
+![Contrast Grid](assets/readme-files/contrast-grid.png)
 
 </details>
 
