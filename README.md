@@ -1,10 +1,10 @@
 # Pawfect Pups
 
-![Pawfect Pups Preview Image](assets/readme-files/preview.png)
+![Pawfect Pups Preview Image](docs/readme-files/preview.png)
 
 [Click here to view the live project](https://lunartechfreek.github.io/pawfect-pups/contact.html)
 
-## Introduction
+## Introduction 
 
 Pawfect Pups is a fictional dog training company made for educational purposes as the first portfolio project for my diploma in software development that i am studying with the code intitute. This website is aimed at dog owners who would like to find a local dog training company.
 
@@ -183,7 +183,7 @@ I used [Contrast Grid Eight Shapes](https://contrast-grid.eightshapes.com/?versi
 <details>
 <summary>Colour Palette</summary>
 
-![Colour Palette](assets/readme-files/colour-palette.png)
+![Colour Palette](docs/readme-files/colour-palette.png)
 
 </details>
 
