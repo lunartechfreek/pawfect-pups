@@ -95,6 +95,7 @@ header a {
 /* Desktop Nav Bar */
 
 #desktop-nav-bar {
+    /* Not displayed on small screens */
     display: none;
     align-self: center;
     font-size: 1.7rem;
@@ -452,6 +453,8 @@ main {
     display: block;
 }
 
+/* Booking Form */
+
 form {
     background-color: rgba(255, 147, 1, 0.9);
     width: 90vw;
@@ -494,6 +497,8 @@ legend {
     margin-left: 10px;
 }
 
+/* Form Checkboxes */
+
 #checkbox-box div {
     display: flex;
     justify-content: start;
@@ -516,6 +521,7 @@ input[type="checkbox"] {
     font-size: 1.1rem;
 }
 
+/* Checkbox Checked  */
 input[type="checkbox"]:checked+label {
     background-color: #63B42D;
     color: #001524;
@@ -525,6 +531,8 @@ input[type="checkbox"]:checked+label {
     display: flex;
     justify-content: space-evenly;
 }
+
+/* Submit and reset buttons */
 
 .submit {
     margin-top: 20px;
@@ -543,6 +551,8 @@ input[type="checkbox"]:checked+label {
     border-radius: 10px;
     font-size: 1.1rem;
 }
+
+/* How to guide */
 
 aside {
     background-color: rgba(99, 180, 45, 0.9);
@@ -579,9 +589,13 @@ aside > div {
 
 /* Completed booking form */
 
+/* Hero Image */
+
 #completed-hero {
     background: url("../images/form-hero.webp") no-repeat center 35%/cover;
 }
+
+/* Completed info */
 
 #completed-text {
     text-align: center;
@@ -609,9 +623,13 @@ aside > div {
 
 /* Contact */
 
+/* Hero Image */
+
 #contact-hero {
     background: url("../images/contact-hero.webp") no-repeat 40% 100%/250%;
 }
+
+/* Info Section Boxes */
 
 .contact-box {
     text-align: center;
@@ -640,6 +658,8 @@ table {
     margin: 0 auto;
     font-size: 130%;
 }
+
+/* Map Section */
 
 #map {
     display: flex;
@@ -679,12 +699,14 @@ footer {
     color: #001524;
 }
 
-/* Media query: (360px and under) */
+/* Media query: To fix bug (360px and under) */
 @media screen and (max-width: 360px) {
+    /* General Main Styles */
     .page-title {
         font-size: 170%;
     }
 
+    /* Contact page */
     .contact-box h3 {
         font-size: 170%;
     }
@@ -700,7 +722,7 @@ footer {
 
 /* Media query: narrow screen size (340px and under) */
 @media screen and (max-width: 340px) {
-    /* Logo size stying */
+    /* Header */
     #logo h1 {
         font-size: 1.6em;
     }
@@ -709,7 +731,7 @@ footer {
         font-size: 1.6rem;
     }
 
-    /* Main */
+    /* General Main Styles */
     main {
         margin-top: 56px;
     }
@@ -776,12 +798,14 @@ footer {
 
 }
 
-/* Media query: (450px and up) */
+/* Media query: To fix issues between sizes (450px and up) */
 @media screen and (min-width: 450px) {
+    /* Contact */
     #contact-hero {
         background: url("../images/contact-hero.webp") no-repeat 40% 100%/170%;
     }
 
+    /* Classes */
     .classes-box {
         width: 390px;
     }
@@ -806,8 +830,9 @@ footer {
     }
 }
 
-/* Media query: (640px and up) */
+/* Media query: To fix issues between sizes (640px and up) */
 @media screen and (min-width: 640px) {
+    /* Contact */
     #contact-hero {
         background: url("../images/contact-hero.webp") no-repeat 40% 100%/145%;
     }
@@ -969,6 +994,7 @@ footer {
 
 /* Media query: horizontal phones (height 500px and under) */
 @media screen and (max-height: 500px) {
+    /* Hero Images */
     #home-hero {
         background: url("../images/home-hero-pawfect-pups.webp") no-repeat 40% 54%/115%;
     }
@@ -1007,14 +1033,17 @@ footer {
         font-size: 3em;
     }
 
+    /* To Hide Mobile Nav Bar */
     .nav-toggle-label {
         display: none;
     }
 
+    /* To Make Desktop Nav Bar Unhidden */
     #desktop-nav-bar {
         display: block;
     }
 
+    /* Active Class */
     .active {
         background-color: #34623F;
         color: #f7f7f7;
@@ -1022,6 +1051,7 @@ footer {
         border-radius: 10px;
     }
 
+    /* Hover Class */
     #desktop-nav-bar a:hover {
         color: #001524;
         background-color: #63B42D;
@@ -1086,6 +1116,7 @@ footer {
         gap: 60px;
     }
 
+    /* Trainers */
     #trainers {
         flex-direction: row;
         align-items: baseline;
@@ -1109,6 +1140,7 @@ footer {
         height: 330px;
     }
 
+    /* Benefits */
     .benefits-image-box {
         height: 400px;
         width: 400px;
@@ -1166,6 +1198,7 @@ footer {
         margin: 0 auto;
     }
 
+    /* Form */
     form {
         max-width: 500px;
         height: 850px;
@@ -1194,6 +1227,7 @@ footer {
     margin: 5px 10px;
     }
 
+    /* Checkboxes */
     #checkbox-box {
         margin-top: 10px;
     }
@@ -1206,6 +1240,7 @@ footer {
         font-size: 1.2rem;
     }
 
+    /* Submit and reset */
     .submit {
         font-size: 1.35rem;
     }
@@ -1214,6 +1249,7 @@ footer {
         font-size: 1.35rem;
     }
 
+    /* How to guide */
     aside {
         max-width: 360px;
         margin: 30px 0;
@@ -1229,6 +1265,7 @@ footer {
     font-size: 450%;
     }
 
+    /* Hover Classes */
     .checkbox-label:hover {
     background-color: #63B42D;
     color: #001524;
@@ -1263,6 +1300,7 @@ footer {
         font-size: 1.7rem;
     }
 
+    /* Hover Class */
     .link-button:hover {
     background-color: #ff9301;
     color: #001524;
