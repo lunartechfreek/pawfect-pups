@@ -176,6 +176,8 @@ I chose a vibrant green to further convey a friendly and positive emotion. I opt
 
 I also chose a sea-salt white for the base colour of the page and a rich black for the font colour.
 
+I converted some of the HEX colours used into RGBA to change the opacity of them for better accessibilty in certain sections. I converted the HEX colours to RGBA using [RGBA Colour Picker](https://rgbacolorpicker.com/hex-to-rgba).
+
 I used [Contrast Grid Eight Shapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%2383a603%0D%0A%231b4001%0D%0A%23f0deb4%0D%0A%23f6f7eb%0D%0A%23001e1d&es-color-form__tile-size=regular&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) to check the contrast of all my font colours against the background for accesability.
 
 <details>
@@ -808,6 +810,7 @@ With this being a fictional website i wrote all of content throughout the pages 
 * To create the wireframes i used [Balsamiq](https://balsamiq.com/).
 * To create my colour scheme i used [Coolers](https://coolors.co/).
 * To find out which colours had a good contrast for use in setting font and background colours i used [Contrast Grid Eight Shapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23ff9301%0D%0A%2363b42d%0D%0A%2334623f%0D%0A%23001524%0D%0A%23f7f7f7&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp).
+* To convert my HEX colours into RGBA i used [RGBA Colour Picker](https://rgbacolorpicker.com/hex-to-rgba).
 * I used fonts from [Google Fonts](https://fonts.google.com/)
 * To create the screenshot preview i used [Am I Responsive?](https://ui.dev/amiresponsive).
 * I found a good font to pair with my chosen font at [Designerly](https://designerly.com/best-font-pairings/#:~:text=BioRhyme%20works%20best%20for%20headings,Montserrat%2C%20Crimson%20Text%20and%20Eczar.
