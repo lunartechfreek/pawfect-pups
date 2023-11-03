@@ -49,11 +49,11 @@ The ideal users for this website will be:
 * As the site owner I want to, show the user photos from our training sessions.
 * As the site owner I want to, provide clear contact details and where to find us.
 
-### Devolpment Planes
+## Devolpment Planes
 
 Whilst planning the website the site owner will use the five development planes as a staple to accommodate to the user goals that are written above. These planes will be used to meet user demands and expectancies.
 
-#### Strategy
+### Strategy
 
 The website will be targeted at the following audience:
 
@@ -79,7 +79,7 @@ The website needs to enable the site owner to:
 * Provide clear contact details.
 * Provide clear location details.
 
-#### Scope
+### Scope
 
 While developing the scope plane we decide what requirements our website will need in regards to the user needs defined in the strategy plane and user stories.
 
@@ -103,11 +103,11 @@ The required functions of the website will need to include the following:
 * A page for after the form is completed with a 'back to home' button for easy navigation.
 * An iframe of google maps.
 
-#### Structure
+### Structure
 
 While developing the structure plane i decided that the best way to present this information would be in a hierarchical tree structure. This is because i feel it is a easy to navigate structure that is commonly found and the user will be used to using throughout other websites.
 
-#### Skeleton
+### Skeleton
 
 While developing the skeleton plane i created wireframes using [Balsamiq](https://balsamiq.com/).
 
@@ -162,9 +162,9 @@ I created the wireframes with a mobile first approach and designed wireframes fo
 
 </details>
 
-#### Design
+## Design
 
-##### Colour Palette
+### Colour Palette
 
 I decided on my colour palette using [Coolers](https://coolors.co/). I started off by finding a nice vibrant orange and then used the palette generator to find the other colours that complemented the orange.
 
@@ -185,23 +185,23 @@ I used [WebAIM](https://webaim.org/resources/contrastchecker/) to check the cont
 
 </details>
 
-##### Fonts
+### Fonts
 
 The fonts used throughout the website are BioRhyme and Montserrat. I imported these fonts by using [Google Fonts](https://fonts.google.com/). BioRhyme is used for all heading elements throughout the page. I chose this font because I felt like it portrayed a fun and playful emotion which suits the image the company is trying to perceive.
 
 I found the font pairing of Montserrat through an article on [Designerly](https://designerly.com/best-font-pairings/#:~:text=BioRhyme%20works%20best%20for%20headings,Montserrat%2C%20Crimson%20Text%20and%20Eczar.). I used a backup font of Sans-Serif incase there was a problem loading the other fonts.
 
-##### Imagery
+### Imagery
 
 The imagery used was all sourced from [Pexels](https://www.pexels.com/). I used Pexels because I found they had a good range of dog training photos and also a lot of photos using the same trainers. This helped me to use different pictures of the same people and help to create a realistic feel to the website even though the company is of course fictional.
 
 The images were then resized using [BeFunky](https://www.befunky.com/) which is an online image editor. I then compressed the images further using [TinyPNG](https://tinypng.com/).
 
-### Features
+## Features
 
-#### Design Features
+### Design Features
 
-##### General
+#### General
 
 Each page on the site has some general features that remain consistant throughout. These are:
 
@@ -259,7 +259,7 @@ Each page on the site has some general features that remain consistant throughou
 
 </details>
 
-##### Home
+#### Home
 
 The top section of the page features a page title, a slogan, a quotation box and a paragraph explaining a bit about our company. All of these use a responsive unit of measurement to increase in size as the screen does and font sizes are adjusted through media queries where necessary.
 
@@ -282,7 +282,7 @@ At the bottom of the page we have three images of dogs that are clickable links 
 
 </details>
 
-##### About
+#### About
 
 The first section of this page is the trainers section. This consists of a heading styled with a green box and border shadow, and introductions for each of our three trainers. I have presented this with an image of the trainer placed above a text box for each of them. I have styled the text box orange with my border-shadow class added to it.
 
@@ -309,7 +309,7 @@ With this page being fully responsive the trainers section is aligned as a colum
 
 </details>
 
-##### Classes
+#### Classes
 
 This page consists of four boxes with each of these boxes representing a different class the company offers. Each box is styled with an orange background with border radius applied to the edges. Each box contains an image of a dog and a green text box styled with my box-shadow class. These elements are arranged in the box through flex-box.
 
@@ -328,7 +328,7 @@ The page is fully responsive and the boxes are displayed in a column on smaller 
 
 </details>
 
-##### Booking
+#### Booking
 
 This page consists of a form and an aside element containing a guide to how the booking process works. The form contains a variety of inputs and has four checkboxes styled in css. The are styled dark green to contrast the orange background of the form. The each have a hover pseudo class applied to them to change colour as you hover over them and the cursor will change to a pointer. They also change colour when they have been checked. At the bottom of the form there is a submit and reset button.
 
@@ -351,7 +351,7 @@ This page is fully responsive and contains the aside element underneath the form
 
 </details>
 
-##### Completed Form
+#### Completed Form
 
 This page is the page you are directed to after completed the form. It is very simplistic and features a section explaining what happens next that consists of a heading and a paragraph. Underneath that is a link that has been styled in a similar way to the other links using CSS that takes you back to the home page. Although the navigation bar is always there I added this feature in to further increase navigation for the user. I have added a hover class to this link so it changes colour when hovered over and also the cursor will change to a pointer.
 
@@ -370,7 +370,7 @@ This page is fully responsive through the use of media queries to increase the f
 
 </details>
 
-##### Contact
+#### Contact
 
 The page consists of two sections, an information section and a map section. The Information section consists of two boxes. One containing the contact information and the other containing the business opening times. Both these boxes are styled orange and have my border-shadow class applied to them.
 
@@ -395,7 +395,7 @@ This page is fully responsive and displays the information box in a column on sm
 
 </details>
 
-##### Features To Be Added in The Future
+#### Features To Be Added in The Future
 
 If this were a real company, the features I would add to the website in the future would be:
 
@@ -403,7 +403,7 @@ If this were a real company, the features I would add to the website in the futu
 * A gallery page to display pictures.
 * A custom 404 page for wrong addresses typed into the address bar.
 
-### Bugs and Issues
+## Bugs and Issues
 
 * I encountered an issue mainly with my hero images and their positioning when testing on mobile screens that are horizontal. This is because the media query I had entered for tablets (above 768px) was now taking effect on them but with the screen height being so small they did not look correct. I fixed this by adding a new media query setting a maximum height to be targeted and hence only effecting mobile screens when turned to the side.
 
@@ -413,9 +413,9 @@ If this were a real company, the features I would add to the website in the futu
 
 * Another issue encountered was accidentally targeting my footer icons. When I was creating my contact page I set the font size of the icons in the how to guide fairly large. This then targeted my footer icons also. This is because when I was targeting the footer icons previously, I just targeted all `<i>` elements. I then did the same when targeting my `<i>` elements in my how to guide. I fixed this by changing the DOM selector in the how to guide to only `<i>` elements that were children of the div containing the how to guide.
 
-### Technologies
+## Technologies
 
-#### Main Languages Used
+### Main Languages Used
 
 The main languages I have used for this project are:
 
@@ -423,7 +423,7 @@ The main languages I have used for this project are:
 
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-#### Programmes, Tools and Libraries Used
+### Programmes, Tools and Libraries Used
 
 - [Codeanywhere](https://app.codeanywhere.com/)
     - Codeanwhere is the IDE that i used to write my code with.
@@ -452,13 +452,13 @@ The main languages I have used for this project are:
 - [Am I Responsive?](https://ui.dev/amiresponsive)
     - Am I Responsive? was used to generate imagery of the responsive design used throughout the website.
 
-### Testing
+## Testing
 
-#### User Story Testing
+### User Story Testing
 
 This site has been designed with the aim to achieve all user goals. These are broken down as follows:
 
-##### External - New User Goals
+#### External - New User Goals
 
 * As a new user i want to, find a good dog trainer.
   * Slogan featured on home page stating that the company are the best local dog trainers.
@@ -472,7 +472,6 @@ This site has been designed with the aim to achieve all user goals. These are br
 * As a new user i want to, use a well layed out and visually appealing website.
   * Layed out in a hierarchical tree structure for a familiar feel and easy navigation. Vibrant colour palette chosen using [Coolers](https://coolors.co/) with the specific company in mind to create an image that compliments the company.
 
-
 * As a new user i want to, easily find relevant information.
   * All links in the navigation bar are named in accordance to their content displayed on them to make for a easy navigation.
 
@@ -482,7 +481,7 @@ This site has been designed with the aim to achieve all user goals. These are br
 * As a new user i want to, be able to find where they are located with ease.
   * Address is on contact page and to make for an easier user experience a embedded google map on the same page.
 
-##### External - Current User Goals
+#### External - Current User Goals
 
 * As a current user i want to, navigate the site with ease.
   * There is a fixed navigation bar or hamburger menu always available at the top of the screen for easy navigation.
@@ -490,7 +489,7 @@ This site has been designed with the aim to achieve all user goals. These are br
 * As a current user i want to, see that the website is updated regularly with any changed to the trainers, classes or the contact details.
   * If this were to be a real website details would be update on a regular basis as needed.
 
-##### Site Owner Goals
+#### Site Owner Goals
 
 * As the site owner i want to, build my business online.
   * Created a site meeting all user goals.
@@ -513,7 +512,7 @@ This site has been designed with the aim to achieve all user goals. These are br
 * As the site owner I want to, provide clear contact details and where to find us. 
   * Address is located on the contact page with an iframe of an embedded google map below it to make the customers experience of finding us as easy as possible. 
 
-#### Manual Testing
+### Manual Testing
 
 I did the majority of my testing using Chrome DevTools as I was creating the website. I found it best to test that the website was fully responsive as I went along and would fix any issue I found before moving on to the next page. I also used chromes built in device viewports frequently. This came in particularly handy when designing the website with a mobile first approach.
 
@@ -533,7 +532,7 @@ Since deploying the website through github pages and through the help of family 
 * iPad Pro
 * iPad Air
 
-#### Device Testing
+### Device Testing
 
 As well as testing on real world devices i wanted to test on other devices that i could not access. For this i used [BrowserStack](https://www.browserstack.com/). I tested the the website on various mobile and tablet devices, and also various mobile browsers on these devices. See some examples below:
 
@@ -562,7 +561,7 @@ As well as testing on real world devices i wanted to test on other devices that 
 
 </details>
 
-#### Browser Testing
+### Browser Testing
 
 I had already tested the site on Chrome and Safari with no issues, but i also used BrowserStack to test my website on other browsers such as Microsoft Edge, Firefox and Opera. Screenshots of these are included below:
 
@@ -597,11 +596,11 @@ I had already tested the site on Chrome and Safari with no issues, but i also us
 
 </details>
 
-#### Element Testing
+### Element Testing
 
 I performed manual tests on all the interactive elements that appear on every page. The results were as follows:
 
-###### Header
+##### Header
 
 * Responsive design changing the header navigation between a navigation bar and hamburger menu through use of media queries and hiding the one not in use.
 
@@ -625,7 +624,7 @@ I performed manual tests on all the interactive elements that appear on every pa
 
 ![Navigation Bar Hover](assets/readme-files/element-nav-hover.png)
 
-##### Footer
+#### Footer
 
 * Footer links have hover psuedo class applied to them to change colour when hovered over.
 
@@ -633,13 +632,13 @@ I performed manual tests on all the interactive elements that appear on every pa
 
 * Footer links open link in new tab.
 
-##### Home Page
+#### Home Page
 
 * Hover psuedo class applied on the large links on the head over to section change the overlay colour to dark green and the font to orange when hovered over.
 
 ![Head Over To Section Hover](assets/readme-files/element-head-over-hover.png)
 
-##### Booking
+#### Booking
 
 * Form inputs have required applied to them where neccessary.
 
@@ -655,15 +654,15 @@ I performed manual tests on all the interactive elements that appear on every pa
 
 * When the form has been completed and the submit button pressed it will take you to a new page.
 
-##### Contact
+#### Contact
 
 * The map is embedded correctly and is fully interactive.
 
 ![Interactive Google Map](assets/readme-files/element-map.png)
 
-#### Automated Testing
+### Automated Testing
 
-##### HTMl Validation
+#### HTMl Validation
 
 To validate my HTML code i used the [W3C Markup Validation Service](https://validator.w3.org/). I ran each page through the validator one at a time. It is worth noting i encountered a repeat error message throughout the pages. This was because i used two `h1` elements because i didn't realise at the time that i had used a `h1` element in my header so this failed validation. I fixed this issue by changing all of my other headings on the main body of the page by +1. The results of each page before and after fixing plus details of how i fixed the issues were as follows:
 
@@ -747,7 +746,7 @@ The second issue i encountered was in my table containing the opening times. I h
 
 </details>
 
-##### CSS Validator
+#### CSS Validator
 
 To validate my CSS code I used the jigsaw. I copied all of my CSS code into the direct input section of the validator. This passed the validation test first time with no issues. It did have one warning due to the imported google fonts but this was to be expected as it cannot validate an externally imported stylesheet.
 
@@ -762,6 +761,19 @@ To validate my CSS code I used the jigsaw. I copied all of my CSS code into the 
 
 </details>
 
-#### User Testing
+### User Testing
 
 For my user tests I gathered help from my partner, my family and my friends and got them all to test the site on various devices and browsers to which they found no issues and all gave me positive feedback in regards to navigation, accessibility, and content.
+
+## Deployment
+
+This project was developed using the [Codeanywhere](https://app.codeanywhere.com/) IDE. All of the code being developed was frequently commited and then pushed to [Github](https://github.com/).
+
+### Deploying on Github Pages
+
+1. Log into Github.
+2. Locate the Github repository.
+3. Click the setting tab located at the top of the repository. 
+4. Scroll down and click pages on the left hand side.
+5. Underneath where it says source select main branch from the drop-down menu.
+6. After selecting this refresh the page and the link to the live website will appear. 
