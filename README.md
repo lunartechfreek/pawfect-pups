@@ -116,49 +116,49 @@ I created the wireframes with a mobile first approach and designed wireframes fo
 <details>
 <summary>Mobile Wireframes</summary>
 
-[Mobile Home Wireframe](assets/readme-files/mobile-home-wire.png)
+[Mobile Home Wireframe](docs/readme-files/mobile-home-wire.png)
 
-[Mobile About Wireframe](assets/readme-files/mobile-about-wire.png)
+[Mobile About Wireframe](docs/readme-files/mobile-about-wire.png)
 
-[Mobile Classes Wireframe](assets/readme-files/mobile-classes-wire.png)
+[Mobile Classes Wireframe](docs/readme-files/mobile-classes-wire.png)
 
-[Mobile Booking Wireframe](assets/readme-files/mobile-booking-wire.png)
+[Mobile Booking Wireframe](docs/readme-files/mobile-booking-wire.png)
 
-[Mobile Completed Booking Form Wireframe](assets/readme-files/mobile-completed-wire.png)
+[Mobile Completed Booking Form Wireframe](docs/readme-files/mobile-completed-wire.png)
 
-[Mobile Contact Wireframe](assets/readme-files/mobile-contact-wire.png)
+[Mobile Contact Wireframe](docs/readme-files/mobile-contact-wire.png)
 
 </details>
 <details>
 <summary>Tablet Wireframes</summary>
 
-[Tablet Home Wireframe](assets/readme-files/tablet-home-wire.png)
+[Tablet Home Wireframe](docs/readme-files/tablet-home-wire.png)
 
-[Tablet About Wireframe](assets/readme-files/tablet-about-wire.png)
+[Tablet About Wireframe](docs/readme-files/tablet-about-wire.png)
 
-[Tablet Classes Wireframe](assets/readme-files/tablet-classes-wire.png)
+[Tablet Classes Wireframe](docs/readme-files/tablet-classes-wire.png)
 
-[Tablet Booking Wireframe](assets/readme-files/tablet-booking-wire.png)
+[Tablet Booking Wireframe](docs/readme-files/tablet-booking-wire.png)
 
-[Tablet Completed Booking Form Wireframe](assets/readme-files/tablet-completed-wire.png)
+[Tablet Completed Booking Form Wireframe](docs/readme-files/tablet-completed-wire.png)
 
-[Tablet Contact Wireframe](assets/readme-files/tablet-contact-wire.png)
+[Tablet Contact Wireframe](docs/readme-files/tablet-contact-wire.png)
 
 </details>
 <details>
 <summary>Desktop Wireframes</summary>
 
-[Desktop Home Wireframe](assets/readme-files/desktop-home-wire.png)
+[Desktop Home Wireframe](docs/readme-files/desktop-home-wire.png)
 
-[Desktop About Wireframe](assets/readme-files/desktop-about-wire.png)
+[Desktop About Wireframe](docs/readme-files/desktop-about-wire.png)
 
-[Desktop Classes Wireframe](assets/readme-files/desktop-classes-wire.png)
+[Desktop Classes Wireframe](docs/readme-files/desktop-classes-wire.png)
 
-[Desktop Booking Wireframe](assets/readme-files/desktop-booking-wire.png)
+[Desktop Booking Wireframe](docs/readme-files/desktop-booking-wire.png)
 
-[Desktop Completed Booking Form Wireframe](assets/readme-files/desktop-completed-wire.png)
+[Desktop Completed Booking Form Wireframe](docs/readme-files/desktop-completed-wire.png)
 
-[Desktop Contact Wireframe](assets/readme-files/desktop-contact-wire.png)
+[Desktop Contact Wireframe](docs/readme-files/desktop-contact-wire.png)
 
 </details>
 
@@ -190,7 +190,7 @@ I used [Contrast Grid Eight Shapes](https://contrast-grid.eightshapes.com/?versi
 <details>
 <summary>Contrast Grid</summary>
 
-![Contrast Grid](assets/readme-files/contrast-grid.png)
+![Contrast Grid](docs/readme-files/contrast-grid.png)
 
 </details>
 
@@ -219,7 +219,7 @@ Each page on the site has some general features that remain consistant throughou
 <details>
 <summary>Header</summary>
 
-![Header](assets/readme-files/header.png)
+![Header](docs/readme-files/header.png)
 
 </details>
 
@@ -228,7 +228,7 @@ Each page on the site has some general features that remain consistant throughou
 <details>
 <summary>Navigation Bar</summary>
 
-![Navigation Bar](assets/readme-files/nav-bar.png)
+![Navigation Bar](docs/readme-files/nav-bar.png)
 
 </details>
 
@@ -237,7 +237,7 @@ Each page on the site has some general features that remain consistant throughou
 <details>
 <summary>Hamburger Menu</summary>
 
-![Hamburger Menu](assets/readme-files/hamburger.png)
+![Hamburger Menu](docs/readme-files/hamburger.png)
 
 </details>
 
@@ -246,7 +246,7 @@ Each page on the site has some general features that remain consistant throughou
 <details>
 <summary>Footer</summary>
 
-![Footer](assets/readme-files/footer.png)
+![Footer](docs/readme-files/footer.png)
 
 </details>
 
@@ -255,7 +255,7 @@ Each page on the site has some general features that remain consistant throughou
 <details>
 <summary>Border Shadow Class</summary>
 
-![Border Shadow Class](assets/readme-files/border-shadow.png)
+![Border Shadow Class](docs/readme-files/border-shadow.png)
 
 </details>
 
@@ -264,7 +264,7 @@ Each page on the site has some general features that remain consistant throughou
 <details>
 <summary>Hero Image</summary>
 
-![Hero Image](assets/readme-files/hero-screenshot.png)
+![Hero Image](docs/readme-files/hero-screenshot.png)
 
 </details>
 
@@ -277,17 +277,17 @@ At the bottom of the page we have three images of dogs that are clickable links 
 <details>
 <summary>Mobile Home Page</summary>
 
-![Mobile Home Section One](assets/readme-files/mobile-home1.png)
+![Mobile Home Section One](docs/readme-files/mobile-home1.png)
 
-![Mobile Home Section Two](assets/readme-files/mobile-home2.png)
+![Mobile Home Section Two](docs/readme-files/mobile-home2.png)
 
 </details>
 <details>
 <summary>Desktop Home Page</summary>
 
-![Desktop Home Section One](assets/readme-files/desktop-home1.png)
+![Desktop Home Section One](docs/readme-files/desktop-home1.png)
 
-![Desktop Home Section Two](assets/readme-files/desktop-home2.png)
+![Desktop Home Section Two](docs/readme-files/desktop-home2.png)
 
 </details>
 
@@ -302,19 +302,19 @@ With this page being fully responsive the trainers section is aligned as a colum
 <details>
 <summary>Mobile About Page</summary>
 
-![Mobile About Section One](assets/readme-files/mobile-about1.png)
+![Mobile About Section One](docs/readme-files/mobile-about1.png)
 
-![Mobile About Section Two](assets/readme-files/mobile-about2.png)
+![Mobile About Section Two](docs/readme-files/mobile-about2.png)
 
-![Mobile About Section Three](assets/readme-files/mobile-about3.png)
+![Mobile About Section Three](docs/readme-files/mobile-about3.png)
 
 </details>
 <details>
 <summary>Desktop About Page</summary>
 
-![Desktop About Section One](assets/readme-files/desktop-about1.png)
+![Desktop About Section One](docs/readme-files/desktop-about1.png)
 
-![Desktop About Section Two](assets/readme-files/desktop-about2.png)
+![Desktop About Section Two](docs/readme-files/desktop-about2.png)
 
 </details>
 
@@ -327,13 +327,13 @@ The page is fully responsive and the boxes are displayed in a column on smaller 
 <details>
 <summary>Mobile Classes Page</summary>
 
-![Mobile Classes Page](assets/readme-files/mobile-classes.png)
+![Mobile Classes Page](docs/readme-files/mobile-classes.png)
 
 </details>
 <details>
 <summary>Desktop Classes Page</summary>
 
-![Desktop Classes Page](assets/readme-files/desktop-classes.png)
+![Desktop Classes Page](docs/readme-files/desktop-classes.png)
 
 </details>
 
@@ -348,15 +348,15 @@ This page is fully responsive and contains the aside element underneath the form
 <details>
 <summary>Mobile Booking Page</summary>
 
-![Mobile Booking Page One](assets/readme-files/mobile-booking1.png)
+![Mobile Booking Page One](docs/readme-files/mobile-booking1.png)
 
-![Mobile Booking Page Two](assets/readme-files/mobile-booking2.png)
+![Mobile Booking Page Two](docs/readme-files/mobile-booking2.png)
 
 </details>
 <details>
 <summary>Desktop Booking Page</summary>
 
-![Desktop Booking Section One](assets/readme-files/desktop-booking.png)
+![Desktop Booking Section One](docs/readme-files/desktop-booking.png)
 
 </details>
 
@@ -369,13 +369,13 @@ This page is fully responsive through the use of media queries to increase the f
 <details>
 <summary>Mobile Completed Form Page</summary>
 
-![Mobile Completed Form Page](assets/readme-files/mobile-completed.png)
+![Mobile Completed Form Page](docs/readme-files/mobile-completed.png)
 
 </details>
 <details>
 <summary>Desktop Completed Form Page</summary>
 
-![Desktop Completed Form Page](assets/readme-files/desktop-completed.png)
+![Desktop Completed Form Page](docs/readme-files/desktop-completed.png)
 
 </details>
 
@@ -390,17 +390,17 @@ This page is fully responsive and displays the information box in a column on sm
 <details>
 <summary>Mobile Contact Page</summary>
 
-![Mobile Contact Page One](assets/readme-files/mobile-contact1.png)
+![Mobile Contact Page One](docs/readme-files/mobile-contact1.png)
 
-![Mobile Contact Page Two](assets/readme-files/mobile-contact2.png)
+![Mobile Contact Page Two](docs/readme-files/mobile-contact2.png)
 
 </details>
 <details>
 <summary>Desktop Contact Page</summary>
 
-![Desktop Contact Section One](assets/readme-files/desktop-contact1.png)
+![Desktop Contact Section One](docs/readme-files/desktop-contact1.png)
 
-![Desktop Contact Section Two](assets/readme-files/desktop-contact2.png)
+![Desktop Contact Section Two](docs/readme-files/desktop-contact2.png)
 
 </details>
 
@@ -531,8 +531,7 @@ I deployed my website very early on to github pages whilst only the header and f
 
 Once i had done this i was able to deploy it on a real phone so i tested it on my iphone 13 pro max regualarly. When doing this i encountered my bug mentioned in the Issues section where the text on the about page.
 
-Since deploying the website through github pages and through the help of family and friends I have been able to deploy my site on a variety of devices including:
-
+Since deploying the website through github pages and through the help of family and friends my website has been deployed on a variety of physical devices including:
 
 * Iphone 13 Pro Max
 * Iphone 14 Pro
@@ -548,25 +547,25 @@ As well as testing on real world devices i wanted to test on other devices that 
 <details>
 <summary>Iphone 15 Pro Max Test</summary>
 
-![Iphone Screenshot](assets/readme-files/iphone-15.png)
+![Iphone Screenshot](docs/readme-files/iphone-15.png)
 
 </details>
 <details>
 <summary>Samsung Galaxy S22 Ultra Test</summary>
 
-![Galaxy Screenshot](assets/readme-files/s22-ultra.png)
+![Galaxy Screenshot](docs/readme-files/s22-ultra.png)
 
 </details>
 <details>
 <summary>Google Pixel 6 Pro Test</summary>
 
-![Pixel Screenshot](assets/readme-files/pixel-6-pro.png)
+![Pixel Screenshot](docs/readme-files/pixel-6-pro.png)
 
 </details>
 <details>
 <summary>Motorola Moto G71 5G Test</summary>
 
-![Motorola Screenshot](assets/readme-files/moto-g71.png)
+![Motorola Screenshot](docs/readme-files/moto-g71.png)
 
 </details>
 
@@ -577,31 +576,31 @@ I had already tested the site on Chrome and Safari with no issues, but i also us
 <details>
 <summary>Chrome Test</summary>
 
-![Chrome Screenshot](assets/readme-files/browser-chrome.png)
+![Chrome Screenshot](docs/readme-files/browser-chrome.png)
 
 </details>
 <details>
 <summary>Safari Test</summary>
 
-![Safari Screenshot](assets/readme-files/browser-safari.png)
+![Safari Screenshot](docs/readme-files/browser-safari.png)
 
 </details>
 <details>
 <summary>Microsoft Edge Test</summary>
 
-![Microsoft Edge Screenshot](assets/readme-files/browser-edge.png)
+![Microsoft Edge Screenshot](docs/readme-files/browser-edge.png)
 
 </details>
 <details>
 <summary>Firefox Test</summary>
 
-![Firefox Screenshot](assets/readme-files/browser-firefox.png)
+![Firefox Screenshot](docs/readme-files/browser-firefox.png)
 
 </details>
 <details>
 <summary>Opera Test</summary>
 
-![Opera Screenshot](assets/readme-files/browser-opera.png)
+![Opera Screenshot](docs/readme-files/browser-opera.png)
 
 </details>
 
@@ -613,31 +612,31 @@ I performed manual tests on all the interactive elements that appear on every pa
 
 * Responsive design changing the header navigation between a navigation bar and hamburger menu through use of media queries and hiding the one not in use.
 
-![Mobile Header](assets/readme-files/element-mobile-header.png)
+![Mobile Header](docs/readme-files/element-mobile-header.png)
 
-![Desktop Header](assets/readme-files/element-desktop-header.png)
+![Desktop Header](docs/readme-files/element-desktop-header.png)
 
 * Hamburger icon opens menu and re-clicking closes it.
 
-![Hamburger Menu](assets/readme-files/element-menu.png)
+![Hamburger Menu](docs/readme-files/element-menu.png)
 
 * Active class on mobile of underline works on the page the urer is currently on.
 
-![Mobile Active Class](assets/readme-files/element-mobile-active.png)
+![Mobile Active Class](docs/readme-files/element-mobile-active.png)
 
 * Active class on desktop navigation bar turns the link of the current page dark green so the user knows what page they are currently on.
 
-![Desktop Active Class](assets/readme-files/element-nav-active.png)
+![Desktop Active Class](docs/readme-files/element-nav-active.png)
 
 * Hover psuedo class on desktop navigation links turn them light green when hovered over and cursor changes to pointer.
 
-![Navigation Bar Hover](assets/readme-files/element-nav-hover.png)
+![Navigation Bar Hover](docs/readme-files/element-nav-hover.png)
 
 #### Footer
 
 * Footer links have hover psuedo class applied to them to change colour when hovered over.
 
-![Footer Hover](assets/readme-files/element-footer-hover.png)
+![Footer Hover](docs/readme-files/element-footer-hover.png)
 
 * Footer links open link in new tab.
 
@@ -645,21 +644,21 @@ I performed manual tests on all the interactive elements that appear on every pa
 
 * Hover psuedo class applied on the large links on the head over to section change the overlay colour to dark green and the font to orange when hovered over.
 
-![Head Over To Section Hover](assets/readme-files/element-head-over-hover.png)
+![Head Over To Section Hover](docs/readme-files/element-head-over-hover.png)
 
 #### Booking
 
 * Form inputs have required applied to them where neccessary.
 
-![Form Required Input](assets/readme-files/element-form-required.png)
+![Form Required Input](docs/readme-files/element-form-required.png)
 
 * Form checkboxes, submit and reset inputs all have a hover psuedo class applied to them to make them change colour when hovered over. The cursor also changes to a pointer.
 
-![Form Hover](assets/readme-files/element-form-hover.png)
+![Form Hover](docs/readme-files/element-form-hover.png)
 
 * Form checkboxes also have a checked style applied to them so that they change colour when they have been checked.
 
-![Form Checkbox Checked](assets/readme-files/element-form-checked.png)
+![Form Checkbox Checked](docs/readme-files/element-form-checked.png)
 
 * When the form has been completed and the submit button pressed it will take you to a new page.
 
@@ -667,7 +666,7 @@ I performed manual tests on all the interactive elements that appear on every pa
 
 * The map is embedded correctly and is fully interactive.
 
-![Interactive Google Map](assets/readme-files/element-map.png)
+![Interactive Google Map](docs/readme-files/element-map.png)
 
 ### Automated Testing
 
@@ -680,11 +679,11 @@ To validate my HTML code i used the [W3C Markup Validation Service](https://vali
 
 The only issues on the home page were the common issue i found due to incorrectly numbering heading elements and were fixed using the above explanation.
 
-![Home Page Validation](assets/readme-files/w3c-index.png)
+![Home Page Validation](docs/readme-files/w3c-index.png)
 
 <hr>
 
-![Home Page Fixed Validation](assets/readme-files/w3c-index-fixed.png)
+![Home Page Fixed Validation](docs/readme-files/w3c-index-fixed.png)
 
 </details>
 
@@ -693,11 +692,11 @@ The only issues on the home page were the common issue i found due to incorrectl
 
 The only issues on the about page were the common issue i found due to incorrectly numbering heading elements and were fixed using the above explanation.
 
-![About Page Validation](assets/readme-files/w3c-about.png)
+![About Page Validation](docs/readme-files/w3c-about.png)
 
 <hr>
 
-![About Page Fixed Validation](assets/readme-files/w3c-about-fixed.png)
+![About Page Fixed Validation](docs/readme-files/w3c-about-fixed.png)
 
 </details>
 
@@ -706,11 +705,11 @@ The only issues on the about page were the common issue i found due to incorrect
 
 The only issues on the classes page were the common issue i found due to incorrectly numbering heading elements and were fixed using the above explanation.
 
-![Classes Page Validation](assets/readme-files/w3c-classes.png)
+![Classes Page Validation](docs/readme-files/w3c-classes.png)
 
 <hr>
 
-![Classes Page Fixed Validation](assets/readme-files/w3c-classes-fixed.png)
+![Classes Page Fixed Validation](docs/readme-files/w3c-classes-fixed.png)
 
 </details>
 
@@ -719,11 +718,11 @@ The only issues on the classes page were the common issue i found due to incorre
 
 The only issues on the booking page were the common issue i found due to incorrectly numbering heading elements and were fixed using the above explanation.
 
-![Booking Page Validation](assets/readme-files/w3c-booking.png)
+![Booking Page Validation](docs/readme-files/w3c-booking.png)
 
 <hr>
 
-![Booking Page Fixed Validation](assets/readme-files/w3c-booking-fixed.png)
+![Booking Page Fixed Validation](docs/readme-files/w3c-booking-fixed.png)
 
 </details>
 
@@ -732,11 +731,11 @@ The only issues on the booking page were the common issue i found due to incorre
 
 On the completed booking form page i found my common heading issue but also an issue regarding the button i had used. I had used a button and wrapped a anchor element around it to make it a link back to my home page. I did not realise this was invalid code. I first tried to instead wrap the anchor element inside of the button but this also did not pass validation. I chose to remove the button element completely and instead stlye the anchor element to look like a button.
 
-![Completed Booking Form Page Validation](assets/readme-files/w3c-completed-form.png)
+![Completed Booking Form Page Validation](docs/readme-files/w3c-completed-form.png)
 
 <hr>
 
-![Completed Booking Form Page Fixed Validation](assets/readme-files/w3c-completed-form-fixed.png)
+![Completed Booking Form Page Fixed Validation](docs/readme-files/w3c-completed-form-fixed.png)
 
 </details>
 
@@ -747,11 +746,11 @@ On the contact page i found my common heading issue but also found two new ones.
 
 The second issue i encountered was in my table containing the opening times. I had only used one row on the bottom of the table to state that we are closed on sundays so therefore didn't need an opening and closing time. To fix this i added a blank row which fixed the issue. 
 
-![Classes Page Validation](assets/readme-files/w3c-contact.png)
+![Classes Page Validation](docs/readme-files/w3c-contact.png)
 
 <hr>
 
-![Classes Page Fixed Validation](assets/readme-files/w3c-contact-fixed.png)
+![Classes Page Fixed Validation](docs/readme-files/w3c-contact-fixed.png)
 
 </details>
 
@@ -762,11 +761,11 @@ To validate my CSS code I used the jigsaw. I copied all of my CSS code into the 
 <details>
 <summary>CSS Stylesheet</summary>
 
-![CSS Stylesheet Validation](assets/readme-files/css-jigsaw.png)
+![CSS Stylesheet Validation](docs/readme-files/css-jigsaw.png)
 
 <hr>
 
-![CSS Stylesheet Warning](assets/readme-files/css-warning.png)
+![CSS Stylesheet Warning](docs/readme-files/css-warning.png)
 
 </details>
 
