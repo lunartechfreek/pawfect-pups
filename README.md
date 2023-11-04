@@ -357,6 +357,16 @@ I would also download my Font Awesome icons and insert them as `<img>` elements 
 
 * Another issue encountered was accidentally targeting my footer icons. When I was creating my contact page I set the font size of the icons in the how to guide fairly large. This then targeted my footer icons also. This is because when I was targeting the footer icons previously, I just targeted all `<i>` elements. I then did the same when targeting my `<i>` elements in my how to guide. I fixed this by changing the DOM selector in the how to guide to only `<i>` elements that were children of the div containing the how to guide.
 
+* When running my lighthouse report I encountered two issues with the accessibility on the contact page.
+  * The first one being that on my table on the contact page I did not include a table header for the day.
+  * The second one being that i had not included a title in the `<iframe>` for screen readers to read.
+
+Both of these issues have now been fixed as shown below
+
+|Issue|Fixed Issue|
+| -- | -- |
+| ![Lighthouse Issue](docs/readme-files/contact-lighthouse-issue.png) | ![Fixed Lighthouse Issue](docs/readme-files/contact-lighthouse-fixed.png)
+
 ## Technologies
 
 ### Main Languages Used
