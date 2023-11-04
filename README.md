@@ -501,6 +501,7 @@ With this being a fictional website I wrote all of content throughout the pages 
 ### Other Mentions
 
 * I learned all of the skills used in my project through my Software Developer Course with the [Code Institute](https://codeinstitute.net).
+* I learned how to make a table in markdown, and also had help with what to include in my deployment section from my temporary mentor Tim.
 * I learned many features used during my Coders Coffeehouse and Love Running walkthrough projects.
 * I found inspiration for my website and also the format and content needed in my README file from [Julia Wagners Furry Friends Project](https://github.com/Julia-Wagner/furry-friends)
 * I found inspiration for my navigation bar and also for the structure and content needed for my README file from [Irishbecky91 Survival Guild Project](https://github.com/Irishbecky91/survival-guild/)
@@ -508,6 +509,8 @@ With this being a fictional website I wrote all of content throughout the pages 
 ## Acknowledgements
 
 * I would like to thank my family and friends for their support and help testing my website.
+
+* I would like to thank my temporary mentor Tim for helping me with the finishing touches and preparing my project for submission.
 
 * I would like to thank my mentor Seun for her help and guidance throughout this project.
 
