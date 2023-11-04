@@ -332,13 +332,20 @@ This page is fully responsive and displays the information box in a column on sm
 | -- | -- |
 | ![Desktop Contact Section One](docs/readme-files/desktop-contact1.png) | ![Desktop Contact Section Two](docs/readme-files/desktop-contact2.png) |
 
-#### Features To Be Added in The Future
+#### Features To Be Added In The Future
 
 If this were a real company, the features I would add to the website in the future would be:
 
 * A review page where users can leave reviews and also read other users review.
 * A gallery page to display pictures.
 * A custom 404 page for wrong addresses typed into the address bar.
+
+#### Other Improvements For The Future
+
+If this were a real website that would be constantly updated and developed, I would increase my lighthouse performance score from amber to green. I would take the time to resize all of my images and have different sets of images used for smaller screens and larger screens. I would do this by using the `srcset` attribute for `<img>` elements and for background images I would use media queries to do this.
+
+I would also download my Font Awesome icons and insert them as `<img>` elements instead to further increase the performance score.
+
 
 ## Bugs and Issues
 
