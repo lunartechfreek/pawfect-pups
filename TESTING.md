@@ -6,17 +6,17 @@ This site has been designed with the aim to achieve all user goals. These are br
 
 ### External - New User Goals
 
-* As a new user i want to, find a good dog trainer.
+* As a new user I want to, find a good dog trainer.
   * Slogan featured on home page stating that the company are the best local dog trainers.
 
 ![Company Slogan](docs/readme-files/slogan.png)
 
-* As a new user i want to, find a suitable training class.
+* As a new user I want to, find a suitable training class.
   * The classes page showcases the broad selection of classes available.
 
 ![Classes](docs/readme-files/desktop-classes.png)
 
-* As a new user i want to, navigate the site with ease.
+* As a new user I want to, navigate the site with ease.
   * There is a fixed navigation bar or hamburger menu always available at the top of the screen for easy navigation.
 
 ![Navigation Bar](docs/readme-files/nav-bar.png)
@@ -25,17 +25,17 @@ This site has been designed with the aim to achieve all user goals. These are br
 
 ![Hamburger Menu](docs/readme-files/hamburger.png)
 
-* As a new user i want to, use a well layed out and visually appealing website.
+* As a new user I want to, use a well layed out and visually appealing website.
   * Layed out in a hierarchical tree structure for a familiar feel and easy navigation. Vibrant colour palette chosen using [Coolers](https://coolors.co/) with the specific company in mind to create an image that compliments the company.
 
 ![Colour Palette](docs/readme-files/colour-palette.png)
 
-* As a new user i want to, easily find relevant information.
+* As a new user I want to, easily find relevant information.
   * All links in the navigation bar are named in accordance to their content displayed on them and are listed in order of importance to make for easy navigation.
 
 ![Navigation Bar](docs/readme-files/nav-bar.png)
 
-* As a new user i want to, see pictures of the training they offer.
+* As a new user I want to, see pictures of the training they offer.
   * Hero image on home page of one of our trainers with a dog so its the first thing the user will see upon the first visit of the page. Also a trainers section with pictures of trainers in action on the about page, and also the classes page.
 
 ![Home Hero Image](docs/readme-files/mobile-home1.png)
@@ -44,7 +44,7 @@ This site has been designed with the aim to achieve all user goals. These are br
 
 ![Trainers Section](docs/readme-files/desktop-about1.png)
 
-* As a new user i want to, be able to find where they are located with ease.
+* As a new user I want to, be able to find where they are located with ease.
   * Address is on contact page and to make for an easier user experience a embedded google map on the same page.
 
 ![Address Box](docs/readme-files/desktop-contact1.png)
@@ -55,7 +55,7 @@ This site has been designed with the aim to achieve all user goals. These are br
 
 ### External - Current User Goals
 
-* As a current user i want to, navigate the site with ease.
+* As a current user I want to, navigate the site with ease.
   * There is a fixed navigation bar or hamburger menu always available at the top of the screen for easy navigation.
 
 ![Navigation Bar](docs/readme-files/nav-bar.png)
@@ -64,12 +64,12 @@ This site has been designed with the aim to achieve all user goals. These are br
 
 ![Hamburger Menu](docs/readme-files/hamburger.png)
 
-* As a current user i want to, see that the website is updated regularly with any changed to the trainers, classes or the contact details.
+* As a current user I want to, see that the website is updated regularly with any changed to the trainers, classes or the contact details.
   * If this were to be a real website details would be update on a regular basis as needed.
 
 ### Site Owner Goals
 
-* As the site owner i want to, build my business online.
+* As the site owner I want to, build my business online.
   * Created a site meeting all user goals.
 
 * As the site owner I want to, show the full range of the services we offer.
@@ -87,7 +87,7 @@ This site has been designed with the aim to achieve all user goals. These are br
 
 ![Colour Palette](docs/readme-files/colour-palette.png)
 
-* As the site owner i want to, provide an easy to navigate website.
+* As the site owner I want to, provide an easy to navigate website.
   * On larger screens there is a navigation bar with all links always visable and fixed to the top of the screen. On smaller screens these links have been reduced to a hamburger menu which is clearly visible and always fixed at the top of the screen for easy access.
 
 ![Navigation Bar](docs/readme-files/nav-bar.png)
@@ -118,7 +118,7 @@ I would then test the page on tablet viewports such as iPad Air and Surface Pro 
 
 I deployed my website very early on to github pages whilst only the header and footer were complete. I did this to make sure that it was displayed as expected and if necessary this would have gave me the opportunity to fix these issues early on. Luckily I did not encounter any issues upon deployment.
 
-Once i had done this i was able to deploy it on a real phone so i tested it on my iphone 13 pro max regualarly. When doing this i encountered my bug mentioned in the Issues section where the text on the about page.
+Once I had done this I was able to deploy it on a real phone so I tested it on my iphone 13 pro max regualarly. When doing this i encountered my bug mentioned in the Issues section where the text on the about page.
 
 Since deploying the website through github pages and through the help of family and friends my website has been deployed on a variety of physical devices including:
 
@@ -131,7 +131,7 @@ Since deploying the website through github pages and through the help of family 
 
 ## Device Testing
 
-As well as testing on real world devices i wanted to test on other devices that i could not access. For this i used [BrowserStack](https://www.browserstack.com/). I tested the the website on various mobile and tablet devices, and also various mobile browsers on these devices. See some examples below:
+As well as testing on real world devices I wanted to test on other devices that I could not access. For this i used [BrowserStack](https://www.browserstack.com/). I tested the the website on various mobile and tablet devices, and also various mobile browsers on these devices. See some examples below:
 
 ![Iphone Screenshot](docs/readme-files/iphone-15.png)
 
@@ -149,7 +149,7 @@ As well as testing on real world devices i wanted to test on other devices that 
 
 ## Browser Testing
 
-I had already tested the site on Chrome and Safari with no issues, but i also used BrowserStack to test my website on other browsers such as Microsoft Edge, Firefox and Opera. Screenshots of these are included below:
+I had already tested the site on Chrome and Safari with no issues, but I also used BrowserStack to test my website on other browsers such as Microsoft Edge, Firefox and Opera. Screenshots of these are included below:
 
 ![Chrome Screenshot](docs/readme-files/browser-chrome.png)
 
@@ -239,11 +239,11 @@ I performed manual tests on all the interactive elements that appear on every pa
 
 ### HTMl Validation
 
-To validate my HTML code i used the [W3C Markup Validation Service](https://validator.w3.org/). I ran each page through the validator one at a time. It is worth noting i encountered a repeat error message throughout the pages. This was because i used two `h1` elements because i didn't realise at the time that i had used a `h1` element in my header so this failed validation. I fixed this issue by changing all of my other headings on the main body of the page by +1. The results of each page before and after fixing plus details of how i fixed the issues were as follows:
+To validate my HTML code I used the [W3C Markup Validation Service](https://validator.w3.org/). I ran each page through the validator one at a time. It is worth noting I encountered a repeat error message throughout the pages. This was because I used two `h1` elements because I didn't realise at the time that I had used a `h1` element in my header so this failed validation. I fixed this issue by changing all of my other headings on the main body of the page by +1. The results of each page before and after fixing plus details of how I fixed the issues were as follows:
 
 #### Home Page
 
-The only issues on the home page were the common issue i found due to incorrectly numbering heading elements and were fixed using the above explanation.
+The only issues on the home page were the common issue I found due to incorrectly numbering heading elements and were fixed using the above explanation.
 
 ![Home Page Validation](docs/readme-files/w3c-index.png)
 
@@ -253,7 +253,7 @@ The only issues on the home page were the common issue i found due to incorrectl
 
 #### About Page
 
-The only issues on the about page were the common issue i found due to incorrectly numbering heading elements and were fixed using the above explanation.
+The only issues on the about page were the common issue I found due to incorrectly numbering heading elements and were fixed using the above explanation.
 
 ![About Page Validation](docs/readme-files/w3c-about.png)
 
@@ -263,7 +263,7 @@ The only issues on the about page were the common issue i found due to incorrect
 
 #### Classes Page
 
-The only issues on the classes page were the common issue i found due to incorrectly numbering heading elements and were fixed using the above explanation.
+The only issues on the classes page were the common issue I found due to incorrectly numbering heading elements and were fixed using the above explanation.
 
 ![Classes Page Validation](docs/readme-files/w3c-classes.png)
 
@@ -273,7 +273,7 @@ The only issues on the classes page were the common issue i found due to incorre
 
 #### Booking Page
 
-The only issues on the booking page were the common issue i found due to incorrectly numbering heading elements and were fixed using the above explanation.
+The only issues on the booking page were the common issue I found due to incorrectly numbering heading elements and were fixed using the above explanation.
 
 ![Booking Page Validation](docs/readme-files/w3c-booking.png)
 
@@ -283,7 +283,7 @@ The only issues on the booking page were the common issue i found due to incorre
 
 #### Completed Booking Page
 
-On the completed booking form page i found my common heading issue but also an issue regarding the button i had used. I had used a button and wrapped a anchor element around it to make it a link back to my home page. I did not realise this was invalid code. I first tried to instead wrap the anchor element inside of the button but this also did not pass validation. I chose to remove the button element completely and instead stlye the anchor element to look like a button.
+On the completed booking form page I found my common heading issue but also an issue regarding the button I had used. I had used a button and wrapped a anchor element around it to make it a link back to my home page. I did not realise this was invalid code. I first tried to instead wrap the anchor element inside of the button but this also did not pass validation. I chose to remove the button element completely and instead stlye the anchor element to look like a button.
 
 ![Completed Booking Form Page Validation](docs/readme-files/w3c-completed-form.png)
 
@@ -293,9 +293,9 @@ On the completed booking form page i found my common heading issue but also an i
 
 #### Contact Page
 
-On the contact page i found my common heading issue but also found two new ones. I had used a `<br>` element in my in the info box to separate the contact details and the address. This failed the validation. To fix this i removed the `<br>` element and instead made an id on the second list element and added a margin to the bottom to push the other list items down.
+On the contact page I found my common heading issue but also found two new ones. I had used a `<br>` element in my in the info box to separate the contact details and the address. This failed the validation. To fix this I removed the `<br>` element and instead made an id on the second list element and added a margin to the bottom to push the other list items down.
 
-The second issue i encountered was in my table containing the opening times. I had only used one row on the bottom of the table to state that we are closed on sundays so therefore didn't need an opening and closing time. To fix this i added a blank row which fixed the issue.
+The second issue I encountered was in my table containing the opening times. I had only used one row on the bottom of the table to state that we are closed on sundays so therefore didn't need an opening and closing time. To fix this I added a blank row which fixed the issue.
 
 ![Classes Page Validation](docs/readme-files/w3c-contact.png)
 

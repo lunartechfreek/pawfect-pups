@@ -6,11 +6,11 @@
 
 ## Introduction 
 
-Pawfect Pups is a fictional dog training company made for educational purposes as the first portfolio project for my diploma in software development that i am studying with the code intitute. This website is aimed at dog owners who would like to find a local dog training company.
+Pawfect Pups is a fictional dog training company made for educational purposes as the first portfolio project for my diploma in software development that I am studying with the code intitute. This website is aimed at dog owners who would like to find a local dog training company.
 
-While designing this website i took into account the real world demands that customers would have for a real dog training company. I have created static website with a total of six pages that are responsive and contain relevant and useful information to reach these goals.
+While designing this website I took into account the real world demands that customers would have for a real dog training company. I have created static website with a total of six pages that are responsive and contain relevant and useful information to reach these goals.
 
-I have applied the the technologies i have learnt so far and used HTML5 and CSS3 to create my website. Other technologies used are listed in the technologies used section further down the page.
+I have applied the the technologies I have learnt so far and used HTML5 and CSS3 to create my website. Other technologies used are listed in the technologies used section further down the page.
 
 ## UX
 
@@ -26,26 +26,26 @@ The ideal users for this website will be:
 
 #### External - New User Goals
 
-* As a new user i want to, find a good dog trainer.
-* As a new user i want to, find a suitable training class.
-* As a new user i want to, navigate the site with ease.
-* As a new user i want to, use a well layed out and visually appealing website.
-* As a new user i want to, easily find relevant information.
-* As a new user i want to, see pictures of the training they offer.
-* As a new user i want to, be able to find where they are located with ease.
+* As a new user I want to, find a good dog trainer.
+* As a new user I want to, find a suitable training class.
+* As a new user I want to, navigate the site with ease.
+* As a new user I want to, use a well layed out and visually appealing website.
+* As a new user I want to, easily find relevant information.
+* As a new user I want to, see pictures of the training they offer.
+* As a new user I want to, be able to find where they are located with ease.
 
 #### External - Current User Goals
 
-* As a current user i want to, navigate the site with ease.
-* As a current user i want to, see that the website is updated regularly with any changed to the trainers, classes or the contact details.
+* As a current user I want to, navigate the site with ease.
+* As a current user I want to, see that the website is updated regularly with any changed to the trainers, classes or the contact details.
 
 #### Site Owner Goals
 
-* As the site owner i want to, build my business online.
+* As the site owner I want to, build my business online.
 * As the site owner I want to, show the full range of the services we offer.
 * As the site owner I want to, show the user our dog trainers.
 * As the site owner I want to, provide a visually friendly user experience.
-* As the site owner i want to, provide an easy to navigate website.
+* As the site owner I want to, provide an easy to navigate website.
 * As the site owner I want to, show the user photos from our training sessions.
 * As the site owner I want to, provide clear contact details and where to find us.
 
@@ -101,15 +101,15 @@ The required functions of the website will need to include the following:
 * A responsive nav bar which will change dependant on screen size for accessibility ease on different screen sizes.
 * A booking form.
 * A page for after the form is completed with a 'back to home' button for easy navigation.
-* An iframe of google maps.
+* An `<iframe>` of google maps.
 
 ### Structure
 
-While developing the structure plane i decided that the best way to present this information would be in a hierarchical tree structure. This is because i feel it is a easy to navigate structure that is commonly found and the user will be used to using throughout other websites.
+While developing the structure plane I decided that the best way to present this information would be in a hierarchical tree structure. This is because I feel it is a easy to navigate structure that is commonly found and the user will be used to using throughout other websites.
 
 ### Skeleton
 
-While developing the skeleton plane i created wireframes using [Balsamiq](https://balsamiq.com/).
+While developing the skeleton plane I created wireframes using [Balsamiq](https://balsamiq.com/).
 
 I created the wireframes with a mobile first approach and designed wireframes for mobile, tablet, and desktop to ensure that the site will be fully responsive upon completion.
 
@@ -363,10 +363,10 @@ The main languages I have used for this project are:
 ### Programmes, Tools and Libraries Used
 
 - [Codeanywhere](https://app.codeanywhere.com/)
-    - Codeanwhere is the IDE that i used to write my code with.
+    - Codeanwhere is the IDE that I used to write my code with.
 
 - [Github](https://github.com/)
-    - Github is what i used to store my code repository on.
+    - Github is what I used to store my code repository on.
 
 - [Github Pages](https://pages.github.com/)
     - Github pages was used to deploy my project as a live website from the code stored in the repository.
@@ -378,13 +378,13 @@ The main languages I have used for this project are:
   - I used a free trial on BrowserStack to emmulate different devices and browsers to test my website on.
 
 - [Balsamiq](https://balsamiq.com/)
-    - Balsamiq was the software i used to create my wireframes. 
+    - Balsamiq was the software I used to create my wireframes. 
 
 - [Google Fonts](https://fonts.google.com/)
     - I used Google Fonts to import my chosen fonts into my webpage. 
 
 -  [Font Awesome](https://fontawesome.com/)
-    - I used Font Awesome to import the icons i have used into the webpage
+    - I used Font Awesome to import the icons I have used into the webpage
 
 - [Am I Responsive?](https://ui.dev/amiresponsive)
     - Am I Responsive? was used to generate imagery of the responsive design used throughout the website.
@@ -399,7 +399,7 @@ This project was developed using the [Codeanywhere](https://app.codeanywhere.com
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
-* In the [GitHub repository](https://github.com/lunartechfreek/pawfect-pups), navigate to the Settings tab
+* In the [GitHub repository](https://github.com/lunartechfreek/pawfect-pups), navigate to the Settings tab.
 * From the source section drop-down menu, select the **Main** Branch, then click "Save".
 * The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
@@ -413,11 +413,11 @@ This project can be cloned or forked in order to make a local copy on your own s
 
 You can clone the repository by following these steps:
 
-1. Go to the [GitHub repository](https://github.com/lunartechfreek/pawfect-pups)
-2. Locate the Code button above the list of files and click it
-3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
-4. Open Git Bash or Terminal
-5. Change the current working directory to the one where you want the cloned directory
+1. Go to the [GitHub repository](https://github.com/lunartechfreek/pawfect-pups).
+2. Locate the Code button above the list of files and click it.
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard.
+4. Open Git Bash or Terminal.
+5. Change the current working directory to the one where you want the cloned directory.
 6. In your IDE Terminal, type the following command to clone my repository:
 	* \`git clone <https://github.com/lunartechfreek/pawfect-pups.git>\`
 7. Press Enter to create your local clone.
@@ -434,7 +434,7 @@ A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/conf
 By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
 You can fork this repository by using the following steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/lunartechfreek/pawfect-pups)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/lunartechfreek/pawfect-pups).
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
@@ -446,7 +446,7 @@ There were no major differences that I found between Codeanywhere and the live d
 
 ### Content
 
-With this being a fictional website i wrote all of content throughout the pages myself. I did use other dog training websites for inspiration and adapted some of the content. The websites I used for inspiratin were:
+With this being a fictional website I wrote all of content throughout the pages myself. I did use other dog training websites for inspiration and adapted some of the content. The websites I used for inspiratin were:
 
 * [Dog Academy](https://dogacademy.org/in-person-dog-training/new-jersey/blackwells-mills?ux=8&utm_source=DACitiesGoogle&utm_medium=Search&utm_campaign=BlackwellsMillsNJT4&utm_term=dog%20training%20near%20me&utm_content=BlackwellsMillsGeneral&gclid=Cj0KCQjwsp6pBhCfARIsAD3GZuYVE6IjZmeqWGGliAyJD_8jwBulT9nGWlIQ9YJuuwyNoLwHKAd_I5gaArreEALw_wcB)
 * [Dig it Dogs](https://digitdogs.co.uk/)
@@ -461,21 +461,21 @@ With this being a fictional website i wrote all of content throughout the pages 
 
 ### Design and Development 
 
-* To create the wireframes i used [Balsamiq](https://balsamiq.com/).
-* To create my colour scheme i used [Coolers](https://coolors.co/).
-* To find out which colours had a good contrast for use in setting font and background colours i used [Contrast Grid Eight Shapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23ff9301%0D%0A%2363b42d%0D%0A%2334623f%0D%0A%23001524%0D%0A%23f7f7f7&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp).
-* To convert my HEX colours into RGBA i used [RGBA Colour Picker](https://rgbacolorpicker.com/hex-to-rgba).
+* To create the wireframes I used [Balsamiq](https://balsamiq.com/).
+* To create my colour scheme I used [Coolers](https://coolors.co/).
+* To find out which colours had a good contrast for use in setting font and background colours I used [Contrast Grid Eight Shapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23ff9301%0D%0A%2363b42d%0D%0A%2334623f%0D%0A%23001524%0D%0A%23f7f7f7&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp).
+* To convert my HEX colours into RGBA I used [RGBA Colour Picker](https://rgbacolorpicker.com/hex-to-rgba).
 * I used fonts from [Google Fonts](https://fonts.google.com/)
-* To create the screenshot preview i used [Am I Responsive?](https://ui.dev/amiresponsive).
+* To create the screenshot preview I used [Am I Responsive?](https://ui.dev/amiresponsive).
 * I found a good font to pair with my chosen font at [Designerly](https://designerly.com/best-font-pairings/#:~:text=BioRhyme%20works%20best%20for%20headings,Montserrat%2C%20Crimson%20Text%20and%20Eczar.
 ).
-* For the embedded map i used [Google Maps](https://www.google.com/maps/@53.0953859,-2.4799912,14z?entry=ttu).
+* For the embedded map I used [Google Maps](https://www.google.com/maps/@53.0953859,-2.4799912,14z?entry=ttu).
 * I tested my page on different browsers and devices using [BrowserStack](https://www.browserstack.com/).
 
 ### Code
 
-* To validate my code i used the [W3C Validator](https://validator.w3.org/#validate_by_input).
-* To validate my CSS i used [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/).
+* To validate my code I used the [W3C Validator](https://validator.w3.org/#validate_by_input).
+* To validate my CSS I used [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/).
 * I learned how to create an overlay effect with `background-blend-mode` on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode).
 * I learned how to use the `object-fit` property on my images on [W3 Schools](https://www.w3schools.com/css/css3_object-fit.asp#:~:text=object%2Dfit%20Property-,The%20CSS%20object%2Dfit%20property%20is%20used%20to%20specify%20how,as%20much%20space%20as%20possible%22.).
 * I learned how to use the `object-position` property on [W3 Schools](https://www.w3schools.com/css/css3_object-position.asp).
