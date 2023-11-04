@@ -160,12 +160,8 @@ main {
 
 /* Home Hero Image */
 
-/*#home-hero {
-    background: url("../images/home-hero-pawfect-pups.webp") no-repeat 37% 80%/135%;
-}*/
-
 #home-hero {
-    background: url("../images/home-hero-small.webp") no-repeat center center/cover;
+    background: url("../images/home-hero-small.webp") no-repeat 10% center/110%;
 }
 
 /* Welcome section */
