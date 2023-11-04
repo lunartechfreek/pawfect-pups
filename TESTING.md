@@ -249,7 +249,7 @@ The only issues on the home page were the common issue I found due to incorrectl
 
 <hr>
 
-![Home Page Fixed Validation](docs/readme-files/w3c-index-fixed.png)
+![Home Page Fixed Validation](docs/readme-files/w3c-fixed-home.png)
 
 #### About Page
 
@@ -259,7 +259,7 @@ The only issues on the about page were the common issue I found due to incorrect
 
 <hr>
 
-![About Page Fixed Validation](docs/readme-files/w3c-about-fixed.png)
+![About Page Fixed Validation](docs/readme-files/w3c-fixed-about.png)
 
 #### Classes Page
 
@@ -269,7 +269,7 @@ The only issues on the classes page were the common issue I found due to incorre
 
 <hr>
 
-![Classes Page Fixed Validation](docs/readme-files/w3c-classes-fixed.png)
+![Classes Page Fixed Validation](docs/readme-files/w3c-fixed-classes.png)
 
 #### Booking Page
 
@@ -279,7 +279,7 @@ The only issues on the booking page were the common issue I found due to incorre
 
 <hr>
 
-![Booking Page Fixed Validation](docs/readme-files/w3c-booking-fixed.png)
+![Booking Page Fixed Validation](docs/readme-files/w3c-fixed-booking.png)
 
 #### Completed Booking Page
 
@@ -289,7 +289,7 @@ On the completed booking form page I found my common heading issue but also an i
 
 <hr>
 
-![Completed Booking Form Page Fixed Validation](docs/readme-files/w3c-completed-form-fixed.png)
+![Completed Booking Form Page Fixed Validation](docs/readme-files/w3c-fixed-completed.png)
 
 #### Contact Page
 
@@ -301,7 +301,7 @@ The second issue I encountered was in my table containing the opening times. I h
 
 <hr>
 
-![Classes Page Fixed Validation](docs/readme-files/w3c-contact-fixed.png)
+![Classes Page Fixed Validation](docs/readme-files/w3c-fixed-contact.png)
 
 </details>
 
