@@ -2,7 +2,7 @@
 
 ![Pawfect Pups Preview Image](docs/readme-files/preview.png)
 
-[Click here to view the live project](https://lunartechfreek.github.io/pawfect-pups/contact.html)
+[Click here to view the live project](https://lunartechfreek.github.io/pawfect-pups/)
 
 ## Introduction 
 
