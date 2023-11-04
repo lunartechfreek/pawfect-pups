@@ -317,6 +317,48 @@ To validate my CSS code I used the jigsaw. I copied all of my CSS code into the 
 
 </details>
 
+## Lighthouse Testing
+
+I ran my lighthouse tests on Chrome DevTools and a common issue I found was that the performance scores on mobile were all amber. After reading the report in detail I found the main two issues causing this were the size of my images and also the use of Font Awesome.
+
+ If this were a real website that would be constantly updated and developed I would take the time to resize all of my images and have different sets of images used for smaller screens and larger screens. I would do this by using the `srcset` attribute for `<img>` elements and for background images I would use media queries to do this. I would also download my Font Awesome icons and insert them as `<img>` elements instead to further increase the performance score.
+
+### Home
+
+|Mobile|Desktop|
+| -- | -- |
+| ![Mobile Home](docs/readme-files/mobile-lighthouse-home.png) | ![Desktop Home](docs/readme-files/desktop-lighthouse-home.png)
+
+### About
+
+|Mobile|Desktop|
+| -- | -- |
+| ![Mobile About](docs/readme-files/mobile-lighthouse-about.png) | ![Desktop About](docs/readme-files/desktop-lighthouse-about.png)
+
+### Classes
+
+|Mobile|Desktop|
+| -- | -- |
+| ![Mobile Classes](docs/readme-files/mobile-lighthouse-classes.png) | ![Desktop Classes](docs/readme-files/desktop-lighthouse-classes.png)
+
+### Booking
+
+|Mobile|Desktop|
+| -- | -- |
+| ![Mobile Booking](docs/readme-files/mobile-lighthouse-booking.png) | ![Desktop Booking](docs/readme-files/desktop-lighthouse-booking.png)
+
+### Completed Form
+
+|Mobile|Desktop|
+| -- | -- |
+| ![Mobile Completed Form](docs/readme-files/mobile-lighthouse-completed.png) | ![Desktop Completed Form](docs/readme-files/desktop-lighthouse-completed.png)
+
+### Contact
+
+|Mobile|Desktop|
+| -- | -- |
+| ![Mobile Contact](docs/readme-files/mobile-lighthouse-contact.png) | ![Desktop Contact](docs/readme-files/desktop-lighthouse-contact.png)
+
 ## User Testing
 
 For my user tests I gathered help from my partner, my family and my friends and got them all to test the site on various devices and browsers to which they found no issues and all gave me positive feedback in regards to navigation, accessibility, and content.
