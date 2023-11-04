@@ -255,11 +255,11 @@ The top section of the page features a page title, a slogan, a quotation box and
 
 At the bottom of the page we have three images of dogs that are clickable links to different pages on the site. I used an `background-blend-mode` rule on the images to further increase accessibility with the contrast of the font. Each of these has a hover pseudo class applied so when you hover over the text it turns orange and the cursor turns into a pointer. Being a responsive website I have displayed these in a column on smaller screen sizes and in a row on larger screens. I did this by using a flex-box and changing the direction through a media query.
 
-|Mobile Home| |
+|Mobile Home|Head Over To|
 | -- | -- |
 | ![Mobile Home Section One](docs/readme-files/mobile-home1.png) | ![Mobile Home Section Two](docs/readme-files/mobile-home2.png) |
 
-|Desktop Home| |
+|Desktop Home|Head Over To|
 | -- | -- |
 | ![Desktop Home Section One](docs/readme-files/desktop-home1.png) | ![Desktop Home Section Two](docs/readme-files/desktop-home2.png) |
 
@@ -271,11 +271,11 @@ The second section of the page is the benefits section. This consists of a headi
 
 With this page being fully responsive the trainers section is aligned as a column on small screens, and aligned in a row on larger screens. This was done by changing the flex direction with a media query. With the benefits sections being horizontally orientated I displayed in a column on all screen sizes so as to not appear cluttered on larger screen sizes. I did make sure to increase the box size and font size as the the screen size increases through media queries or responsive units of measurement.
 
-|Mobile About|| |
+|Mobile About|Trainers|Benefits|
 | -- | -- | -- |
 | ![Mobile About Section One](docs/readme-files/mobile-about1.png) | ![Mobile About Section Two](docs/readme-files/mobile-about2.png) | ![Mobile About Section Three](docs/readme-files/mobile-about3.png) |
 
-|Desktop About| |
+|Desktop About|Continued|
 | -- | -- |
 | ![Desktop About Section One](docs/readme-files/desktop-about1.png) | ![Desktop About Section Two](docs/readme-files/desktop-about2.png) |
 
@@ -298,7 +298,7 @@ The aside element contains a heading followed by the three steps of the booking 
 
 This page is fully responsive and contains the aside element underneath the form on smaller screens and displays it at the side of the form on larger screens through use of media queries and flex. All of the elements are responsive through use of media queries or responsive units of measurement.
 
-|Mobile Booking||
+|Mobile Booking Form|How To Guide|
 | -- | -- |
 | ![Mobile Booking Page One](docs/readme-files/mobile-booking1.png) | ![Mobile Booking Page Two](docs/readme-files/mobile-booking2.png) |
 
@@ -324,11 +324,11 @@ The map section consists of a heading that has a green background and a fully in
 
 This page is fully responsive and displays the information box in a column on smaller screens and in a row on larger screens through the use of media queries and flex direction. Each of these boxes use a responsive unit of measurement until they reach a maximum size. The map is also responsive and uses responsive units of measurements until that also reaches a maximum size.
 
-|Mobile Contact| |
+|Mobile Contact|Map|
 | -- | -- |
 |![Mobile Contact Page One](docs/readme-files/mobile-contact1.png) | ![Mobile Contact Page Two](docs/readme-files/mobile-contact2.png) |
 
-|Desktop Contact| |
+|Desktop Contact|Map|
 | -- | -- |
 | ![Desktop Contact Section One](docs/readme-files/desktop-contact1.png) | ![Desktop Contact Section Two](docs/readme-files/desktop-contact2.png) |
 
