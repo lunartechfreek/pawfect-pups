@@ -227,57 +227,27 @@ Each page on the site has some general features that remain consistant throughou
 
 * The header is located at the top of every page. I made this the full width of the page and I also made it static. This is so the user always has the logo at the top of page. The user also always has either the the navigation bar or hamburger menu always available for easy navigation. The logo also acts as a link back to the home page when clicked on and the cursor changes to a pointer when hovered over to portray this. I have added a slight border shadow underneath the header to make it slightly pop out from the main content and to emphasise that is is a static element.
 
-<details>
-<summary>Header</summary>
-
 ![Header](docs/readme-files/header.png)
-
-</details>
 
 * The navigation bar is also static and fully responsive. On screen sizes above 992px the browser will display a navigation bar with all the different pages of the side on the screen for easy navigation. The current page the user is on has an active class on it to change to dark green so the user knows where on the site they currently are. The navigation links have a pseudo class rule applied to them and the background changes to light green and the font changes to black when hovered over. I made them different colours than the active class so as to avoid confusion for the user.
 
-<details>
-<summary>Navigation Bar</summary>
-
 ![Navigation Bar](docs/readme-files/nav-bar.png)
-
-</details>
 
 * The hamburger menu is also responsive and is only displayed on screen sizes less that 992px. This is because there are a lot of links in the navigation bar so this is broken down into a clickable menu that will display the navigation links when it is pressed. This is to avoid having the screen feel too cluttered on smaller screens. The current page the user is on has an active class on it to change to underline the text so the user knows where on the site they currently are.
 
-<details>
-<summary>Hamburger Menu</summary>
-
 ![Hamburger Menu](docs/readme-files/hamburger.png)
-
-</details>
 
 * The footer is located at the bottom of each page and contains links to our social media pages. Because this is a fiction website each icon just takes you to the home page of the site and this opens in a new window. The footer is the full width of the screen to match the width of the header and maintain a similar feel throughout the site. It is not static because with the header already being static i didnt want too much of the screen to be taken up by having two static elements. The footer icons have a pseudo class rule applied to them and change colours when hovered over.
 
-<details>
-<summary>Footer</summary>
-
 ![Footer](docs/readme-files/footer.png)
 
-</details>
-
 * I created a border-shadow class that is used throughout many elements across the website. This is because I wanted to make a consistent style that will create a sense of familiarity throughout the many elements across the site. The border-shadow class consists of two rules, one being border-radius and the other box-shadow.
-
-<details>
-<summary>Border Shadow Class</summary>
-
+* 
 ![Border Shadow Class](docs/readme-files/border-shadow.png)
-
-</details>
 
 * All pages feature a large hero image covering the full width of the screen underneath the header. This hero image is fully responsive and uses a responsive unit of measurement to size it and also repositioning of the image through media queries as the box size increases. On all pages except the home page I have placed the title of this page in the centre of the hero image with an orange background on the heading to increase contrast and accessibility. I have applied my border-shadow class to the heading box to make it pop out a bit and emphasise that it is on top of the image and not a part of it.
 
-<details>
-<summary>Hero Image</summary>
-
 ![Hero Image](docs/readme-files/hero-screenshot.png)
-
-</details>
 
 #### Home
 
@@ -285,22 +255,13 @@ The top section of the page features a page title, a slogan, a quotation box and
 
 At the bottom of the page we have three images of dogs that are clickable links to different pages on the site. I used an `background-blend-mode` rule on the images to further increase accessibility with the contrast of the font. Each of these has a hover pseudo class applied so when you hover over the text it turns orange and the cursor turns into a pointer. Being a responsive website I have displayed these in a column on smaller screen sizes and in a row on larger screens. I did this by using a flex-box and changing the direction through a media query.
 
-<details>
-<summary>Mobile Home Page</summary>
+|Mobile Home| |
+| -- | -- |
+| ![Mobile Home Section One](docs/readme-files/mobile-home1.png) | ![Mobile Home Section Two](docs/readme-files/mobile-home2.png) |
 
-![Mobile Home Section One](docs/readme-files/mobile-home1.png)
-
-![Mobile Home Section Two](docs/readme-files/mobile-home2.png)
-
-</details>
-<details>
-<summary>Desktop Home Page</summary>
-
-![Desktop Home Section One](docs/readme-files/desktop-home1.png)
-
-![Desktop Home Section Two](docs/readme-files/desktop-home2.png)
-
-</details>
+|Desktop Home| |
+| -- | -- |
+| ![Desktop Home Section One](docs/readme-files/desktop-home1.png) | ![Desktop Home Section Two](docs/readme-files/desktop-home2.png) |
 
 #### About
 
@@ -310,24 +271,13 @@ The second section of the page is the benefits section. This consists of a headi
 
 With this page being fully responsive the trainers section is aligned as a column on small screens, and aligned in a row on larger screens. This was done by changing the flex direction with a media query. With the benefits sections being horizontally orientated I displayed in a column on all screen sizes so as to not appear cluttered on larger screen sizes. I did make sure to increase the box size and font size as the the screen size increases through media queries or responsive units of measurement.
 
-<details>
-<summary>Mobile About Page</summary>
+|Mobile About|| |
+| -- | -- | -- |
+| ![Mobile About Section One](docs/readme-files/mobile-about1.png) | ![Mobile About Section Two](docs/readme-files/mobile-about2.png) | ![Mobile About Section Three](docs/readme-files/mobile-about3.png) |
 
-![Mobile About Section One](docs/readme-files/mobile-about1.png)
-
-![Mobile About Section Two](docs/readme-files/mobile-about2.png)
-
-![Mobile About Section Three](docs/readme-files/mobile-about3.png)
-
-</details>
-<details>
-<summary>Desktop About Page</summary>
-
-![Desktop About Section One](docs/readme-files/desktop-about1.png)
-
-![Desktop About Section Two](docs/readme-files/desktop-about2.png)
-
-</details>
+|Desktop About| |
+| -- | -- |
+| ![Desktop About Section One](docs/readme-files/desktop-about1.png) | ![Desktop About Section Two](docs/readme-files/desktop-about2.png) |
 
 #### Classes
 
@@ -335,18 +285,10 @@ This page consists of four boxes with each of these boxes representing a differe
 
 The page is fully responsive and the boxes are displayed in a column on smaller screen sizes and are displayed in two rows of two on larger screen sizes. I did this through the use of a flex box. All of the elements are responsive through the use of media queries or responsive units of measurement.
 
-<details>
-<summary>Mobile Classes Page</summary>
 
-![Mobile Classes Page](docs/readme-files/mobile-classes.png)
-
-</details>
-<details>
-<summary>Desktop Classes Page</summary>
-
-![Desktop Classes Page](docs/readme-files/desktop-classes.png)
-
-</details>
+|Mobile Classes Page|Desktop Classes Page |
+| -- | -- |
+| ![Mobile Classes Page](docs/readme-files/mobile-classes.png) | ![Desktop Classes Page](docs/readme-files/desktop-classes.png)|
 
 #### Booking
 
@@ -356,20 +298,13 @@ The aside element contains a heading followed by the three steps of the booking 
 
 This page is fully responsive and contains the aside element underneath the form on smaller screens and displays it at the side of the form on larger screens through use of media queries and flex. All of the elements are responsive through use of media queries or responsive units of measurement.
 
-<details>
-<summary>Mobile Booking Page</summary>
+|Mobile Booking||
+| -- | -- |
+| ![Mobile Booking Page One](docs/readme-files/mobile-booking1.png) | ![Mobile Booking Page Two](docs/readme-files/mobile-booking2.png) |
 
-![Mobile Booking Page One](docs/readme-files/mobile-booking1.png)
-
-![Mobile Booking Page Two](docs/readme-files/mobile-booking2.png)
-
-</details>
-<details>
-<summary>Desktop Booking Page</summary>
-
-![Desktop Booking Section One](docs/readme-files/desktop-booking.png)
-
-</details>
+| Desktop Booking |
+| -- |
+| ![Desktop Booking Section One](docs/readme-files/desktop-booking.png) |
 
 #### Completed Form
 
@@ -377,18 +312,9 @@ This page is the page you are directed to after completed the form. It is very s
 
 This page is fully responsive through the use of media queries to increase the font size and adjust the margin.
 
-<details>
-<summary>Mobile Completed Form Page</summary>
-
-![Mobile Completed Form Page](docs/readme-files/mobile-completed.png)
-
-</details>
-<details>
-<summary>Desktop Completed Form Page</summary>
-
-![Desktop Completed Form Page](docs/readme-files/desktop-completed.png)
-
-</details>
+|Mobile Completed Form|Desktop Completed Form|
+| -- | -- |
+| ![Mobile Completed Form Page](docs/readme-files/mobile-completed.png) | ![Desktop Completed Form Page](docs/readme-files/desktop-completed.png) |
 
 #### Contact
 
@@ -398,22 +324,13 @@ The map section consists of a heading that has a green background and a fully in
 
 This page is fully responsive and displays the information box in a column on smaller screens and in a row on larger screens through the use of media queries and flex direction. Each of these boxes use a responsive unit of measurement until they reach a maximum size. The map is also responsive and uses responsive units of measurements until that also reaches a maximum size.
 
-<details>
-<summary>Mobile Contact Page</summary>
+|Mobile Contact| |
+| -- | -- |
+|![Mobile Contact Page One](docs/readme-files/mobile-contact1.png) | ![Mobile Contact Page Two](docs/readme-files/mobile-contact2.png) |
 
-![Mobile Contact Page One](docs/readme-files/mobile-contact1.png)
-
-![Mobile Contact Page Two](docs/readme-files/mobile-contact2.png)
-
-</details>
-<details>
-<summary>Desktop Contact Page</summary>
-
-![Desktop Contact Section One](docs/readme-files/desktop-contact1.png)
-
-![Desktop Contact Section Two](docs/readme-files/desktop-contact2.png)
-
-</details>
+|Desktop Contact| |
+| -- | -- |
+| ![Desktop Contact Section One](docs/readme-files/desktop-contact1.png) | ![Desktop Contact Section Two](docs/readme-files/desktop-contact2.png) |
 
 #### Features To Be Added in The Future
 
@@ -476,329 +393,54 @@ The main languages I have used for this project are:
 
 To view all testing, please visit the [TESTING.md](TESTING.md) file.
 
-### User Story Testing
-
-This site has been designed with the aim to achieve all user goals. These are broken down as follows:
-
-#### External - New User Goals
-
-* As a new user i want to, find a good dog trainer.
-  * Slogan featured on home page stating that the company are the best local dog trainers.
-
-* As a new user i want to, find a suitable training class.
-  * The classes page showcases the broad selection of classes available.
-
-* As a new user i want to, navigate the site with ease.
-  * There is a fixed navigation bar or hamburger menu always available at the top of the screen for easy navigation.
-
-* As a new user i want to, use a well layed out and visually appealing website.
-  * Layed out in a hierarchical tree structure for a familiar feel and easy navigation. Vibrant colour palette chosen using [Coolers](https://coolors.co/) with the specific company in mind to create an image that compliments the company.
-
-* As a new user i want to, easily find relevant information.
-  * All links in the navigation bar are named in accordance to their content displayed on them to make for a easy navigation.
-
-* As a new user i want to, see pictures of the training they offer.
-  * Hero image on home page of one of our trainers with a dog so its the first thing the user will see upon the first visit of the page. Also a trainers section with pictures of trainers in action on the about page, and also the classes page.
-
-* As a new user i want to, be able to find where they are located with ease.
-  * Address is on contact page and to make for an easier user experience a embedded google map on the same page.
-
-#### External - Current User Goals
-
-* As a current user i want to, navigate the site with ease.
-  * There is a fixed navigation bar or hamburger menu always available at the top of the screen for easy navigation.
-
-* As a current user i want to, see that the website is updated regularly with any changed to the trainers, classes or the contact details.
-  * If this were to be a real website details would be update on a regular basis as needed.
-
-#### Site Owner Goals
-
-* As the site owner i want to, build my business online.
-  * Created a site meeting all user goals.
-
-* As the site owner I want to, show the full range of the services we offer.
-  * Dedicated classes page to showcase services available.
-
-* As the site owner I want to, show the user our dog trainers.
-  * Trainers section introducing the trainers on the about page.
-
-* As the site owner I want to, provide a visually friendly user experience.
-  * Vibrant colour palette created using [Coolers](https://coolors.co/) with the specific company in mind to create an image that compliments the company.
-
-* As the site owner i want to, provide an easy to navigate website.
-  * On larger screens there is a navigation bar with all links always visable and fixed to the top of the screen. On smaller screens these links have been reduced to a hamburger menu which is clearly visible and always fixed at the top of the screen for easy access.
-
-* As the site owner I want to, show the user photos from our training sessions.
-  * Photos of dog trainers in action on the home page as the hero image, and also in the trainers section on the about page.
-
-* As the site owner I want to, provide clear contact details and where to find us. 
-  * Address is located on the contact page with an iframe of an embedded google map below it to make the customers experience of finding us as easy as possible. 
-
-### Manual Testing
-
-I did the majority of my testing using Chrome DevTools as I was creating the website. I found it best to test that the website was fully responsive as I went along and would fix any issue I found before moving on to the next page. I also used chromes built in device viewports frequently. This came in particularly handy when designing the website with a mobile first approach.
-
-I would then test the page on tablet viewports such as iPad Air and Surface Pro 2 and make any changes or add any media queries. Next I would change the viewport size to desktop and eventually 4k resolution making the necessary changes. After that I would start to look at the viewports on their side such as mobile and tablet. And finally I would set the viewport to responsive and manually adjust the size of it as I went to ensure the website would be fully responsive. I found this exceptionally useful as I found bugs in between the sizes of certain viewports which I would never have found without manually adjusting the viewport size.
-
-I deployed my website very early on to github pages whilst only the header and footer were complete. I did this to make sure that it was displayed as expected and if necessary this would have gave me the opportunity to fix these issues early on. Luckily I did not encounter any issues upon deployment.
-
-Once i had done this i was able to deploy it on a real phone so i tested it on my iphone 13 pro max regualarly. When doing this i encountered my bug mentioned in the Issues section where the text on the about page.
-
-Since deploying the website through github pages and through the help of family and friends my website has been deployed on a variety of physical devices including:
-
-* Iphone 13 Pro Max
-* Iphone 14 Pro
-* Iphone 15 Pro Max
-* Galaxy S22 ultra
-* iPad Pro
-* iPad Air
-
-### Device Testing
-
-As well as testing on real world devices i wanted to test on other devices that i could not access. For this i used [BrowserStack](https://www.browserstack.com/). I tested the the website on various mobile and tablet devices, and also various mobile browsers on these devices. See some examples below:
-
-<details>
-<summary>Iphone 15 Pro Max Test</summary>
-
-![Iphone Screenshot](docs/readme-files/iphone-15.png)
-
-</details>
-<details>
-<summary>Samsung Galaxy S22 Ultra Test</summary>
-
-![Galaxy Screenshot](docs/readme-files/s22-ultra.png)
-
-</details>
-<details>
-<summary>Google Pixel 6 Pro Test</summary>
-
-![Pixel Screenshot](docs/readme-files/pixel-6-pro.png)
-
-</details>
-<details>
-<summary>Motorola Moto G71 5G Test</summary>
-
-![Motorola Screenshot](docs/readme-files/moto-g71.png)
-
-</details>
-
-### Browser Testing
-
-I had already tested the site on Chrome and Safari with no issues, but i also used BrowserStack to test my website on other browsers such as Microsoft Edge, Firefox and Opera. Screenshots of these are included below:
-
-<details>
-<summary>Chrome Test</summary>
-
-![Chrome Screenshot](docs/readme-files/browser-chrome.png)
-
-</details>
-<details>
-<summary>Safari Test</summary>
-
-![Safari Screenshot](docs/readme-files/browser-safari.png)
-
-</details>
-<details>
-<summary>Microsoft Edge Test</summary>
-
-![Microsoft Edge Screenshot](docs/readme-files/browser-edge.png)
-
-</details>
-<details>
-<summary>Firefox Test</summary>
-
-![Firefox Screenshot](docs/readme-files/browser-firefox.png)
-
-</details>
-<details>
-<summary>Opera Test</summary>
-
-![Opera Screenshot](docs/readme-files/browser-opera.png)
-
-</details>
-
-### Element Testing
-
-I performed manual tests on all the interactive elements that appear on every page. The results were as follows:
-
-##### Header
-
-* Responsive design changing the header navigation between a navigation bar and hamburger menu through use of media queries and hiding the one not in use.
-
-![Mobile Header](docs/readme-files/element-mobile-header.png)
-
-![Desktop Header](docs/readme-files/element-desktop-header.png)
-
-* Hamburger icon opens menu and re-clicking closes it.
-
-![Hamburger Menu](docs/readme-files/element-menu.png)
-
-* Active class on mobile of underline works on the page the urer is currently on.
-
-![Mobile Active Class](docs/readme-files/element-mobile-active.png)
-
-* Active class on desktop navigation bar turns the link of the current page dark green so the user knows what page they are currently on.
-
-![Desktop Active Class](docs/readme-files/element-nav-active.png)
-
-* Hover psuedo class on desktop navigation links turn them light green when hovered over and cursor changes to pointer.
-
-![Navigation Bar Hover](docs/readme-files/element-nav-hover.png)
-
-#### Footer
-
-* Footer links have hover psuedo class applied to them to change colour when hovered over.
-
-![Footer Hover](docs/readme-files/element-footer-hover.png)
-
-* Footer links open link in new tab.
-
-#### Home Page
-
-* Hover psuedo class applied on the large links on the head over to section change the overlay colour to dark green and the font to orange when hovered over.
-
-![Head Over To Section Hover](docs/readme-files/element-head-over-hover.png)
-
-#### Booking
-
-* Form inputs have required applied to them where neccessary.
-
-![Form Required Input](docs/readme-files/element-form-required.png)
-
-* Form checkboxes, submit and reset inputs all have a hover psuedo class applied to them to make them change colour when hovered over. The cursor also changes to a pointer.
-
-![Form Hover](docs/readme-files/element-form-hover.png)
-
-* Form checkboxes also have a checked style applied to them so that they change colour when they have been checked.
-
-![Form Checkbox Checked](docs/readme-files/element-form-checked.png)
-
-* When the form has been completed and the submit button pressed it will take you to a new page.
-
-#### Contact
-
-* The map is embedded correctly and is fully interactive.
-
-![Interactive Google Map](docs/readme-files/element-map.png)
-
-### Automated Testing
-
-#### HTMl Validation
-
-To validate my HTML code i used the [W3C Markup Validation Service](https://validator.w3.org/). I ran each page through the validator one at a time. It is worth noting i encountered a repeat error message throughout the pages. This was because i used two `h1` elements because i didn't realise at the time that i had used a `h1` element in my header so this failed validation. I fixed this issue by changing all of my other headings on the main body of the page by +1. The results of each page before and after fixing plus details of how i fixed the issues were as follows:
-
-<details>
-<summary>Home Page</summary>
-
-The only issues on the home page were the common issue i found due to incorrectly numbering heading elements and were fixed using the above explanation.
-
-![Home Page Validation](docs/readme-files/w3c-index.png)
-
-<hr>
-
-![Home Page Fixed Validation](docs/readme-files/w3c-index-fixed.png)
-
-</details>
-
-<details>
-<summary>About Page</summary>
-
-The only issues on the about page were the common issue i found due to incorrectly numbering heading elements and were fixed using the above explanation.
-
-![About Page Validation](docs/readme-files/w3c-about.png)
-
-<hr>
-
-![About Page Fixed Validation](docs/readme-files/w3c-about-fixed.png)
-
-</details>
-
-<details>
-<summary>Classes Page</summary>
-
-The only issues on the classes page were the common issue i found due to incorrectly numbering heading elements and were fixed using the above explanation.
-
-![Classes Page Validation](docs/readme-files/w3c-classes.png)
-
-<hr>
-
-![Classes Page Fixed Validation](docs/readme-files/w3c-classes-fixed.png)
-
-</details>
-
-<details>
-<summary>Booking Page</summary>
-
-The only issues on the booking page were the common issue i found due to incorrectly numbering heading elements and were fixed using the above explanation.
-
-![Booking Page Validation](docs/readme-files/w3c-booking.png)
-
-<hr>
-
-![Booking Page Fixed Validation](docs/readme-files/w3c-booking-fixed.png)
-
-</details>
-
-<details>
-<summary>Completed Booking Form Page</summary>
-
-On the completed booking form page i found my common heading issue but also an issue regarding the button i had used. I had used a button and wrapped a anchor element around it to make it a link back to my home page. I did not realise this was invalid code. I first tried to instead wrap the anchor element inside of the button but this also did not pass validation. I chose to remove the button element completely and instead stlye the anchor element to look like a button.
-
-![Completed Booking Form Page Validation](docs/readme-files/w3c-completed-form.png)
-
-<hr>
-
-![Completed Booking Form Page Fixed Validation](docs/readme-files/w3c-completed-form-fixed.png)
-
-</details>
-
-<details>
-<summary>Contact Page</summary>
-
-On the contact page i found my common heading issue but also found two new ones. I had used a `<br>` element in my in the info box to separate the contact details and the address. This failed the validation. To fix this i removed the `<br>` element and instead made an id on the second list element and added a margin to the bottom to push the other list items down. 
-
-The second issue i encountered was in my table containing the opening times. I had only used one row on the bottom of the table to state that we are closed on sundays so therefore didn't need an opening and closing time. To fix this i added a blank row which fixed the issue. 
-
-![Classes Page Validation](docs/readme-files/w3c-contact.png)
-
-<hr>
-
-![Classes Page Fixed Validation](docs/readme-files/w3c-contact-fixed.png)
-
-</details>
-
-#### CSS Validator
-
-To validate my CSS code I used the jigsaw. I copied all of my CSS code into the direct input section of the validator. This passed the validation test first time with no issues. It did have one warning due to the imported google fonts but this was to be expected as it cannot validate an externally imported stylesheet.
-
-<details>
-<summary>CSS Stylesheet</summary>
-
-![CSS Stylesheet Validation](docs/readme-files/css-jigsaw.png)
-
-<hr>
-
-![CSS Stylesheet Warning](docs/readme-files/css-warning.png)
-
-</details>
-
-### User Testing
-
-For my user tests I gathered help from my partner, my family and my friends and got them all to test the site on various devices and browsers to which they found no issues and all gave me positive feedback in regards to navigation, accessibility, and content.
-
 ## Deployment
 
-This project was developed using the [Codeanywhere](https://app.codeanywhere.com/) IDE. All of the code being developed was frequently commited and then pushed to [Github](https://github.com/).
+This project was developed using the [Codeanywhere](https://app.codeanywhere.com/) IDE.
 
-### Deploying on Github Pages
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
-1. Log into Github.
-2. Locate the Github repository.
-3. Click the setting tab located at the top of the repository. 
-4. Scroll down and click pages on the left hand side.
-5. Make sure to deploy from a branch and select main branch from the drop-down menu.
-6. Click save.
-7. Finally refresh the page and the link to the live website will appear. 
+* In the [GitHub repository](https://github.com/lunartechfreek/pawfect-pups), navigate to the Settings tab
+* From the source section drop-down menu, select the **Main** Branch, then click "Save".
+* The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://lunartechfreek.github.io/pawfect-pups).
+
+### Local Deployment
+
+This project can be cloned or forked in order to make a local copy on your own system.
+
+#### Cloning
+
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://github.com/lunartechfreek/pawfect-pups)
+2. Locate the Code button above the list of files and click it
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash or Terminal
+5. Change the current working directory to the one where you want the cloned directory
+6. In your IDE Terminal, type the following command to clone my repository:
+	* \`git clone <https://github.com/lunartechfreek/pawfect-pups.git>\`
+7. Press Enter to create your local clone.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/lunartechfreek/pawfect-pups)
+
+Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
+A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+
+#### Forking
+
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
+You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/lunartechfreek/pawfect-pups)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
+### Local VS Deployment
+
+There were no major differences that I found between Codeanywhere and the live deployed GitHub Pages.
 
 ## Credits
 
